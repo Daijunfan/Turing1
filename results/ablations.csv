@@ -1,4 +1,5 @@
 birth_count,births,configuration,discovery_work,early_stop,endpoint_solver_cost,frontier,generation_depth,max_bitset_bytes,max_log_tuple_count,max_tuple_count,model,morphon,recursive_births,scope_grouping,scope_width,seed,success,total_bitset_bytes,total_tuple_count
+2,2,current_min_scope,84,True,0,,2,1,3.0,7,LCA,affine,True,False,2,0,True,8,25
 2,2,recursive_birth,84,True,0,,2,1,3.0,7,LCA,affine,True,False,2,0,True,8,25
 2,2,no_recursive_birth,71,True,0,,1,1,3.0,7,LCA,affine,False,False,2,0,False,8,29
 2,2,early_stop,84,True,0,,2,1,3.0,7,LCA,affine,True,False,2,0,True,8,25
@@ -17,6 +18,7 @@ birth_count,births,configuration,discovery_work,early_stop,endpoint_solver_cost,
 2,2,random_order,84,True,0,,2,1,3.0,7,LCA,affine,True,False,2,8,True,8,25
 2,2,random_order,293,True,0,,2,1,3.0,7,LCA,affine,True,False,3,9,True,8,26
 ,2,exact_optimal,,True,,"[{""scope_width"": 2, ""max_tuple_count"": 7, ""total_tuple_count"": 25, ""max_log_tuple_count"": 3.0, ""max_bitset_bytes"": 1, ""total_bitset_bytes"": 8, ""birth_count"": 2, ""generation_depth"": 2, ""discovery_work"": 84, ""endpoint_solver_cost"": 0}, {""scope_width"": 2, ""max_tuple_count"": 7, ""total_tuple_count"": 26, ""max_log_tuple_count"": 3.0, ""max_bitset_bytes"": 1, ""total_bitset_bytes"": 9, ""birth_count"": 3, ""generation_depth"": 3, ""discovery_work"": 36, ""endpoint_solver_cost"": 0}, {""scope_width"": 2, ""max_tuple_count"": 7, ""total_tuple_count"": 29, ""max_log_tuple_count"": 3.0, ""max_bitset_bytes"": 1, ""total_bitset_bytes"": 9, ""birth_count"": 3, ""generation_depth"": 2, ""discovery_work"": 75, ""endpoint_solver_cost"": 0}, {""scope_width"": 3, ""max_tuple_count"": 7, ""total_tuple_count"": 22, ""max_log_tuple_count"": 3.0, ""max_bitset_bytes"": 1, ""total_bitset_bytes"": 8, ""birth_count"": 2, ""generation_depth"": 2, ""discovery_work"": 162, ""endpoint_solver_cost"": 0}]",2,,,,LCA,affine,True,False,,0,True,,
+2,2,current_min_scope,29,True,0,,2,1,3.0,7,LCA,bijunctive,True,False,2,0,True,8,22
 2,2,recursive_birth,29,True,0,,2,1,3.0,7,LCA,bijunctive,True,False,2,0,True,8,22
 2,2,no_recursive_birth,124,True,0,,1,1,3.0,7,LCA,bijunctive,False,False,2,0,True,8,25
 2,2,early_stop,29,True,0,,2,1,3.0,7,LCA,bijunctive,True,False,2,0,True,8,22
@@ -35,6 +37,7 @@ birth_count,births,configuration,discovery_work,early_stop,endpoint_solver_cost,
 2,2,random_order,249,True,0,,2,1,3.0,7,LCA,bijunctive,True,False,3,8,True,8,29
 2,2,random_order,124,True,0,,1,1,3.0,7,LCA,bijunctive,True,False,2,9,True,8,25
 ,2,exact_optimal,,True,,"[{""scope_width"": 2, ""max_tuple_count"": 7, ""total_tuple_count"": 22, ""max_log_tuple_count"": 3.0, ""max_bitset_bytes"": 1, ""total_bitset_bytes"": 8, ""birth_count"": 2, ""generation_depth"": 2, ""discovery_work"": 29, ""endpoint_solver_cost"": 3}, {""scope_width"": 2, ""max_tuple_count"": 7, ""total_tuple_count"": 25, ""max_log_tuple_count"": 3.0, ""max_bitset_bytes"": 1, ""total_bitset_bytes"": 8, ""birth_count"": 2, ""generation_depth"": 1, ""discovery_work"": 124, ""endpoint_solver_cost"": 3}]",1,,,,LCA,bijunctive,True,False,,0,True,,
+2,2,current_min_scope,143,True,0,,2,1,3.0,7,LCA,horn,True,False,2,0,True,9,26
 2,2,recursive_birth,143,True,0,,2,1,3.0,7,LCA,horn,True,False,2,0,True,9,26
 2,2,no_recursive_birth,82,True,0,,1,1,3.0,7,LCA,horn,False,False,2,0,False,9,28
 2,2,early_stop,143,True,0,,2,1,3.0,7,LCA,horn,True,False,2,0,True,9,26

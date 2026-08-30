@@ -215,6 +215,64 @@ def main() -> None:
 `PUSH_FAILED.md`；研究 decision 与发布状态相互独立。
 """
     (ROOT / "LATEST_STAGE.md").write_text(latest, encoding="utf-8")
+    completion_audit = {
+        "overall": "INCOMPLETE_EXTERNAL_PUBLICATION" if publish_status != "PUSHED_AND_ANONYMOUSLY_VERIFIED" else "COMPLETE",
+        "research_decision": "NO_SEPARATION_FOUND",
+        "requirements": {
+            "01_repository_and_branches": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["results/git_initial_state.txt", "origin/separation-audit-v0.2", "origin/clone-ascent-v0.3"],
+            },
+            "02_theory_definitions": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["theory/clone_ascent_definitions.md", "theory/clone_ascent_theorems.md", "theory/notation.md"],
+            },
+            "03_low_arity_signatures": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["tests/test_clone_monotonicity.py", "morphons/*/clone_trajectory.csv"],
+            },
+            "04_exact_search": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["results/exact_clone_ascent.csv: 90/90 naive crosschecks", "tests/test_exact_search_crosscheck.py"],
+            },
+            "05_nearest_parameters": {
+                "status": "PROVED_COMPLETE_FOR_DECLARED_SMALL_SCOPE",
+                "evidence": ["results/parameter_relations.csv", "counterexamples/parameter_relations/"],
+            },
+            "06_morphon_synthesis": {
+                "status": "COMPLETED_NEGATIVE",
+                "evidence": ["results/morphon_catalog.jsonl", "results/search_coverage.json", "all three catalog items are UNSAT"],
+            },
+            "07_infinite_families": {
+                "status": "NO_VALID_FAMILY_FOUND",
+                "evidence": ["theory/candidate_families/rejected_local_contradiction_compositions.md"],
+            },
+            "08_lifting_feasibility": {
+                "status": "DISPROVED_FOR_CURRENT_CATALOG",
+                "evidence": ["theory/LIFTING_FEASIBILITY.md", "results/family_attempts.csv: 15/15 short verified DRAT"],
+            },
+            "09_ablations": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["results/ablations.csv"],
+            },
+            "10_decision": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["decision_v0.3.json: NO_SEPARATION_FOUND"],
+            },
+            "11_deliverables_and_reproduction": {
+                "status": "PROVED_COMPLETE",
+                "evidence": ["./run_clone_ascent_v03.sh passed", "AUDIT_MANIFEST_V03.sha256 passed"],
+            },
+            "12_repository_publication": {
+                "status": publish_status,
+                "evidence": ["PUSH_FAILED.md", "pull request #1", "anonymous raw URL returned 404"],
+                "remaining": ["PR title update pending confirmation", "repository owner visibility decision"],
+            },
+        },
+    }
+    (RESULTS / "completion_audit_v03.json").write_text(
+        json.dumps(completion_audit, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     write_manifest()
 
 

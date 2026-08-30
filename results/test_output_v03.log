@@ -8,6 +8,6 @@ test_clause_level_is_default_and_grouping_is_explicit (test_scope_grouping_disab
 test_all_twenty_v02_exact_widths_replay (test_v01_v02_regression.LegacyRegressionTests.test_all_twenty_v02_exact_widths_replay) ... ok
 
 ----------------------------------------------------------------------
-Ran 8 tests in 9.161s
+Ran 8 tests in 8.941s
 
 OK

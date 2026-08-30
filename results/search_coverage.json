@@ -87,7 +87,7 @@
   "all_morphons_unsat": true,
   "parameter_instances": 35,
   "finite_reversals": 12,
-  "ablation_runs": 54,
+  "ablation_runs": 57,
   "family_attempts": 15,
   "satisfiable_robust_random_search": {
     "method": "satisfiable_robust_random_search",

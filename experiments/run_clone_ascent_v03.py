@@ -441,6 +441,7 @@ def ablation_audit(formulas: dict[str, tuple[tuple[int, ...], ...]]) -> list[dic
         if target not in TARGETS:
             continue
         configs = [
+            ("current_min_scope", clause_level_state(formula), "LCA", "min_scope", True, True, 0),
             ("recursive_birth", clause_level_state(formula), "LCA", "min_scope", True, True, 0),
             ("no_recursive_birth", clause_level_state(formula), "LCA", "min_scope", False, True, 0),
             ("early_stop", clause_level_state(formula), "LCA", "min_scope", True, True, 0),
