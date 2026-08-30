@@ -1,8 +1,8 @@
 {
   "research_decision": "NO_SEPARATION_FOUND",
-  "repository_publish_status": "PUSH_FAILED",
+  "repository_publish_status": "PUSHED_BUT_NOT_PUBLIC",
   "branch": "clone-ascent-v0.3",
-  "commit": "443d98c6af90215a89382a9ff2a6e99916b350d4",
+  "commit": "23bd6fc0",
   "latest_stage_path": "LATEST_STAGE.md",
   "reproduction_command": "./run_clone_ascent_v03.sh",
   "pull_request_url": "https://github.com/Daijunfan/Turing1/pull/1",

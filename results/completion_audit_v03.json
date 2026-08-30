@@ -80,7 +80,7 @@
       ]
     },
     "12_repository_publication": {
-      "status": "PUSH_FAILED",
+      "status": "PUSHED_BUT_NOT_PUBLIC",
       "evidence": [
         "PUSH_FAILED.md",
         "pull request #1",
