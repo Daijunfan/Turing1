@@ -1,0 +1,287 @@
+{
+  "cost": {
+    "birth_count": 1,
+    "discovery_work": 154,
+    "endpoint_solver_cost": 0,
+    "generation_depth": 1,
+    "max_bitset_bytes": 1,
+    "max_log_tuple_count": 3.0,
+    "max_tuple_count": 7,
+    "scope_width": 2,
+    "total_bitset_bytes": 6,
+    "total_tuple_count": 24
+  },
+  "endpoint_signature": "0x550155010000110100000501000001010000000000000000000000000000000155015",
+  "endpoint_witnesses": [
+    "constant_0",
+    "and",
+    "or",
+    "majority"
+  ],
+  "format": "CLONE-ASCENT-CERTIFICATE-v1",
+  "initial_relations": [
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        0
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0
+        ],
+        "mask": 1,
+        "scope": [
+          3
+        ]
+      },
+      "relation_id": 0
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        1
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "mask": 127,
+        "scope": [
+          1,
+          2,
+          3
+        ]
+      },
+      "relation_id": 1
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        2
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "mask": 223,
+        "scope": [
+          1,
+          2,
+          3
+        ]
+      },
+      "relation_id": 2
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        3
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          1,
+          2,
+          3
+        ],
+        "mask": 14,
+        "scope": [
+          1,
+          2
+        ]
+      },
+      "relation_id": 3
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        4
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          3
+        ],
+        "mask": 11,
+        "scope": [
+          2,
+          3
+        ]
+      },
+      "relation_id": 4
+    }
+  ],
+  "source_clauses": [
+    [
+      -3
+    ],
+    [
+      -1,
+      -2,
+      -3
+    ],
+    [
+      -1,
+      2,
+      -3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -3
+    ]
+  ],
+  "steps": [
+    {
+      "child": {
+        "allowed": [
+          0,
+          1,
+          3
+        ],
+        "mask": 11,
+        "scope": [
+          2,
+          3
+        ]
+      },
+      "depth": 1,
+      "eliminated": [
+        1
+      ],
+      "gained_operations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          128
+        ],
+        [
+          3,
+          136
+        ],
+        [
+          3,
+          160
+        ],
+        [
+          3,
+          168
+        ],
+        [
+          3,
+          192
+        ],
+        [
+          3,
+          200
+        ],
+        [
+          3,
+          224
+        ],
+        [
+          3,
+          232
+        ],
+        [
+          3,
+          234
+        ],
+        [
+          3,
+          236
+        ],
+        [
+          3,
+          238
+        ],
+        [
+          3,
+          248
+        ],
+        [
+          3,
+          250
+        ],
+        [
+          3,
+          252
+        ],
+        [
+          3,
+          254
+        ]
+      ],
+      "gained_witnesses": [
+        "constant_0",
+        "and",
+        "or",
+        "majority"
+      ],
+      "joined_scope": [
+        1,
+        2,
+        3
+      ],
+      "model": "LCA",
+      "new_relation_id": 5,
+      "parent_ids": [
+        1,
+        2,
+        3
+      ],
+      "signature_after": "0x550155010000110100000501000001010000000000000000000000000000000155015",
+      "signature_before": "0x000100000000100000000400000000000000000000000000000000000000000014004",
+      "work": {
+        "compatibility_checks": 91,
+        "join_pairs": 56,
+        "operations": 151,
+        "projected_tuples": 4
+      }
+    }
+  ]
+}

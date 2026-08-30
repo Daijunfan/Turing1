@@ -1,0 +1,57 @@
+test_affine_relation_recovery (test_core.CoreTests.test_affine_relation_recovery) ... ok
+test_affine_sat_model (test_core.CoreTests.test_affine_sat_model) ... ok
+test_affine_unsat_certificate (test_core.CoreTests.test_affine_unsat_certificate) ... ok
+test_hidden_2sat (test_core.CoreTests.test_hidden_2sat) ... ok
+test_hidden_horn (test_core.CoreTests.test_hidden_horn) ... ok
+test_random_fuzz_against_bruteforce (test_core.CoreTests.test_random_fuzz_against_bruteforce) ... ok
+test_z3_ffi (test_core.CoreTests.test_z3_ffi) ... ok
+test_gate_tissue_affine_sat_and_unsat (test_fusion.FusionTests.test_gate_tissue_affine_sat_and_unsat) ... ok
+test_gate_tissue_bijunctive (test_fusion.FusionTests.test_gate_tissue_bijunctive) ... ok
+test_gate_tissue_horn_family (test_fusion.FusionTests.test_gate_tissue_horn_family) ... ok
+test_standalone_fusion_certificate_and_tamper_detection (test_fusion.FusionTests.test_standalone_fusion_certificate_and_tamper_detection) ... ok
+test_exact_width_matches_independent_enumeration (test_separation_audit.SeparationAuditTests.test_exact_width_matches_independent_enumeration) ... ok
+test_heterogeneous_xor_templates_are_exact (test_separation_audit.SeparationAuditTests.test_heterogeneous_xor_templates_are_exact) ... ok
+test_parameter_kinds_are_explicit (test_separation_audit.SeparationAuditTests.test_parameter_kinds_are_explicit) ... ok
+test_scope_recovery_is_a_real_ablation (test_separation_audit.SeparationAuditTests.test_scope_recovery_is_a_real_ablation) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.358s
+
+OK
+{
+  "detail": {
+    "cnf_hash_verified": true,
+    "final_coefficient_weight": 0,
+    "final_rhs": 1,
+    "verified_local_equations": 13286
+  },
+  "verified": true
+}
+{
+  "detail": {
+    "cnf_hash_verified": true,
+    "entailed_equations_verified": 50,
+    "exact_fusion_steps_replayed": 1679,
+    "final_coefficient_weight": 0,
+    "final_relations": 50,
+    "final_rhs": 1,
+    "initial_relations_rederived": 4032
+  },
+  "verified": true
+}
+{
+  "cnf_sha256": "5c4ccce1705fcd5fdf8f95e3615592e95e64c15b0dea4493aec56699e75b7ffe",
+  "first_unsatisfied_clause": null,
+  "nclauses": 229376,
+  "nvars": 28672,
+  "true_variables": 12274,
+  "verified": true
+}
+{
+  "cnf_sha256": "29749a5a7e29f68aa5e8e56d9f84b2b105c0213c47273172a0b20c5ec7e1f3f2",
+  "first_unsatisfied_clause": null,
+  "nclauses": 4416,
+  "nvars": 1824,
+  "true_variables": 892,
+  "verified": true
+}

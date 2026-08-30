@@ -1,0 +1,40 @@
+
+c parsing input formula with 32 variables and 48 clauses
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 10 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -13 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 13 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -16 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 16 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -19 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 19 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -22 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 22 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -25 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 25 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -28 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 28 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -31 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 31 0
+
+c finished parsing
+
+c found complementary unit clauses: 10
+
+s VERIFIED
+
+c verification time: 0.019 seconds

@@ -1,0 +1,5 @@
+{
+  "search_scope": 35,
+  "ordering": "minimum nvars+nclauses within audited dataset",
+  "global_minimality": false
+}

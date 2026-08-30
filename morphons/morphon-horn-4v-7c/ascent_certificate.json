@@ -1,0 +1,546 @@
+{
+  "cost": {
+    "birth_count": 2,
+    "discovery_work": 246,
+    "endpoint_solver_cost": 0,
+    "generation_depth": 2,
+    "max_bitset_bytes": 1,
+    "max_log_tuple_count": 3.0,
+    "max_tuple_count": 7,
+    "scope_width": 3,
+    "total_bitset_bytes": 9,
+    "total_tuple_count": 29
+  },
+  "endpoint_signature": "0x555555555555555555555555555555550000000000000000000000000000000055004",
+  "endpoint_witnesses": [
+    "and",
+    "or",
+    "majority",
+    "minority"
+  ],
+  "format": "CLONE-ASCENT-CERTIFICATE-v1",
+  "initial_relations": [
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        0
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          2,
+          3
+        ],
+        "mask": 13,
+        "scope": [
+          3,
+          4
+        ]
+      },
+      "relation_id": 0
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        1
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          2
+        ],
+        "mask": 7,
+        "scope": [
+          1,
+          4
+        ]
+      },
+      "relation_id": 1
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        2
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          2,
+          3
+        ],
+        "mask": 13,
+        "scope": [
+          1,
+          3
+        ]
+      },
+      "relation_id": 2
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        3
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          3
+        ],
+        "mask": 11,
+        "scope": [
+          1,
+          3
+        ]
+      },
+      "relation_id": 3
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        4
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "mask": 251,
+        "scope": [
+          1,
+          2,
+          4
+        ]
+      },
+      "relation_id": 4
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        5
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          1
+        ],
+        "mask": 2,
+        "scope": [
+          2
+        ]
+      },
+      "relation_id": 5
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        6
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          1,
+          3
+        ],
+        "mask": 11,
+        "scope": [
+          3,
+          4
+        ]
+      },
+      "relation_id": 6
+    }
+  ],
+  "source_clauses": [
+    [
+      -3,
+      4
+    ],
+    [
+      -1,
+      -4
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2,
+      4
+    ],
+    [
+      2
+    ],
+    [
+      3,
+      -4
+    ]
+  ],
+  "steps": [
+    {
+      "child": {
+        "allowed": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "mask": 61,
+        "scope": [
+          2,
+          3,
+          4
+        ]
+      },
+      "depth": 1,
+      "eliminated": [
+        1
+      ],
+      "gained_operations": [],
+      "gained_witnesses": [],
+      "joined_scope": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "model": "LCA",
+      "new_relation_id": 7,
+      "parent_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "signature_after": "0x000100000000100000000400000000000000000000000000000000000000000014004",
+      "signature_before": "0x000100000000100000000400000000000000000000000000000000000000000014004",
+      "work": {
+        "compatibility_checks": 99,
+        "join_pairs": 75,
+        "operations": 179,
+        "projected_tuples": 5
+      }
+    },
+    {
+      "child": {
+        "allowed": [
+          0
+        ],
+        "mask": 1,
+        "scope": [
+          2,
+          4
+        ]
+      },
+      "depth": 2,
+      "eliminated": [
+        3
+      ],
+      "gained_operations": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          128
+        ],
+        [
+          3,
+          130
+        ],
+        [
+          3,
+          132
+        ],
+        [
+          3,
+          134
+        ],
+        [
+          3,
+          136
+        ],
+        [
+          3,
+          138
+        ],
+        [
+          3,
+          140
+        ],
+        [
+          3,
+          142
+        ],
+        [
+          3,
+          144
+        ],
+        [
+          3,
+          146
+        ],
+        [
+          3,
+          148
+        ],
+        [
+          3,
+          150
+        ],
+        [
+          3,
+          152
+        ],
+        [
+          3,
+          154
+        ],
+        [
+          3,
+          156
+        ],
+        [
+          3,
+          158
+        ],
+        [
+          3,
+          160
+        ],
+        [
+          3,
+          162
+        ],
+        [
+          3,
+          164
+        ],
+        [
+          3,
+          166
+        ],
+        [
+          3,
+          168
+        ],
+        [
+          3,
+          172
+        ],
+        [
+          3,
+          174
+        ],
+        [
+          3,
+          176
+        ],
+        [
+          3,
+          178
+        ],
+        [
+          3,
+          180
+        ],
+        [
+          3,
+          182
+        ],
+        [
+          3,
+          184
+        ],
+        [
+          3,
+          186
+        ],
+        [
+          3,
+          188
+        ],
+        [
+          3,
+          190
+        ],
+        [
+          3,
+          192
+        ],
+        [
+          3,
+          194
+        ],
+        [
+          3,
+          196
+        ],
+        [
+          3,
+          198
+        ],
+        [
+          3,
+          200
+        ],
+        [
+          3,
+          202
+        ],
+        [
+          3,
+          206
+        ],
+        [
+          3,
+          208
+        ],
+        [
+          3,
+          210
+        ],
+        [
+          3,
+          212
+        ],
+        [
+          3,
+          214
+        ],
+        [
+          3,
+          216
+        ],
+        [
+          3,
+          218
+        ],
+        [
+          3,
+          220
+        ],
+        [
+          3,
+          222
+        ],
+        [
+          3,
+          224
+        ],
+        [
+          3,
+          226
+        ],
+        [
+          3,
+          228
+        ],
+        [
+          3,
+          230
+        ],
+        [
+          3,
+          232
+        ],
+        [
+          3,
+          234
+        ],
+        [
+          3,
+          236
+        ],
+        [
+          3,
+          238
+        ],
+        [
+          3,
+          242
+        ],
+        [
+          3,
+          244
+        ],
+        [
+          3,
+          246
+        ],
+        [
+          3,
+          248
+        ],
+        [
+          3,
+          250
+        ],
+        [
+          3,
+          252
+        ],
+        [
+          3,
+          254
+        ]
+      ],
+      "gained_witnesses": [
+        "and",
+        "or",
+        "majority",
+        "minority"
+      ],
+      "joined_scope": [
+        2,
+        3,
+        4
+      ],
+      "model": "LCA",
+      "new_relation_id": 8,
+      "parent_ids": [
+        0,
+        6,
+        7
+      ],
+      "signature_after": "0x555555555555555555555555555555550000000000000000000000000000000055004",
+      "signature_before": "0x000100000000100000000400000000000000000000000000000000000000000014004",
+      "work": {
+        "compatibility_checks": 35,
+        "join_pairs": 24,
+        "operations": 60,
+        "projected_tuples": 1
+      }
+    }
+  ]
+}

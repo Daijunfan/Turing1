@@ -1,0 +1,135 @@
+{
+  "id": "morphon-horn-4v-7c",
+  "target_class": "horn",
+  "target_witnesses": [
+    "and",
+    "or"
+  ],
+  "model": "LCA",
+  "scope_grouping": false,
+  "check": {
+    "valid": true,
+    "target_class": "horn",
+    "model": "LCA",
+    "reason": "verified",
+    "polarity_cases": 16,
+    "rename_cases": 24,
+    "order_cases": 2,
+    "standard_gate_signatures": [],
+    "births": 2,
+    "generation_depth": 2,
+    "endpoint_witnesses": [
+      "and",
+      "or",
+      "majority",
+      "minority"
+    ]
+  },
+  "minimality": {
+    "one_clause_minimal": true,
+    "clause_checks": 38,
+    "literal_checks": 54,
+    "variables": 4,
+    "clauses": 7,
+    "total_literals": 14,
+    "max_clause_width": 3
+  },
+  "satisfiability": "UNSAT",
+  "model_count": 0,
+  "degenerate_local_contradiction": true,
+  "search": {
+    "method": "seeded_random_CEGIS",
+    "trial": 3667,
+    "seed": 3008,
+    "rejected_initial": 2513,
+    "rejected_trajectory": 1154
+  },
+  "relation_representation": [
+    {
+      "scope": [
+        3,
+        4
+      ],
+      "mask": 13,
+      "allowed": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "scope": [
+        1,
+        4
+      ],
+      "mask": 7,
+      "allowed": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "scope": [
+        1,
+        3
+      ],
+      "mask": 13,
+      "allowed": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "scope": [
+        1,
+        3
+      ],
+      "mask": 11,
+      "allowed": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "scope": [
+        1,
+        2,
+        4
+      ],
+      "mask": 251,
+      "allowed": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "scope": [
+        2
+      ],
+      "mask": 2,
+      "allowed": [
+        1
+      ]
+    },
+    {
+      "scope": [
+        3,
+        4
+      ],
+      "mask": 11,
+      "allowed": [
+        0,
+        1,
+        3
+      ]
+    }
+  ]
+}

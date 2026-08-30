@@ -1,0 +1,123 @@
+{
+  "id": "morphon-bijunctive-4v-6c",
+  "target_class": "bijunctive",
+  "target_witnesses": [
+    "majority"
+  ],
+  "model": "LCA",
+  "scope_grouping": false,
+  "check": {
+    "valid": true,
+    "target_class": "bijunctive",
+    "model": "LCA",
+    "reason": "verified",
+    "polarity_cases": 16,
+    "rename_cases": 24,
+    "order_cases": 2,
+    "standard_gate_signatures": [],
+    "births": 2,
+    "generation_depth": 2,
+    "endpoint_witnesses": [
+      "and",
+      "or",
+      "majority"
+    ]
+  },
+  "minimality": {
+    "one_clause_minimal": true,
+    "clause_checks": 20,
+    "literal_checks": 45,
+    "variables": 4,
+    "clauses": 6,
+    "total_literals": 12,
+    "max_clause_width": 3
+  },
+  "satisfiability": "UNSAT",
+  "model_count": 0,
+  "degenerate_local_contradiction": true,
+  "search": {
+    "method": "seeded_random_CEGIS",
+    "trial": 35,
+    "seed": 3008,
+    "rejected_initial": 27,
+    "rejected_trajectory": 8
+  },
+  "relation_representation": [
+    {
+      "scope": [
+        3
+      ],
+      "mask": 1,
+      "allowed": [
+        0
+      ]
+    },
+    {
+      "scope": [
+        1,
+        2,
+        4
+      ],
+      "mask": 223,
+      "allowed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "scope": [
+        1,
+        4
+      ],
+      "mask": 13,
+      "allowed": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "scope": [
+        1,
+        2,
+        3
+      ],
+      "mask": 191,
+      "allowed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "scope": [
+        2,
+        4
+      ],
+      "mask": 14,
+      "allowed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "scope": [
+        3
+      ],
+      "mask": 2,
+      "allowed": [
+        1
+      ]
+    }
+  ]
+}

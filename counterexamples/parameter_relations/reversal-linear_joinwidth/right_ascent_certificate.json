@@ -1,0 +1,138 @@
+{
+  "cost": {
+    "birth_count": 0,
+    "discovery_work": 0,
+    "endpoint_solver_cost": 0,
+    "generation_depth": 0,
+    "max_bitset_bytes": 1,
+    "max_log_tuple_count": 2.0,
+    "max_tuple_count": 3,
+    "scope_width": 0,
+    "total_bitset_bytes": 5,
+    "total_tuple_count": 9
+  },
+  "endpoint_signature": "0x550155000000100000000400000000000000000000000000000000000000000054004",
+  "endpoint_witnesses": [
+    "or",
+    "majority"
+  ],
+  "format": "CLONE-ASCENT-CERTIFICATE-v1",
+  "initial_relations": [
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        0
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0
+        ],
+        "mask": 1,
+        "scope": [
+          3
+        ]
+      },
+      "relation_id": 0
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        1
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0
+        ],
+        "mask": 1,
+        "scope": [
+          1
+        ]
+      },
+      "relation_id": 1
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        2
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          0,
+          2,
+          3
+        ],
+        "mask": 13,
+        "scope": [
+          1,
+          2
+        ]
+      },
+      "relation_id": 2
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        3
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          1,
+          2,
+          3
+        ],
+        "mask": 14,
+        "scope": [
+          2,
+          3
+        ]
+      },
+      "relation_id": 3
+    },
+    {
+      "depth": 0,
+      "eliminated": [],
+      "originals": [
+        4
+      ],
+      "parents": [],
+      "relation": {
+        "allowed": [
+          1
+        ],
+        "mask": 2,
+        "scope": [
+          3
+        ]
+      },
+      "relation_id": 4
+    }
+  ],
+  "source_clauses": [
+    [
+      -3
+    ],
+    [
+      -1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3
+    ]
+  ],
+  "steps": []
+}

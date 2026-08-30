@@ -1,0 +1,13 @@
+test_all_276_operations_are_present (test_clone_monotonicity.CloneMonotonicityTests.test_all_276_operations_are_present) ... ok
+test_every_generated_step_is_signature_monotone (test_clone_monotonicity.CloneMonotonicityTests.test_every_generated_step_is_signature_monotone) ... ok
+test_optimized_matches_naive (test_exact_search_crosscheck.ExactSearchCrosscheckTests.test_optimized_matches_naive) ... ok
+test_certificate_replays_and_tampering_fails (test_morphon_certificates.MorphonCertificateTests.test_certificate_replays_and_tampering_fails) ... ok
+test_bundle_labels_exact_results (test_parameter_counterexamples.ParameterTests.test_bundle_labels_exact_results) ... ok
+test_joinwidth_uses_tuple_width_and_linear_restriction (test_parameter_counterexamples.ParameterTests.test_joinwidth_uses_tuple_width_and_linear_restriction) ... ok
+test_clause_level_is_default_and_grouping_is_explicit (test_scope_grouping_disabled.ScopeGroupingTests.test_clause_level_is_default_and_grouping_is_explicit) ... ok
+test_all_twenty_v02_exact_widths_replay (test_v01_v02_regression.LegacyRegressionTests.test_all_twenty_v02_exact_widths_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 9.161s
+
+OK

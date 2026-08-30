@@ -1,0 +1,11 @@
+{
+  "kind": "finite_strict_order_reversal",
+  "parameter": "affine_backdoor_treewidth",
+  "left": "v02-random-exact-n4-s2",
+  "right": "auto-small-s0",
+  "left_caf_scope": 0,
+  "right_caf_scope": 2,
+  "left_parameter": 2,
+  "right_parameter": 1,
+  "claim_limit": "finite incomparability evidence only"
+}
