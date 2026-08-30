@@ -1,0 +1,24 @@
+
+c parsing input formula with 343 variables and 450 clauses
+
+c WARNING: detected and deleted duplicate literal 225 at position 3 of proof line 96
+
+c WARNING: detected and deleted duplicate literal -225 at position 1 of proof line 421
+
+c WARNING: detected and deleted duplicate literal 225 at position 3 of proof line 459
+
+c WARNING: detected and deleted duplicate literal -225 at position 1 of proof line 745
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 267 of 450 clauses in core                            
+
+c 54 of 264 lemmas in core using 683 resolution steps
+
+c 0 RAT lemmas in core; 4 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.032 seconds

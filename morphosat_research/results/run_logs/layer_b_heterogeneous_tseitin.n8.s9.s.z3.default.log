@@ -1,0 +1,35 @@
+s SATISFIABLE
+v -1 -2 -3 4 5 6 7 8 -9 10 11 -12 13 14 15 -16 17 18 -19 -20 21 -22 -23 24 -25 26 -27 -28 -29 -30 -31 32 -33 34 -35 -36 -37 38 -39 -40 -41 42 -43 44 45 46 47 -48 49 -50 -51 -52 -53 54 55 56 57 -58 -59 60 -61 -62 -63 -64 -65 66 67 -68 -69 -70 -71 72 73 -74 -75 76 77 -78 0
+(:sat-backjumps         8
+ :sat-conflicts         8
+ :sat-decisions         34
+ :sat-del-clause        42
+ :sat-elim-clauses      30
+ :sat-elim-literals     32
+ :sat-minimized-lits    1
+ :sat-mk-clause-2ary    57
+ :sat-mk-clause-nary    194
+ :sat-mk-var            79
+ :sat-propagations-2ary 52
+ :sat-propagations-nary 69
+ :sat-units             20
+ :total-time            0.00)
+
+        0.00 real         0.00 user         0.00 sys
+             3227648  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 360  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   5  involuntary context switches
+            17488874  instructions retired
+             5947576  cycles elapsed
+             1655096  peak memory footprint

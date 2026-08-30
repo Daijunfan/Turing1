@@ -1,0 +1,161 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n32.s6.u.cadical.default.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n32.s6.u.cadical.default.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n32.s6.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n32.s6.u.cnf'
+c found 'p cnf 48 128' header
+c parsed 128 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  128  48 100%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  128  48 100%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  128  48 100%
+c -  0.00  0 11 1   0  1  303   79 1.6 11 7 2 6 78%  128  48 100%
+c -  0.00  0  9 2   3  1  738  157 1.4 10 7 2 6 67%  128  48 100%
+c }  0.00  0  9 2   3  1 1002  237 1.4 10 7 2 6 66%  128  48 100%
+c [  0.00  0  0 2   3  0 1002  237 0.0 0 0 2 6  0%  128  48 100%
+c O  0.00  0 16 2   3 17 1003  238 1.4 7 5 2 6 100%  128  48 100%
+c -  0.00  0 10 3   3  1 1417  358 1.6 10 6 2 6 71%  128  48 100%
+c ]  0.00  0  8 3   3  1 1847  563 1.6 9 6 2 6 58%  128  48 100%
+c {  0.00  0  9 3   3  1 1847  563 1.4 10 7 2 6 66%  128  48 100%
+c i  0.00  0  8 3   3  1 2110  661 1.4 9 6 2 6 59%  128  47 98%
+c i  0.00  0  7 3   3  1 2311  750 1.4 8 6 2 6 57%  128  46 96%
+c -  0.00  0  7 4   3  1 2361  266 1.5 8 6 2 6 57%  120  46 96%
+c i  0.00  0  7 4   3  1 2407  287 1.5 8 6 2 6 56%  120  45 94%
+c i  0.00  0  7 4   3  1 2419  292 1.5 8 6 2 6 56%  120  44 92%
+c i  0.00  0  7 4   3  1 2425  295 1.5 8 6 2 6 56%  120  43 90%
+c i  0.00  0  7 4   3  1 2427  295 1.5 8 6 2 6 56%  120  42 88%
+c i  0.00  0  7 4   3  1 2429  296 1.5 8 6 2 6 56%  120  40 83%
+c }  0.00  0  7 4   3  1 2431  296 1.5 8 6 2 6 56%  120  35 73%
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c 0  0.00  0  7 4   3  1 2431  296 1.5 8 6 2 6 56%  120  35 73%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n32.s6.u.cadical.default.drat' closed
+c DRAT 2499 added clauses 53.22%
+c DRAT 2197 deleted clauses 46.78%
+c DRAT 144366 bytes (0.14 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   95.25% search
+c         0.00   62.63% unstable
+c         0.00   31.56% stable
+c         0.00    3.95% simplify
+c         0.00    1.80% sweep
+c         0.00    1.71% congruence
+c         0.00    1.20% parse
+c         0.00    0.58% lucky
+c         0.00    0.18% backbone
+c         0.00    0.04% probe
+c   =================================
+c         0.00   92.66% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:               447        18.39 %  of conflicts
+c conflicts:                  2431    539143.93    per second
+c backbone:                    288       600.00 %  of vars
+c decisions:                  2246    498114.88    per second
+c fixed:                        13        27.08 %  of all variables
+c learned:                    1627        66.93 %  per conflict
+c learned_lits:              15892       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                   2201        13.85 %  learned literals
+c minishrunken:                 57         0.36 %  learned literals
+c otfs:                        799        32.87 %  of conflict
+c propagations:              15033         3.33 M  per second
+c reduced:                     284        11.68 %  per conflict
+c rephased:                      1      2431.00    interval
+c restarts:                      3       810.33    interval
+c stabilizing:                   1        23.98 %  of conflicts
+c subsumed:                    599        34.29 %  of all clauses
+c strengthened:                795        45.51 %  of all clauses
+c ticks:                    131757         8.76    propagation
+c congruence:                    1      2431.00    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 4 used 351 clauses 11.48% accumulated 55.44% tier1
+c focused glue 5 used 301 clauses 9.846% accumulated 65.29%
+c focused glue 6 used 364 clauses 11.90% accumulated 77.19%
+c focused glue 7 used 350 clauses 11.44% accumulated 88.64% tier2
+c 
+c stable glue 2 used 124 clauses 6.981% accumulated 13.79% tier1
+c stable glue 3 used 354 clauses 19.93% accumulated 33.72%
+c stable glue 4 used 454 clauses 25.56% accumulated 59.29%
+c stable glue 5 used 356 clauses 20.04% accumulated 79.33%
+c stable glue 6 used 198 clauses 11.14% accumulated 90.48% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.01    seconds
+c maximum resident set size of process:            3.36    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             3522560  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 379  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                  14  involuntary context switches
+            68350662  instructions retired
+            28328357  cycles elapsed
+             2015520  peak memory footprint

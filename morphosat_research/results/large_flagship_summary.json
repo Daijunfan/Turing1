@@ -1,0 +1,10 @@
+{
+  "direct_8192": {
+    "nclauses": 229376,
+    "nvars": 28672
+  },
+  "gate_fusion_192": {
+    "nclauses": 4416,
+    "nvars": 1824
+  }
+}

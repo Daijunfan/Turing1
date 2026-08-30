@@ -1,0 +1,37 @@
+family,size,rep,expected,nvars,nclauses,no_fusion_status,initial_common_classes,fusion_status,verified,method,emergent_common_classes,fusion_steps,fusion_depth,seconds
+gate_hidden_2sat,32,0,SAT,94,188,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",91,89,0.024273485999856348
+gate_hidden_2sat,32,0,UNSAT,94,188,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",92,88,0.024901923000015813
+gate_hidden_2sat,32,1,SAT,94,188,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",91,89,0.02296427200008111
+gate_hidden_2sat,32,1,UNSAT,94,188,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn""]",92,92,0.02295910399971035
+gate_hidden_2sat,32,2,SAT,94,188,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",91,89,0.023396617000344122
+gate_hidden_2sat,32,2,UNSAT,94,188,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn""]",92,92,0.023074386000189406
+gate_hidden_2sat,128,0,SAT,382,764,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",379,377,0.23388220200013166
+gate_hidden_2sat,128,0,UNSAT,382,764,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn""]",380,211,0.2307706040000994
+gate_hidden_2sat,128,1,SAT,382,764,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",379,377,0.23608403700018243
+gate_hidden_2sat,128,1,UNSAT,382,764,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn""]",380,201,0.24061589999973876
+gate_hidden_2sat,128,2,SAT,382,764,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn"", ""zero_valid""]",379,377,0.23364287100002912
+gate_hidden_2sat,128,2,UNSAT,382,764,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",377,247,0.3035946109998804
+gate_hidden_2sat,512,0,SAT,1534,3068,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",1531,1529,3.212033280000014
+gate_hidden_2sat,512,0,UNSAT,1534,3068,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn""]",1532,1475,3.457965010999942
+gate_hidden_2sat,512,1,SAT,1534,3068,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",1531,1529,3.294855896000172
+gate_hidden_2sat,512,1,UNSAT,1534,3068,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",1532,853,3.2990839059998507
+gate_hidden_2sat,512,2,SAT,1534,3068,UNKNOWN,[],SAT,True,MORPH-FUSION-2SAT,"[""bijunctive""]",1531,1529,3.475206737999997
+gate_hidden_2sat,512,2,UNSAT,1534,3068,UNKNOWN,[],UNSAT,True,MORPH-FUSION-2SAT,"[""bijunctive"", ""dual_horn"", ""horn""]",1532,1288,3.1051524100003007
+gate_hidden_horn,16,0,SAT,82,179,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",38,5,0.018711050000092655
+gate_hidden_horn,16,0,UNSAT,82,179,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",40,6,0.018531942999743478
+gate_hidden_horn,16,1,SAT,82,179,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",38,5,0.018076271999689197
+gate_hidden_horn,16,1,UNSAT,82,179,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",40,7,0.01840602399988711
+gate_hidden_horn,16,2,SAT,82,179,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",38,5,0.018158015000153682
+gate_hidden_horn,16,2,UNSAT,82,179,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",40,6,0.018302578999737307
+gate_hidden_horn,64,0,SAT,322,707,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",134,5,0.13436967400002686
+gate_hidden_horn,64,0,UNSAT,322,707,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",136,6,0.1321709609997015
+gate_hidden_horn,64,1,SAT,322,707,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",134,5,0.13021853599957467
+gate_hidden_horn,64,1,UNSAT,322,707,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",136,6,0.20808448799971302
+gate_hidden_horn,64,2,SAT,322,707,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",134,5,0.13233288299989
+gate_hidden_horn,64,2,UNSAT,322,707,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",136,7,0.13241603799997392
+gate_hidden_horn,256,0,SAT,1282,2819,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",518,5,1.5298487239997485
+gate_hidden_horn,256,0,UNSAT,1282,2819,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",520,6,1.5737695889997667
+gate_hidden_horn,256,1,SAT,1282,2819,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",518,5,1.5321700529998452
+gate_hidden_horn,256,1,UNSAT,1282,2819,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",520,6,1.7017774109999664
+gate_hidden_horn,256,2,SAT,1282,2819,UNKNOWN,[],SAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn"", ""zero_valid""]",518,5,1.5352380230001472
+gate_hidden_horn,256,2,UNSAT,1282,2819,UNKNOWN,[],UNSAT,True,MORPH-FUSION-DUAL-HORN,"[""dual_horn""]",520,6,1.6281664019998061

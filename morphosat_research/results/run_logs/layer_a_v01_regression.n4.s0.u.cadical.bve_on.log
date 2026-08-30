@@ -1,0 +1,126 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_a_v01_regression.n4.s0.u.cadical.bve_on.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_a_v01_regression.n4.s0.u.cadical.bve_on.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_a_v01_regression.n4.s0.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_a_v01_regression.n4.s0.u.cnf'
+c found 'p cnf 38 92' header
+c parsed 92 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   81  31 82%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   81  31 82%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   81  31 82%
+c i  0.00  0  1 0   0  1    4    3 2.0 2 1 2 6 100%   81  22 58%
+c i  0.00  0  1 0   0  1    6    4 2.2 2 1 2 6 100%   81   3  8%
+c }  0.00  0  1 0   0  1    8    4 2.4 2 1 2 6 100%   81   0  0%
+c 0  0.00  0  1 0   0  1    8    4 2.4 2 1 2 6 100%   81   0  0%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_a_v01_regression.n4.s0.u.cadical.bve_on.drat' closed
+c DRAT 39 added clauses 84.78%
+c DRAT 7 deleted clauses 15.22%
+c DRAT 290 bytes (0.00 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   71.15% search
+c         0.00   44.23% parse
+c         0.00   40.38% unstable
+c         0.00   21.15% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   25.24% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c conflicts:                     8     76923.08    per second
+c decisions:                     7     67307.69    per second
+c fixed:                        38       100.00 %  of all variables
+c learned:                       7        87.50 %  per conflict
+c learned_lits:                 15       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                      3        20.00 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c otfs:                          0         0.00 %  of conflict
+c propagations:                137         1.32 M  per second
+c ticks:                       527         3.85    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 1 used 3 clauses 75.00% accumulated 75.00% tier1
+c focused glue 2 used 1 clauses 25.00% accumulated 100.0% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.27    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2375680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 309  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                   5  involuntary context switches
+            19360678  instructions retired
+             7778113  cycles elapsed
+             1114400  peak memory footprint

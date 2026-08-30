@@ -1,0 +1,40 @@
+s UNSATISFIABLE
+(:sat-backjumps          1446
+ :sat-conflicts          1447
+ :sat-decisions          3137
+ :sat-del-clause         2125
+ :sat-elim-bool-vars-res 145
+ :sat-elim-clauses       761
+ :sat-elim-literals      446
+ :sat-minimized-lits     2357
+ :sat-mk-clause-2ary     729
+ :sat-mk-clause-3ary     374
+ :sat-mk-clause-nary     2593
+ :sat-mk-var             372
+ :sat-propagations-2ary  2940
+ :sat-propagations-nary  12336
+ :sat-restarts           69
+ :sat-scc-elim-vars      94
+ :sat-subs-resolution    256
+ :sat-subsumed           235
+ :sat-units              118
+ :total-time             0.00)
+
+        0.00 real         0.00 user         0.00 sys
+             4030464  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 409  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  13  involuntary context switches
+            55624684  instructions retired
+            26191916  cycles elapsed
+             2408784  peak memory footprint

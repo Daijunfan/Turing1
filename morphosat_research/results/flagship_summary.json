@@ -1,0 +1,14 @@
+{
+  "direct": {
+    "certificate_bytes": 507638,
+    "cnf_bytes": 3512084,
+    "nclauses": 114688,
+    "nvars": 14336
+  },
+  "gate_fusion": {
+    "certificate_bytes": 186825,
+    "cnf_bytes": 17108,
+    "nclauses": 1472,
+    "nvars": 608
+  }
+}

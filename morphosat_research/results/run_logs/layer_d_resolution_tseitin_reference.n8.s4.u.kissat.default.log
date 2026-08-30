@@ -1,0 +1,105 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2024 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 4.0.4 unknown
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -W -Wall -O3 -DNDEBUG
+c Sun Aug 30 17:38:25 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c
+c ---- [ proving ] -----------------------------------------------------------
+c
+c opened and writing proof to DRAT file:
+c
+c   /Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_resolution_tseitin_reference.n8.s4.u.kissat.default.drat
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   /Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_resolution_tseitin_reference.n8.s4.u.cnf
+c
+c parsed 'p cnf 12 32' header
+c closing input after reading 411 bytes
+c finished parsing after 0.00 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c seconds switched rate     size/glue tier1 binary   remaining
+c        MB reductions conflicts size  tier2 irredundant
+c         level restarts redundant glue  trail   variables
+c
+c *  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 32 12 100%
+c (  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 32 12 100%
+c .  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 32 12 100%
+c )  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 32 12 100%
+c {  0.00  2 0 0 0  0 0   0   0 0.0 0 0 2 6 0%   0 32 12 100%
+c i  0.00  2 3 0 0  0 1  18   5 1.7 3 2 3 3 92%   3 31 11 92%
+c i  0.00  2 3 0 0  0 1  28   6 1.7 3 2 2 3 88%   6 31 10 83%
+c i  0.00  2 3 0 0  0 1  33   6 1.7 3 2 2 3 87%   8 31  9 75%
+c }  0.00  2 3 0 0  0 1  36   6 1.8 3 2 2 3 88%   9 31  4 33%
+c 0  0.00  2 3 0 0  0 1  36   6 1.8 3 2 2 3 88%   9 31  4 33%
+c
+c ---- [ result ] ------------------------------------------------------------
+c
+s UNSATISFIABLE
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c           0.00   31.15 %  preprocess
+c           0.00   28.53 %  probe
+c           0.00   18.06 %  sweep
+c           0.00   12.57 %  search
+c           0.00   11.52 %  focused
+c           0.00    4.45 %  congruence
+c           0.00    4.45 %  parse
+c           0.00    2.88 %  factor
+c           0.00    2.62 %  lucky
+c           0.00    0.52 %  substitute
+c           0.00    0.26 %  backbone
+c           0.00    0.00 %  simplify
+c =============================================
+c           0.00  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c conflicts:                               36            25405.79 per second
+c decisions:                               33                0.92 per conflict
+c iterations:                               4               33 %  variables
+c propagations:                           288           203246    per second
+c switched:                                 0                0    interval
+c
+c ---- [ glue usage ] --------------------------------------------------------
+c
+c focused glue 2 used 12 clauses 60.00% accumulated 60.00% tier1
+c focused glue 3 used  8 clauses 40.00% accumulated 100.00% tier2
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:       1962934272 bytes       1872 MB
+c process-time:                                              0.00 seconds
+c
+c ---- [ shutting down ] -----------------------------------------------------
+c
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             1916928  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 280  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   5  involuntary context switches
+            16128425  instructions retired
+             6132649  cycles elapsed
+             1196320  peak memory footprint

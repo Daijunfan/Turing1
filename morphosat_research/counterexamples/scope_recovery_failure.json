@@ -1,0 +1,16 @@
+{
+  "kind": "scope_recovery_failure",
+  "source_run_id": "layer_b_heterogeneous_tseitin.n4.s1.s",
+  "width": 4,
+  "original_clauses": 130,
+  "minimized_clauses": 5,
+  "one_clause_minimal": true,
+  "recovery_on": {
+    "success": true,
+    "births": 1
+  },
+  "recovery_off": {
+    "success": false,
+    "births": 1
+  }
+}

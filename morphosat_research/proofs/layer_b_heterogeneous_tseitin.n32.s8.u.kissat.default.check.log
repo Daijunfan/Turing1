@@ -1,0 +1,112 @@
+
+c parsing input formula with 318 variables and 1140 clauses
+
+c WARNING: detected and deleted duplicate literal -197 at position 1 of proof line 2
+
+c WARNING: detected and deleted duplicate literal -8 at position 1 of proof line 77
+
+c WARNING: detected and deleted duplicate literal -39 at position 1 of proof line 137
+
+c WARNING: detected and deleted duplicate literal -15 at position 1 of proof line 157
+
+c WARNING: detected and deleted duplicate literal 197 at position 2 of proof line 325
+
+c WARNING: detected and deleted duplicate literal -69 at position 2 of proof line 334
+
+c WARNING: detected and deleted duplicate literal 138 at position 1 of proof line 449
+
+c WARNING: detected and deleted duplicate literal -295 at position 1 of proof line 503
+
+c WARNING: detected and deleted duplicate literal -140 at position 1 of proof line 531
+
+c WARNING: detected and deleted duplicate literal 295 at position 2 of proof line 552
+
+c WARNING: detected and deleted duplicate literal -138 at position 2 of proof line 591
+
+c WARNING: detected and deleted duplicate literal 8 at position 2 of proof line 602
+
+c WARNING: detected and deleted duplicate literal -145 at position 1 of proof line 603
+
+c WARNING: detected and deleted duplicate literal -68 at position 1 of proof line 674
+
+c WARNING: detected and deleted duplicate literal 39 at position 2 of proof line 753
+
+c WARNING: detected and deleted duplicate literal 140 at position 2 of proof line 784
+
+c WARNING: detected and deleted duplicate literal 15 at position 2 of proof line 829
+
+c WARNING: detected and deleted duplicate literal -232 at position 1 of proof line 833
+
+c WARNING: detected and deleted duplicate literal 232 at position 2 of proof line 880
+
+c WARNING: detected and deleted duplicate literal -88 at position 1 of proof line 899
+
+c WARNING: detected and deleted duplicate literal 69 at position 1 of proof line 1043
+
+c WARNING: detected and deleted duplicate literal 68 at position 2 of proof line 1094
+
+c WARNING: detected and deleted duplicate literal 145 at position 2 of proof line 1109
+
+c WARNING: detected and deleted duplicate literal 88 at position 2 of proof line 1125
+
+c WARNING: detected and deleted duplicate literal -197 at position 1 of proof line 1142
+
+c WARNING: detected and deleted duplicate literal -8 at position 1 of proof line 1148
+
+c WARNING: detected and deleted duplicate literal -39 at position 1 of proof line 1152
+
+c WARNING: detected and deleted duplicate literal -15 at position 1 of proof line 1155
+
+c WARNING: detected and deleted duplicate literal 197 at position 2 of proof line 1172
+
+c WARNING: detected and deleted duplicate literal -69 at position 2 of proof line 1178
+
+c WARNING: detected and deleted duplicate literal 138 at position 1 of proof line 1200
+
+c WARNING: detected and deleted duplicate literal -295 at position 1 of proof line 1213
+
+c WARNING: detected and deleted duplicate literal -140 at position 1 of proof line 1224
+
+c WARNING: detected and deleted duplicate literal 295 at position 2 of proof line 1232
+
+c WARNING: detected and deleted duplicate literal -138 at position 2 of proof line 1247
+
+c WARNING: detected and deleted duplicate literal 8 at position 2 of proof line 1253
+
+c WARNING: detected and deleted duplicate literal -145 at position 1 of proof line 1255
+
+c WARNING: detected and deleted duplicate literal -68 at position 1 of proof line 1277
+
+c WARNING: detected and deleted duplicate literal 39 at position 2 of proof line 1312
+
+c WARNING: detected and deleted duplicate literal 140 at position 2 of proof line 1324
+
+c WARNING: detected and deleted duplicate literal 15 at position 2 of proof line 1342
+
+c WARNING: detected and deleted duplicate literal -232 at position 1 of proof line 1345
+
+c WARNING: detected and deleted duplicate literal 232 at position 2 of proof line 1368
+
+c WARNING: detected and deleted duplicate literal -88 at position 1 of proof line 1377
+
+c WARNING: detected and deleted duplicate literal 69 at position 1 of proof line 1429
+
+c WARNING: detected and deleted duplicate literal 68 at position 2 of proof line 1465
+
+c WARNING: detected and deleted duplicate literal 145 at position 2 of proof line 1474
+
+c WARNING: detected and deleted duplicate literal 88 at position 2 of proof line 1483
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 713 of 1140 clauses in core                            
+
+c 2013 of 2679 lemmas in core using 15153 resolution steps
+
+c 16 RAT lemmas in core; 87 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.024 seconds

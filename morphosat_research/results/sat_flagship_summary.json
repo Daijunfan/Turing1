@@ -1,0 +1,24 @@
+[
+  {
+    "family": "direct_affine",
+    "method": "MORPH-AFFINE",
+    "nclauses": 229376,
+    "nvars": 28672,
+    "organs": 8192,
+    "seconds": 7.246858442999837,
+    "status": "SAT",
+    "verified": true
+  },
+  {
+    "family": "gate_fusion_affine",
+    "fusion_depth": 12,
+    "fusion_steps": 1667,
+    "method": "MORPH-FUSION-AFFINE",
+    "nclauses": 4416,
+    "nvars": 1824,
+    "organs": 192,
+    "seconds": 9.671224374000303,
+    "status": "SAT",
+    "verified": true
+  }
+]

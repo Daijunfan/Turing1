@@ -1,0 +1,202 @@
+{
+  "adaptive_ablation": {
+    "fixed_successes": 37,
+    "full_adaptive_recovered_remaining": true,
+    "instances": 40,
+    "limited_adaptive_successes": 39
+  },
+  "algorithm_family": "MORPH-CSP / Morphogenetic Polymorphism Compiler",
+  "correctness": {
+    "cross_language_all_correct_verified": true,
+    "cross_language_total": 36,
+    "hidden_family_correct": 142,
+    "hidden_family_total": 142,
+    "hidden_family_verified": 142,
+    "hidden_family_z3_agreement": 142,
+    "negative_control_all_unknown": true,
+    "negative_control_total": 200,
+    "random_small_correct": 760,
+    "random_small_decisive": 760,
+    "random_small_total": 5000,
+    "random_small_wrong": 0
+  },
+  "environment": {
+    "cpu_count": 5,
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "z3_package_version": "4.13.3-1"
+  },
+  "order_emergence": {
+    "trace_instance": {
+      "final": {
+        "affine_fraction": 1.0,
+        "bijunctive_fraction": 0.0,
+        "common_classes": [
+          "affine"
+        ],
+        "dual_horn_fraction": 0.0,
+        "horn_fraction": 0.0,
+        "max_arity": 6,
+        "mean_depth": 11.11111111111111,
+        "one_valid_fraction": 0.5,
+        "relation_count": 18,
+        "step": 558,
+        "zero_valid_fraction": 0.3888888888888889
+      },
+      "initial": {
+        "affine_fraction": 0.14285714285714285,
+        "bijunctive_fraction": 0.7142857142857143,
+        "common_classes": [],
+        "dual_horn_fraction": 0.6755952380952381,
+        "horn_fraction": 0.6547619047619048,
+        "max_arity": 3,
+        "mean_depth": 0.0,
+        "one_valid_fraction": 0.7507440476190477,
+        "relation_count": 1344,
+        "step": 0,
+        "zero_valid_fraction": 0.7410714285714286
+      },
+      "nclauses": 1472,
+      "nvars": 608,
+      "steps": 558
+    },
+    "width_threshold": [
+      {
+        "affine_emerged": false,
+        "final_affine_fraction": 0.08272058823529412,
+        "max_depth": 2,
+        "max_macro_arity": 2,
+        "remaining_relations": 544,
+        "steps": 64
+      },
+      {
+        "affine_emerged": false,
+        "final_affine_fraction": 0.0,
+        "max_depth": 6,
+        "max_macro_arity": 3,
+        "remaining_relations": 232,
+        "steps": 192
+      },
+      {
+        "affine_emerged": false,
+        "final_affine_fraction": 0.09016393442622951,
+        "max_depth": 8,
+        "max_macro_arity": 4,
+        "remaining_relations": 122,
+        "steps": 234
+      },
+      {
+        "affine_emerged": false,
+        "final_affine_fraction": 0.1935483870967742,
+        "max_depth": 14,
+        "max_macro_arity": 5,
+        "remaining_relations": 31,
+        "steps": 272
+      },
+      {
+        "affine_emerged": true,
+        "final_affine_fraction": 1.0,
+        "max_depth": 17,
+        "max_macro_arity": 6,
+        "remaining_relations": 9,
+        "steps": 282
+      },
+      {
+        "affine_emerged": true,
+        "final_affine_fraction": 1.0,
+        "max_depth": 17,
+        "max_macro_arity": 7,
+        "remaining_relations": 9,
+        "steps": 282
+      },
+      {
+        "affine_emerged": true,
+        "final_affine_fraction": 1.0,
+        "max_depth": 17,
+        "max_macro_arity": 8,
+        "remaining_relations": 9,
+        "steps": 282
+      }
+    ]
+  },
+  "prototype": "MORPH-SAT v0.1",
+  "sat_flagships": [
+    {
+      "family": "direct_affine",
+      "method": "MORPH-AFFINE",
+      "nclauses": 229376,
+      "nvars": 28672,
+      "organs": 8192,
+      "seconds": 7.246858442999837,
+      "status": "SAT",
+      "verified": true
+    },
+    {
+      "family": "gate_fusion_affine",
+      "fusion_depth": 12,
+      "fusion_steps": 1667,
+      "method": "MORPH-FUSION-AFFINE",
+      "nclauses": 4416,
+      "nvars": 1824,
+      "organs": 192,
+      "seconds": 9.671224374000303,
+      "status": "SAT",
+      "verified": true
+    }
+  ],
+  "scaling": {
+    "direct_largest": {
+      "all_verified": true,
+      "empirical_power_exponent": 1.0080303706833014,
+      "median_seconds": 6.744346216999929,
+      "nclauses": 229376,
+      "nvars": 28672,
+      "organs": 8192,
+      "r2": 0.9998622511555825
+    },
+    "fusion_largest": {
+      "all_verified": true,
+      "empirical_power_exponent": 1.7831434522709229,
+      "fusion_steps": 1679,
+      "nclauses": 4416,
+      "nvars": 1824,
+      "organs": 192,
+      "r2": 0.9980050802879731,
+      "seconds": 9.694784804999928
+    }
+  },
+  "standalone_artifacts": {
+    "flagship_direct_8192.cert.json": {
+      "bytes": 1016845,
+      "sha256": "1e46746fa1e83c7a0de6800c959ab63e9af60a33638446d82846a09e955f380e"
+    },
+    "flagship_direct_8192.cnf": {
+      "bytes": 7467859,
+      "sha256": "02c4ab89636e27d08a5013d785cf4de2b91ac71a821a4d8b3bc17b497082d866"
+    },
+    "flagship_direct_8192_sat.cnf": {
+      "bytes": 7469679,
+      "sha256": "5c4ccce1705fcd5fdf8f95e3615592e95e64c15b0dea4493aec56699e75b7ffe"
+    },
+    "flagship_direct_8192_sat.model.json": {
+      "bytes": 132110,
+      "sha256": "e8b6ae8a3472b8b770f99b76ad7afb5d81ba08a54460d34e4851f89ca265ee5c"
+    },
+    "flagship_gate_fusion_192.cert.json": {
+      "bytes": 570378,
+      "sha256": "aecd2dce9292c0156ed4be0f49d8a715c563effad9a1a0f0316402e35309c1ca"
+    },
+    "flagship_gate_fusion_192.cnf": {
+      "bytes": 56814,
+      "sha256": "1300b11fb772a692ff9cab704265d00299f9a23d93ba2582c9f41123e5664b43"
+    },
+    "flagship_gate_fusion_192_sat.cnf": {
+      "bytes": 56809,
+      "sha256": "29749a5a7e29f68aa5e8e56d9f84b2b105c0213c47273172a0b20c5ec7e1f3f2"
+    },
+    "flagship_gate_fusion_192_sat.model.json": {
+      "bytes": 8487,
+      "sha256": "cefbd9a95a6fc1cee7440bf16478e3bafa8cd95fdc520984869a9dc50277333b"
+    }
+  }
+}

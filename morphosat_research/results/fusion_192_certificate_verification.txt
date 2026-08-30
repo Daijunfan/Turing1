@@ -1,0 +1,12 @@
+{
+  "detail": {
+    "cnf_hash_verified": true,
+    "entailed_equations_verified": 50,
+    "exact_fusion_steps_replayed": 1679,
+    "final_coefficient_weight": 0,
+    "final_relations": 50,
+    "final_rhs": 1,
+    "initial_relations_rederived": 4032
+  },
+  "verified": true
+}

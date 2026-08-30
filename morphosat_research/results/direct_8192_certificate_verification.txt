@@ -1,0 +1,9 @@
+{
+  "detail": {
+    "cnf_hash_verified": true,
+    "final_coefficient_weight": 0,
+    "final_rhs": 1,
+    "verified_local_equations": 13286
+  },
+  "verified": true
+}

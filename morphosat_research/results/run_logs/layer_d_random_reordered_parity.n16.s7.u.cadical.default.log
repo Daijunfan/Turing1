@@ -1,0 +1,134 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n16.s7.u.cadical.default.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n16.s7.u.cadical.default.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n16.s7.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n16.s7.u.cnf'
+c found 'p cnf 24 64' header
+c parsed 64 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   64  24 100%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   64  24 100%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   64  24 100%
+c i  0.00  0  4 0   0  1  113   28 1.4 5 4 2 6 85%   64  23 96%
+c i  0.00  0  4 0   0  1  149   35 1.4 5 3 2 6 83%   64  22 92%
+c i  0.00  0  4 0   0  1  153   37 1.4 5 3 2 6 84%   64  21 88%
+c i  0.00  0  4 0   0  1  169   41 1.4 4 3 2 6 83%   64  19 79%
+c i  0.00  0  4 0   0  1  177   44 1.4 4 3 2 6 83%   64  18 75%
+c i  0.00  0  4 0   0  1  181   46 1.4 4 3 2 6 82%   64  17 71%
+c i  0.00  0  4 0   0  1  183   47 1.4 4 3 2 6 82%   64  14 58%
+c }  0.00  0  4 0   0  1  185   47 1.4 4 3 2 6 82%   64   6 25%
+c 0  0.00  0  4 0   0  1  185   47 1.4 4 3 2 6 82%   64   6 25%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n16.s7.u.cadical.default.drat' closed
+c DRAT 195 added clauses 60.19%
+c DRAT 129 deleted clauses 39.81%
+c DRAT 5846 bytes (0.01 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   91.22% search
+c         0.00   83.29% unstable
+c         0.00   12.46% parse
+c         0.00    5.67% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   54.64% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                28        15.14 %  of conflicts
+c conflicts:                   185    524079.32    per second
+c decisions:                   185    524079.32    per second
+c fixed:                        18        75.00 %  of all variables
+c learned:                     150        81.08 %  per conflict
+c learned_lits:                906       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                    287        31.68 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c otfs:                         37        20.00 %  of conflict
+c propagations:               1528         4.33 M  per second
+c subsumed:                     98        47.57 %  of all clauses
+c strengthened:                 34        16.50 %  of all clauses
+c ticks:                      7794         5.10    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 3 used 45 clauses 23.68% accumulated 60.00% tier1
+c focused glue 4 used 43 clauses 22.63% accumulated 82.63% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.28    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2392064  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 310  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   4  involuntary context switches
+            21733401  instructions retired
+             9849444  cycles elapsed
+             1130784  peak memory footprint

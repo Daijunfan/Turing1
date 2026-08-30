@@ -1,0 +1,8 @@
+max_macro_arity,affine_emerged,steps,remaining_relations,max_depth,final_affine_fraction
+2,False,64,544,2,0.08272058823529412
+3,False,192,232,6,0.0
+4,False,234,122,8,0.09016393442622951
+5,False,272,31,14,0.1935483870967742
+6,True,282,9,17,1.0
+7,True,282,9,17,1.0
+8,True,282,9,17,1.0

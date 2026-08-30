@@ -1,0 +1,10 @@
+{
+  "kind": "parameter_order_reversal",
+  "parameter": "induced_width",
+  "left": "random_exact.n4.s0",
+  "right": "random_exact.n5.s6",
+  "left_morph_width": 3,
+  "right_morph_width": 0,
+  "left_parameter": 3,
+  "right_parameter": 4
+}

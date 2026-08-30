@@ -1,0 +1,26 @@
+s SATISFIABLE
+v -1 -2 3 -4 -5 -6 7 -8 -9 -10 -11 -12 0
+(:sat-decisions         6
+ :sat-mk-clause-nary    32
+ :sat-mk-var            13
+ :sat-propagations-nary 7
+ :total-time            0.00)
+
+        0.00 real         0.00 user         0.00 sys
+             3063808  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 350  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   8  involuntary context switches
+            16101483  instructions retired
+             8749686  cycles elapsed
+             1524024  peak memory footprint

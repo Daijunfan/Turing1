@@ -1,0 +1,55 @@
+{
+  "generated_families": [
+    {
+      "answered": 40,
+      "correct": 40,
+      "family": "direct_hidden_affine",
+      "instances": 40,
+      "unknown": 0,
+      "verified": 40,
+      "wrong": 0,
+      "z3_agreements": 40,
+      "z3_decisive_crosschecks": 40
+    },
+    {
+      "answered": 42,
+      "correct": 42,
+      "family": "gate_fused_affine",
+      "instances": 42,
+      "unknown": 0,
+      "verified": 42,
+      "wrong": 0,
+      "z3_agreements": 42,
+      "z3_decisive_crosschecks": 42
+    },
+    {
+      "answered": 30,
+      "correct": 30,
+      "family": "gate_fused_2sat",
+      "instances": 30,
+      "unknown": 0,
+      "verified": 30,
+      "wrong": 0,
+      "z3_agreements": 30,
+      "z3_decisive_crosschecks": 30
+    },
+    {
+      "answered": 30,
+      "correct": 30,
+      "family": "gate_fused_horn",
+      "instances": 30,
+      "unknown": 0,
+      "verified": 30,
+      "wrong": 0,
+      "z3_agreements": 30,
+      "z3_decisive_crosschecks": 30
+    }
+  ],
+  "random_small_cnf": {
+    "answered": 760,
+    "correct": 760,
+    "instances": 5000,
+    "verified": 760,
+    "wrong": 0
+  }
+}

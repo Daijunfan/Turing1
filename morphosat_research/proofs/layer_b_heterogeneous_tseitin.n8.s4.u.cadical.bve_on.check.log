@@ -1,0 +1,40 @@
+
+c parsing input formula with 85 variables and 310 clauses
+
+c WARNING: detected and deleted duplicate literal -16 at position 2 of proof line 1
+
+c WARNING: detected and deleted duplicate literal 16 at position 1 of proof line 19
+
+c WARNING: detected and deleted duplicate literal -48 at position 2 of proof line 53
+
+c WARNING: detected and deleted duplicate literal 64 at position 2 of proof line 213
+
+c WARNING: detected and deleted duplicate literal 48 at position 1 of proof line 225
+
+c WARNING: detected and deleted duplicate literal -64 at position 1 of proof line 241
+
+c WARNING: detected and deleted duplicate literal -16 at position 2 of proof line 312
+
+c WARNING: detected and deleted duplicate literal 16 at position 1 of proof line 314
+
+c WARNING: detected and deleted duplicate literal -48 at position 2 of proof line 317
+
+c WARNING: detected and deleted duplicate literal 64 at position 2 of proof line 356
+
+c WARNING: detected and deleted duplicate literal 48 at position 1 of proof line 360
+
+c WARNING: detected and deleted duplicate literal -64 at position 1 of proof line 368
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 184 of 310 clauses in core                            
+
+c 94 of 149 lemmas in core using 1055 resolution steps
+
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.017 seconds

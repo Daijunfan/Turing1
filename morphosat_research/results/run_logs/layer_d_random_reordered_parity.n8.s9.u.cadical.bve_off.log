@@ -1,0 +1,130 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n8.s9.u.cadical.bve_off.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n8.s9.u.cadical.bve_off.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n8.s9.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n8.s9.u.cnf'
+c found 'p cnf 12 32' header
+c parsed 32 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --elim=false                   (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   32  12 100%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   32  12 100%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   32  12 100%
+c i  0.00  0  2 0   0  1   25   12 2.2 4 2 2 6 100%   32  11 92%
+c i  0.00  0  2 0   0  1   31   13 2.1 3 2 2 6 97%   32   9 75%
+c i  0.00  0  2 0   0  1   33   12 2.1 3 2 2 6 94%   32   7 58%
+c }  0.00  0  2 0   0  1   35   12 2.1 3 1 2 6 92%   32   4 33%
+c 0  0.00  0  2 0   0  1   35   12 2.1 3 1 2 6 92%   32   4 33%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n8.s9.u.cadical.bve_off.drat' closed
+c DRAT 39 added clauses 68.42%
+c DRAT 18 deleted clauses 31.58%
+c DRAT 721 bytes (0.00 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   76.52% search
+c         0.00   59.13% unstable
+c         0.00   26.09% parse
+c         0.00   10.43% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   30.26% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c conflicts:                    35    304347.83    per second
+c decisions:                    25    217391.30    per second
+c fixed:                         8        66.67 %  of all variables
+c learned:                      24        68.57 %  per conflict
+c learned_lits:                 99       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                     24        24.24 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c otfs:                         10        28.57 %  of conflict
+c propagations:                128         1.11 M  per second
+c subsumed:                      8        15.38 %  of all clauses
+c strengthened:                 10        19.23 %  of all clauses
+c ticks:                       746         5.83    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 16 clauses 48.48% accumulated 84.84% tier1
+c focused glue 3 used 5 clauses 15.15% accumulated 100.0% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.27    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2375680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 309  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   7  involuntary context switches
+            18903841  instructions retired
+             8621541  cycles elapsed
+             1114400  peak memory footprint

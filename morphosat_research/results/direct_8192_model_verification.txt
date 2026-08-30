@@ -1,0 +1,8 @@
+{
+  "cnf_sha256": "5c4ccce1705fcd5fdf8f95e3615592e95e64c15b0dea4493aec56699e75b7ffe",
+  "first_unsatisfied_clause": null,
+  "nclauses": 229376,
+  "nvars": 28672,
+  "true_variables": 12274,
+  "verified": true
+}

@@ -1,0 +1,93 @@
+{
+  "trace_instance": {
+    "final": {
+      "affine_fraction": 1.0,
+      "bijunctive_fraction": 0.0,
+      "common_classes": [
+        "affine"
+      ],
+      "dual_horn_fraction": 0.0,
+      "horn_fraction": 0.0,
+      "max_arity": 6,
+      "mean_depth": 11.11111111111111,
+      "one_valid_fraction": 0.5,
+      "relation_count": 18,
+      "step": 558,
+      "zero_valid_fraction": 0.3888888888888889
+    },
+    "initial": {
+      "affine_fraction": 0.14285714285714285,
+      "bijunctive_fraction": 0.7142857142857143,
+      "common_classes": [],
+      "dual_horn_fraction": 0.6755952380952381,
+      "horn_fraction": 0.6547619047619048,
+      "max_arity": 3,
+      "mean_depth": 0.0,
+      "one_valid_fraction": 0.7507440476190477,
+      "relation_count": 1344,
+      "step": 0,
+      "zero_valid_fraction": 0.7410714285714286
+    },
+    "nclauses": 1472,
+    "nvars": 608,
+    "steps": 558
+  },
+  "width_threshold": [
+    {
+      "affine_emerged": false,
+      "final_affine_fraction": 0.08272058823529412,
+      "max_depth": 2,
+      "max_macro_arity": 2,
+      "remaining_relations": 544,
+      "steps": 64
+    },
+    {
+      "affine_emerged": false,
+      "final_affine_fraction": 0.0,
+      "max_depth": 6,
+      "max_macro_arity": 3,
+      "remaining_relations": 232,
+      "steps": 192
+    },
+    {
+      "affine_emerged": false,
+      "final_affine_fraction": 0.09016393442622951,
+      "max_depth": 8,
+      "max_macro_arity": 4,
+      "remaining_relations": 122,
+      "steps": 234
+    },
+    {
+      "affine_emerged": false,
+      "final_affine_fraction": 0.1935483870967742,
+      "max_depth": 14,
+      "max_macro_arity": 5,
+      "remaining_relations": 31,
+      "steps": 272
+    },
+    {
+      "affine_emerged": true,
+      "final_affine_fraction": 1.0,
+      "max_depth": 17,
+      "max_macro_arity": 6,
+      "remaining_relations": 9,
+      "steps": 282
+    },
+    {
+      "affine_emerged": true,
+      "final_affine_fraction": 1.0,
+      "max_depth": 17,
+      "max_macro_arity": 7,
+      "remaining_relations": 9,
+      "steps": 282
+    },
+    {
+      "affine_emerged": true,
+      "final_affine_fraction": 1.0,
+      "max_depth": 17,
+      "max_macro_arity": 8,
+      "remaining_relations": 9,
+      "steps": 282
+    }
+  ]
+}

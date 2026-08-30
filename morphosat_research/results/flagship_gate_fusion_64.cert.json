@@ -1,0 +1,12899 @@
+{
+  "cnf_sha256": "c3beac99a1766452c4d246ecd0c912bbaa6fe7d1b3b1493fec5a09c5a6b3c304",
+  "final_relation_ids": [
+    1836,
+    1837,
+    1838,
+    1864,
+    1868,
+    1871,
+    1879,
+    1884,
+    1885,
+    1886,
+    1887,
+    1888,
+    1889,
+    1892,
+    1895,
+    1897,
+    1899,
+    1901
+  ],
+  "format": "MORPH-FUSION-AFFINE-UNSAT-v1",
+  "fusion_steps": [
+    {
+      "depth": 1,
+      "eliminated_variable": 5,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1344,
+      "new_scope": [
+        256,
+        450
+      ],
+      "parent_ids": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 450,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1345,
+      "new_scope": [
+        256,
+        271
+      ],
+      "parent_ids": [
+        986,
+        1344
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 18,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1346,
+      "new_scope": [
+        356,
+        528
+      ],
+      "parent_ids": [
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 356,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1347,
+      "new_scope": [
+        328,
+        528
+      ],
+      "parent_ids": [
+        1098,
+        1346
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 27,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1348,
+      "new_scope": [
+        435,
+        446
+      ],
+      "parent_ids": [
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 446,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1349,
+      "new_scope": [
+        233,
+        435
+      ],
+      "parent_ids": [
+        878,
+        1348
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 34,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1350,
+      "new_scope": [
+        28,
+        321
+      ],
+      "parent_ids": [
+        127,
+        128,
+        161,
+        162
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 321,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1351,
+      "new_scope": [
+        28,
+        116
+      ],
+      "parent_ids": [
+        507,
+        1350
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 61,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1352,
+      "new_scope": [
+        215,
+        606
+      ],
+      "parent_ids": [
+        275,
+        276,
+        277,
+        278
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 215,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1353,
+      "new_scope": [
+        222,
+        606
+      ],
+      "parent_ids": [
+        841,
+        1352
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 65,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1354,
+      "new_scope": [
+        17,
+        48
+      ],
+      "parent_ids": [
+        81,
+        82,
+        217,
+        293
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 17,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1355,
+      "new_scope": [
+        48,
+        285
+      ],
+      "parent_ids": [
+        83,
+        1354
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 72,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1356,
+      "new_scope": [
+        172,
+        602
+      ],
+      "parent_ids": [
+        322,
+        323,
+        324,
+        325
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 602,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1357,
+      "new_scope": [
+        172,
+        481
+      ],
+      "parent_ids": [
+        1290,
+        1356
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 90,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1358,
+      "new_scope": [
+        171,
+        183
+      ],
+      "parent_ids": [
+        400,
+        401,
+        402,
+        403
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 183,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1359,
+      "new_scope": [
+        124,
+        171
+      ],
+      "parent_ids": [
+        528,
+        1358
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 95,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1360,
+      "new_scope": [
+        73,
+        230
+      ],
+      "parent_ids": [
+        327,
+        328,
+        419,
+        420
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 73,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1361,
+      "new_scope": [
+        89,
+        230
+      ],
+      "parent_ids": [
+        326,
+        1360
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 98,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1362,
+      "new_scope": [
+        145,
+        354
+      ],
+      "parent_ids": [
+        428,
+        429,
+        430,
+        431
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 145,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1363,
+      "new_scope": [
+        162,
+        354
+      ],
+      "parent_ids": [
+        605,
+        1362
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 104,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1364,
+      "new_scope": [
+        475,
+        585
+      ],
+      "parent_ids": [
+        450,
+        451,
+        452,
+        453
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 585,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1365,
+      "new_scope": [
+        152,
+        475
+      ],
+      "parent_ids": [
+        631,
+        1364
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 105,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1366,
+      "new_scope": [
+        109,
+        232
+      ],
+      "parent_ids": [
+        454,
+        455,
+        456,
+        457
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 109,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1367,
+      "new_scope": [
+        232,
+        496
+      ],
+      "parent_ids": [
+        478,
+        1366
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 126,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1368,
+      "new_scope": [
+        290,
+        374
+      ],
+      "parent_ids": [
+        536,
+        537,
+        538,
+        539
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 290,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1369,
+      "new_scope": [
+        234,
+        374
+      ],
+      "parent_ids": [
+        879,
+        1368
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 140,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1370,
+      "new_scope": [
+        392,
+        483
+      ],
+      "parent_ids": [
+        582,
+        583,
+        584,
+        585
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 483,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1371,
+      "new_scope": [
+        252,
+        392
+      ],
+      "parent_ids": [
+        939,
+        1370
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 165,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1372,
+      "new_scope": [
+        418,
+        482
+      ],
+      "parent_ids": [
+        675,
+        676,
+        677,
+        678
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 482,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1373,
+      "new_scope": [
+        418,
+        521
+      ],
+      "parent_ids": [
+        1291,
+        1372
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 173,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1374,
+      "new_scope": [
+        432,
+        531
+      ],
+      "parent_ids": [
+        706,
+        707,
+        708,
+        709
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 531,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1375,
+      "new_scope": [
+        432,
+        529
+      ],
+      "parent_ids": [
+        1322,
+        1374
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 179,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1376,
+      "new_scope": [
+        23,
+        395
+      ],
+      "parent_ids": [
+        103,
+        104,
+        723,
+        724
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 23,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1377,
+      "new_scope": [
+        395,
+        588
+      ],
+      "parent_ids": [
+        105,
+        1376
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 184,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1378,
+      "new_scope": [
+        379,
+        459
+      ],
+      "parent_ids": [
+        736,
+        737,
+        738,
+        739
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 379,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1379,
+      "new_scope": [
+        240,
+        459
+      ],
+      "parent_ids": [
+        901,
+        1378
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 188,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1380,
+      "new_scope": [
+        127,
+        178
+      ],
+      "parent_ids": [
+        540,
+        541,
+        719,
+        754
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 127,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1381,
+      "new_scope": [
+        178,
+        500
+      ],
+      "parent_ids": [
+        542,
+        1380
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 190,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1382,
+      "new_scope": [
+        410,
+        497
+      ],
+      "parent_ids": [
+        759,
+        760,
+        761,
+        762
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 410,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1383,
+      "new_scope": [
+        426,
+        497
+      ],
+      "parent_ids": [
+        1217,
+        1382
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 194,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1384,
+      "new_scope": [
+        100,
+        350
+      ],
+      "parent_ids": [
+        436,
+        437,
+        770,
+        771
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 100,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1385,
+      "new_scope": [
+        350,
+        351
+      ],
+      "parent_ids": [
+        438,
+        1384
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 203,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1386,
+      "new_scope": [
+        45,
+        276
+      ],
+      "parent_ids": [
+        206,
+        207,
+        799,
+        800
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 45,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1387,
+      "new_scope": [
+        142,
+        276
+      ],
+      "parent_ids": [
+        205,
+        1386
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 204,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1388,
+      "new_scope": [
+        79,
+        309
+      ],
+      "parent_ids": [
+        353,
+        354,
+        801,
+        802
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 79,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1389,
+      "new_scope": [
+        197,
+        309
+      ],
+      "parent_ids": [
+        352,
+        1388
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 216,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1390,
+      "new_scope": [
+        301,
+        382
+      ],
+      "parent_ids": [
+        842,
+        843,
+        844,
+        845
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 301,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1391,
+      "new_scope": [
+        10,
+        382
+      ],
+      "parent_ids": [
+        47,
+        1390
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 235,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1392,
+      "new_scope": [
+        161,
+        277
+      ],
+      "parent_ids": [
+        665,
+        666,
+        880,
+        881
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 161,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1393,
+      "new_scope": [
+        277,
+        339
+      ],
+      "parent_ids": [
+        667,
+        1392
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 248,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1394,
+      "new_scope": [
+        117,
+        542
+      ],
+      "parent_ids": [
+        509,
+        510,
+        924,
+        925
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 542,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1395,
+      "new_scope": [
+        117,
+        300
+      ],
+      "parent_ids": [
+        1044,
+        1394
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 267,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1396,
+      "new_scope": [
+        78,
+        468
+      ],
+      "parent_ids": [
+        347,
+        348,
+        970,
+        971
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 468,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1397,
+      "new_scope": [
+        78,
+        181
+      ],
+      "parent_ids": [
+        730,
+        1396
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 269,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1398,
+      "new_scope": [
+        409,
+        597
+      ],
+      "parent_ids": [
+        975,
+        976,
+        977,
+        978
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 409,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1399,
+      "new_scope": [
+        220,
+        597
+      ],
+      "parent_ids": [
+        851,
+        1398
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 281,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1400,
+      "new_scope": [
+        319,
+        325
+      ],
+      "parent_ids": [
+        1006,
+        1007,
+        1008,
+        1009
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 319,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1401,
+      "new_scope": [
+        189,
+        325
+      ],
+      "parent_ids": [
+        755,
+        1400
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 286,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1402,
+      "new_scope": [
+        81,
+        238
+      ],
+      "parent_ids": [
+        360,
+        361,
+        888,
+        1017
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 81,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1403,
+      "new_scope": [
+        238,
+        536
+      ],
+      "parent_ids": [
+        362,
+        1402
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 287,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1404,
+      "new_scope": [
+        242,
+        485
+      ],
+      "parent_ids": [
+        905,
+        906,
+        1018,
+        1019
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 242,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1405,
+      "new_scope": [
+        243,
+        485
+      ],
+      "parent_ids": [
+        904,
+        1404
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 289,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1406,
+      "new_scope": [
+        16,
+        331
+      ],
+      "parent_ids": [
+        78,
+        79,
+        1023,
+        1024
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 16,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1407,
+      "new_scope": [
+        331,
+        490
+      ],
+      "parent_ids": [
+        80,
+        1406
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 292,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1408,
+      "new_scope": [
+        368,
+        471
+      ],
+      "parent_ids": [
+        1026,
+        1027,
+        1028,
+        1029
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 368,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1409,
+      "new_scope": [
+        471,
+        574
+      ],
+      "parent_ids": [
+        1168,
+        1408
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 307,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1410,
+      "new_scope": [
+        480,
+        503
+      ],
+      "parent_ids": [
+        1058,
+        1059,
+        1060,
+        1061
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 503,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1411,
+      "new_scope": [
+        159,
+        480
+      ],
+      "parent_ids": [
+        658,
+        1410
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 310,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1412,
+      "new_scope": [
+        268,
+        572
+      ],
+      "parent_ids": [
+        972,
+        973,
+        1063,
+        1064
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 268,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1413,
+      "new_scope": [
+        488,
+        572
+      ],
+      "parent_ids": [
+        974,
+        1412
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 314,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1414,
+      "new_scope": [
+        118,
+        134
+      ],
+      "parent_ids": [
+        512,
+        513,
+        565,
+        1072
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 118,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1415,
+      "new_scope": [
+        38,
+        134
+      ],
+      "parent_ids": [
+        177,
+        1414
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 320,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1416,
+      "new_scope": [
+        94,
+        407
+      ],
+      "parent_ids": [
+        416,
+        417,
+        1079,
+        1080
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 94,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1417,
+      "new_scope": [
+        407,
+        433
+      ],
+      "parent_ids": [
+        418,
+        1416
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 340,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1418,
+      "new_scope": [
+        455,
+        600
+      ],
+      "parent_ids": [
+        1118,
+        1119,
+        1120,
+        1121
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 600,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1419,
+      "new_scope": [
+        144,
+        455
+      ],
+      "parent_ids": [
+        604,
+        1418
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 344,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1420,
+      "new_scope": [
+        264,
+        448
+      ],
+      "parent_ids": [
+        963,
+        964,
+        1128,
+        1129
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 264,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1421,
+      "new_scope": [
+        440,
+        448
+      ],
+      "parent_ids": [
+        965,
+        1420
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 346,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1422,
+      "new_scope": [
+        93,
+        540
+      ],
+      "parent_ids": [
+        414,
+        415,
+        1132,
+        1133
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 540,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1423,
+      "new_scope": [
+        93,
+        337
+      ],
+      "parent_ids": [
+        1116,
+        1422
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 357,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1424,
+      "new_scope": [
+        257,
+        329
+      ],
+      "parent_ids": [
+        952,
+        953,
+        1100,
+        1153
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 257,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1425,
+      "new_scope": [
+        131,
+        329
+      ],
+      "parent_ids": [
+        554,
+        1424
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 362,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1426,
+      "new_scope": [
+        11,
+        214
+      ],
+      "parent_ids": [
+        51,
+        52,
+        840,
+        1161
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 214,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1427,
+      "new_scope": [
+        11,
+        136
+      ],
+      "parent_ids": [
+        573,
+        1426
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 412,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1428,
+      "new_scope": [
+        388,
+        415
+      ],
+      "parent_ids": [
+        1191,
+        1192,
+        1219,
+        1220
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 415,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1429,
+      "new_scope": [
+        388,
+        569
+      ],
+      "parent_ids": [
+        1225,
+        1428
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 420,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1430,
+      "new_scope": [
+        121,
+        441
+      ],
+      "parent_ids": [
+        521,
+        522,
+        1230,
+        1231
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 441,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1431,
+      "new_scope": [
+        121,
+        526
+      ],
+      "parent_ids": [
+        1253,
+        1430
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 430,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1432,
+      "new_scope": [
+        60,
+        125
+      ],
+      "parent_ids": [
+        272,
+        274,
+        534,
+        1242
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 60,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1433,
+      "new_scope": [
+        125,
+        422
+      ],
+      "parent_ids": [
+        273,
+        1432
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 442,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1434,
+      "new_scope": [
+        103,
+        453
+      ],
+      "parent_ids": [
+        448,
+        449,
+        1254,
+        1255
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 453,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1435,
+      "new_scope": [
+        103,
+        119
+      ],
+      "parent_ids": [
+        515,
+        1434
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 444,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1436,
+      "new_scope": [
+        186,
+        578
+      ],
+      "parent_ids": [
+        745,
+        746,
+        1257,
+        1258
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 578,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1437,
+      "new_scope": [
+        186,
+        383
+      ],
+      "parent_ids": [
+        1186,
+        1436
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 467,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1438,
+      "new_scope": [
+        304,
+        551
+      ],
+      "parent_ids": [
+        1051,
+        1052,
+        1273,
+        1274
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 551,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1439,
+      "new_scope": [
+        253,
+        304
+      ],
+      "parent_ids": [
+        941,
+        1438
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 484,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1440,
+      "new_scope": [
+        113,
+        342
+      ],
+      "parent_ids": [
+        495,
+        496,
+        1125,
+        1292
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 113,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1441,
+      "new_scope": [
+        342,
+        592
+      ],
+      "parent_ids": [
+        497,
+        1440
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 489,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1442,
+      "new_scope": [
+        139,
+        425
+      ],
+      "parent_ids": [
+        579,
+        581,
+        1236,
+        1298
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 425,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1443,
+      "new_scope": [
+        139,
+        599
+      ],
+      "parent_ids": [
+        1237,
+        1442
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 507,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1444,
+      "new_scope": [
+        53,
+        434
+      ],
+      "parent_ids": [
+        247,
+        248,
+        1245,
+        1311
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 434,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1445,
+      "new_scope": [
+        53,
+        153
+      ],
+      "parent_ids": [
+        633,
+        1444
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 508,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1446,
+      "new_scope": [
+        302,
+        547
+      ],
+      "parent_ids": [
+        1046,
+        1047,
+        1312,
+        1313
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 547,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1447,
+      "new_scope": [
+        302,
+        501
+      ],
+      "parent_ids": [
+        1308,
+        1446
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 510,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1448,
+      "new_scope": [
+        155,
+        355
+      ],
+      "parent_ids": [
+        639,
+        641,
+        1152,
+        1315
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 355,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1449,
+      "new_scope": [
+        146,
+        155
+      ],
+      "parent_ids": [
+        608,
+        1448
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 511,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1450,
+      "new_scope": [
+        207,
+        519
+      ],
+      "parent_ids": [
+        815,
+        816,
+        1316,
+        1317
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 519,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1451,
+      "new_scope": [
+        207,
+        559
+      ],
+      "parent_ids": [
+        1319,
+        1450
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 514,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1452,
+      "new_scope": [
+        129,
+        278
+      ],
+      "parent_ids": [
+        546,
+        548,
+        1001,
+        1318
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 129,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1453,
+      "new_scope": [
+        278,
+        396
+      ],
+      "parent_ids": [
+        547,
+        1452
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 548,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1454,
+      "new_scope": [
+        80,
+        530
+      ],
+      "parent_ids": [
+        357,
+        358,
+        1323,
+        1331
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 530,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1455,
+      "new_scope": [
+        80,
+        97
+      ],
+      "parent_ids": [
+        426,
+        1454
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 549,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1456,
+      "new_scope": [
+        284,
+        381
+      ],
+      "parent_ids": [
+        1013,
+        1015,
+        1181,
+        1332
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 381,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1457,
+      "new_scope": [
+        227,
+        284
+      ],
+      "parent_ids": [
+        868,
+        1456
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 552,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1458,
+      "new_scope": [
+        427,
+        458
+      ],
+      "parent_ids": [
+        1238,
+        1239,
+        1270,
+        1333
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 427,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1459,
+      "new_scope": [
+        102,
+        458
+      ],
+      "parent_ids": [
+        446,
+        1458
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 556,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1460,
+      "new_scope": [
+        91,
+        534
+      ],
+      "parent_ids": [
+        405,
+        406,
+        1326,
+        1336
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 91,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1461,
+      "new_scope": [
+        128,
+        534
+      ],
+      "parent_ids": [
+        404,
+        1460
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 560,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1462,
+      "new_scope": [
+        130,
+        335
+      ],
+      "parent_ids": [
+        549,
+        550,
+        1111,
+        1338
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 335,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1463,
+      "new_scope": [
+        130,
+        494
+      ],
+      "parent_ids": [
+        1110,
+        1462
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 583,
+      "new_allowed": [
+        2
+      ],
+      "new_relation_id": 1464,
+      "new_scope": [
+        265,
+        555
+      ],
+      "parent_ids": [
+        966,
+        967,
+        1335,
+        1339
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 265,
+      "new_allowed": [
+        3
+      ],
+      "new_relation_id": 1465,
+      "new_scope": [
+        174,
+        555
+      ],
+      "parent_ids": [
+        710,
+        1464
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 593,
+      "new_allowed": [
+        0
+      ],
+      "new_relation_id": 1466,
+      "new_scope": [
+        163,
+        533
+      ],
+      "parent_ids": [
+        670,
+        671,
+        1325,
+        1341
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 163,
+      "new_allowed": [
+        1
+      ],
+      "new_relation_id": 1467,
+      "new_scope": [
+        347,
+        533
+      ],
+      "parent_ids": [
+        669,
+        1466
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 596,
+      "new_allowed": [
+        1,
+        2,
+        3
+      ],
+      "new_relation_id": 1468,
+      "new_scope": [
+        15,
+        143
+      ],
+      "parent_ids": [
+        75,
+        77,
+        600,
+        1342
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 15,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1469,
+      "new_scope": [
+        143,
+        506
+      ],
+      "parent_ids": [
+        76,
+        1468
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 605,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1470,
+      "new_scope": [
+        261,
+        365
+      ],
+      "parent_ids": [
+        956,
+        957,
+        1166,
+        1343
+      ]
+    },
+    {
+      "depth": 2,
+      "eliminated_variable": 261,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1471,
+      "new_scope": [
+        122,
+        365
+      ],
+      "parent_ids": [
+        524,
+        1470
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 4,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1472,
+      "new_scope": [
+        26,
+        36,
+        447
+      ],
+      "parent_ids": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 6,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1473,
+      "new_scope": [
+        137,
+        370,
+        579
+      ],
+      "parent_ids": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 21,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1474,
+      "new_scope": [
+        246,
+        417,
+        443
+      ],
+      "parent_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 22,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1475,
+      "new_scope": [
+        293,
+        299,
+        470
+      ],
+      "parent_ids": [
+        100,
+        101,
+        102
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 35,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1476,
+      "new_scope": [
+        196,
+        387,
+        554
+      ],
+      "parent_ids": [
+        163,
+        164,
+        165
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 40,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1477,
+      "new_scope": [
+        96,
+        303,
+        515
+      ],
+      "parent_ids": [
+        184,
+        185,
+        186
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 41,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1478,
+      "new_scope": [
+        296,
+        324,
+        463
+      ],
+      "parent_ids": [
+        187,
+        188,
+        189
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 44,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1479,
+      "new_scope": [
+        428,
+        477,
+        595
+      ],
+      "parent_ids": [
+        202,
+        203,
+        204
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 56,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1480,
+      "new_scope": [
+        343,
+        462,
+        479
+      ],
+      "parent_ids": [
+        255,
+        256,
+        257
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 59,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1481,
+      "new_scope": [
+        9,
+        359,
+        491
+      ],
+      "parent_ids": [
+        43,
+        270,
+        271
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 63,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1482,
+      "new_scope": [
+        46,
+        177,
+        527
+      ],
+      "parent_ids": [
+        208,
+        283,
+        284
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 67,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1483,
+      "new_scope": [
+        71,
+        147,
+        241
+      ],
+      "parent_ids": [
+        299,
+        300,
+        301
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 69,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1484,
+      "new_scope": [
+        47,
+        390,
+        580
+      ],
+      "parent_ids": [
+        213,
+        310,
+        311
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 74,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1485,
+      "new_scope": [
+        185,
+        208,
+        565
+      ],
+      "parent_ids": [
+        329,
+        330,
+        331
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 77,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1486,
+      "new_scope": [
+        386,
+        413,
+        516
+      ],
+      "parent_ids": [
+        344,
+        345,
+        346
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 82,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1487,
+      "new_scope": [
+        49,
+        187,
+        404
+      ],
+      "parent_ids": [
+        219,
+        363,
+        364
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 86,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1488,
+      "new_scope": [
+        24,
+        266,
+        363
+      ],
+      "parent_ids": [
+        106,
+        386,
+        387
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 132,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1489,
+      "new_scope": [
+        330,
+        411,
+        546
+      ],
+      "parent_ids": [
+        556,
+        557,
+        558
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 149,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1490,
+      "new_scope": [
+        54,
+        291,
+        535
+      ],
+      "parent_ids": [
+        251,
+        252,
+        616
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 167,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1491,
+      "new_scope": [
+        318,
+        498,
+        584
+      ],
+      "parent_ids": [
+        687,
+        688,
+        689
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 175,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "new_relation_id": 1492,
+      "new_scope": [
+        156,
+        416,
+        457
+      ],
+      "parent_ids": [
+        642,
+        711,
+        712
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 182,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "new_relation_id": 1493,
+      "new_scope": [
+        120,
+        316,
+        405
+      ],
+      "parent_ids": [
+        516,
+        734,
+        735
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 192,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1494,
+      "new_scope": [
+        106,
+        224,
+        373
+      ],
+      "parent_ids": [
+        458,
+        459,
+        765
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 217,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1495,
+      "new_scope": [
+        209,
+        305,
+        522
+      ],
+      "parent_ids": [
+        820,
+        846,
+        847
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 218,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1496,
+      "new_scope": [
+        62,
+        70,
+        431
+      ],
+      "parent_ids": [
+        279,
+        314,
+        315
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 223,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "new_relation_id": 1497,
+      "new_scope": [
+        32,
+        212,
+        571
+      ],
+      "parent_ids": [
+        151,
+        832,
+        858
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 225,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1498,
+      "new_scope": [
+        58,
+        377,
+        380
+      ],
+      "parent_ids": [
+        265,
+        266,
+        860
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 255,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "new_relation_id": 1499,
+      "new_scope": [
+        42,
+        263,
+        338
+      ],
+      "parent_ids": [
+        190,
+        947,
+        948
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 260,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1500,
+      "new_scope": [
+        108,
+        158,
+        213
+      ],
+      "parent_ids": [
+        474,
+        475,
+        652
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 262,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1501,
+      "new_scope": [
+        226,
+        364,
+        403
+      ],
+      "parent_ids": [
+        861,
+        862,
+        958
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 272,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1502,
+      "new_scope": [
+        13,
+        20,
+        537
+      ],
+      "parent_ids": [
+        64,
+        95,
+        987
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 274,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1503,
+      "new_scope": [
+        154,
+        231,
+        538
+      ],
+      "parent_ids": [
+        634,
+        635,
+        875
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 315,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1504,
+      "new_scope": [
+        160,
+        288,
+        399
+      ],
+      "parent_ids": [
+        663,
+        1020,
+        1073
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 317,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1505,
+      "new_scope": [
+        348,
+        371,
+        586
+      ],
+      "parent_ids": [
+        1075,
+        1076,
+        1077
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 345,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1506,
+      "new_scope": [
+        244,
+        406,
+        476
+      ],
+      "parent_ids": [
+        910,
+        1130,
+        1131
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 352,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1507,
+      "new_scope": [
+        88,
+        200,
+        438
+      ],
+      "parent_ids": [
+        397,
+        791,
+        1147
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 367,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1508,
+      "new_scope": [
+        221,
+        389,
+        423
+      ],
+      "parent_ids": [
+        852,
+        853,
+        1167
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 375,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1509,
+      "new_scope": [
+        164,
+        394,
+        478
+      ],
+      "parent_ids": [
+        672,
+        1176,
+        1177
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 378,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1510,
+      "new_scope": [
+        133,
+        358,
+        456
+      ],
+      "parent_ids": [
+        561,
+        1154,
+        1179
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 384,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1511,
+      "new_scope": [
+        114,
+        341,
+        518
+      ],
+      "parent_ids": [
+        499,
+        1122,
+        1187
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 398,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1512,
+      "new_scope": [
+        7,
+        283,
+        360
+      ],
+      "parent_ids": [
+        33,
+        34,
+        1158
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 401,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1513,
+      "new_scope": [
+        101,
+        275,
+        295
+      ],
+      "parent_ids": [
+        439,
+        991,
+        992
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 402,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1514,
+      "new_scope": [
+        19,
+        228,
+        502
+      ],
+      "parent_ids": [
+        89,
+        91,
+        1209
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 414,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "new_relation_id": 1515,
+      "new_scope": [
+        1,
+        123,
+        513
+      ],
+      "parent_ids": [
+        3,
+        526,
+        1224
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 439,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1516,
+      "new_scope": [
+        445,
+        454,
+        604
+      ],
+      "parent_ids": [
+        1249,
+        1250,
+        1251
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 460,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1517,
+      "new_scope": [
+        169,
+        306,
+        385
+      ],
+      "parent_ids": [
+        694,
+        1056,
+        1057
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 461,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1518,
+      "new_scope": [
+        150,
+        279,
+        568
+      ],
+      "parent_ids": [
+        618,
+        1003,
+        1271
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 464,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1519,
+      "new_scope": [
+        115,
+        198,
+        570
+      ],
+      "parent_ids": [
+        504,
+        781,
+        782
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 465,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1520,
+      "new_scope": [
+        66,
+        168,
+        553
+      ],
+      "parent_ids": [
+        295,
+        297,
+        1272
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 493,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "new_relation_id": 1521,
+      "new_scope": [
+        2,
+        55,
+        601
+      ],
+      "parent_ids": [
+        7,
+        10,
+        1301
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 509,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1522,
+      "new_scope": [
+        157,
+        449,
+        558
+      ],
+      "parent_ids": [
+        649,
+        1261,
+        1314
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 517,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1523,
+      "new_scope": [
+        99,
+        135,
+        202
+      ],
+      "parent_ids": [
+        435,
+        567,
+        570
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 520,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1524,
+      "new_scope": [
+        52,
+        532,
+        591
+      ],
+      "parent_ids": [
+        241,
+        1320,
+        1321
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 523,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1525,
+      "new_scope": [
+        29,
+        313,
+        469
+      ],
+      "parent_ids": [
+        137,
+        138,
+        1275
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 525,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1526,
+      "new_scope": [
+        3,
+        30,
+        393
+      ],
+      "parent_ids": [
+        15,
+        16,
+        142
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 541,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1527,
+      "new_scope": [
+        199,
+        270,
+        487
+      ],
+      "parent_ids": [
+        788,
+        982,
+        1296
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 544,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "new_relation_id": 1528,
+      "new_scope": [
+        336,
+        376,
+        472
+      ],
+      "parent_ids": [
+        1113,
+        1115,
+        1277
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 550,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1529,
+      "new_scope": [
+        110,
+        419,
+        421
+      ],
+      "parent_ids": [
+        480,
+        1229,
+        1232
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 564,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1530,
+      "new_scope": [
+        353,
+        436,
+        486
+      ],
+      "parent_ids": [
+        1149,
+        1247,
+        1295
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 566,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1531,
+      "new_scope": [
+        205,
+        210,
+        372
+      ],
+      "parent_ids": [
+        806,
+        824,
+        1174
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 573,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1532,
+      "new_scope": [
+        349,
+        366,
+        400
+      ],
+      "parent_ids": [
+        1137,
+        1140,
+        1208
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 576,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1533,
+      "new_scope": [
+        51,
+        191,
+        258
+      ],
+      "parent_ids": [
+        233,
+        238,
+        764
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 589,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1534,
+      "new_scope": [
+        247,
+        298,
+        473
+      ],
+      "parent_ids": [
+        923,
+        1040,
+        1278
+      ]
+    },
+    {
+      "depth": 1,
+      "eliminated_variable": 598,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1535,
+      "new_scope": [
+        57,
+        237,
+        273
+      ],
+      "parent_ids": [
+        261,
+        887,
+        989
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 10,
+      "new_allowed": [
+        2,
+        6,
+        7
+      ],
+      "new_relation_id": 1536,
+      "new_scope": [
+        2,
+        382,
+        452
+      ],
+      "parent_ids": [
+        4,
+        5,
+        48,
+        1391
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 382,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1537,
+      "new_scope": [
+        2,
+        452
+      ],
+      "parent_ids": [
+        8,
+        9,
+        1182,
+        1536
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 2,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1538,
+      "new_scope": [
+        55,
+        452,
+        601
+      ],
+      "parent_ids": [
+        6,
+        1521,
+        1537
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 11,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "new_relation_id": 1539,
+      "new_scope": [
+        136,
+        138,
+        477
+      ],
+      "parent_ids": [
+        49,
+        50,
+        53,
+        1427
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 136,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1540,
+      "new_scope": [
+        138,
+        477
+      ],
+      "parent_ids": [
+        571,
+        572,
+        574,
+        1539
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 477,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1541,
+      "new_scope": [
+        138,
+        428,
+        595
+      ],
+      "parent_ids": [
+        1285,
+        1479,
+        1540
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 28,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "new_relation_id": 1542,
+      "new_scope": [
+        116,
+        279,
+        608
+      ],
+      "parent_ids": [
+        129,
+        130,
+        131,
+        1351
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 116,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1543,
+      "new_scope": [
+        279,
+        608
+      ],
+      "parent_ids": [
+        505,
+        506,
+        508,
+        1542
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 279,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "new_relation_id": 1544,
+      "new_scope": [
+        150,
+        568,
+        608
+      ],
+      "parent_ids": [
+        617,
+        1518,
+        1543
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 38,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1545,
+      "new_scope": [
+        54,
+        134,
+        148
+      ],
+      "parent_ids": [
+        175,
+        176,
+        178,
+        1415
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 134,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1546,
+      "new_scope": [
+        54,
+        148
+      ],
+      "parent_ids": [
+        249,
+        250,
+        564,
+        1545
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 54,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1547,
+      "new_scope": [
+        148,
+        291,
+        535
+      ],
+      "parent_ids": [
+        253,
+        1490,
+        1546
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 48,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1548,
+      "new_scope": [
+        33,
+        285,
+        473
+      ],
+      "parent_ids": [
+        156,
+        157,
+        218,
+        1355
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 285,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1549,
+      "new_scope": [
+        33,
+        473
+      ],
+      "parent_ids": [
+        159,
+        160,
+        1016,
+        1548
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 473,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "new_relation_id": 1550,
+      "new_scope": [
+        33,
+        247,
+        298
+      ],
+      "parent_ids": [
+        922,
+        1534,
+        1549
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 53,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1551,
+      "new_scope": [
+        75,
+        153,
+        221
+      ],
+      "parent_ids": [
+        244,
+        245,
+        246,
+        1445
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 153,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1552,
+      "new_scope": [
+        75,
+        221
+      ],
+      "parent_ids": [
+        332,
+        333,
+        632,
+        1551
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 221,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "new_relation_id": 1553,
+      "new_scope": [
+        75,
+        389,
+        423
+      ],
+      "parent_ids": [
+        854,
+        1508,
+        1552
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 78,
+      "new_allowed": [
+        1,
+        3,
+        5
+      ],
+      "new_relation_id": 1554,
+      "new_scope": [
+        181,
+        487,
+        590
+      ],
+      "parent_ids": [
+        349,
+        350,
+        351,
+        1397
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 181,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1555,
+      "new_scope": [
+        487,
+        590
+      ],
+      "parent_ids": [
+        731,
+        732,
+        733,
+        1554
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 487,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "new_relation_id": 1556,
+      "new_scope": [
+        199,
+        270,
+        590
+      ],
+      "parent_ids": [
+        787,
+        1527,
+        1555
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 80,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1557,
+      "new_scope": [
+        97,
+        154,
+        582
+      ],
+      "parent_ids": [
+        355,
+        356,
+        359,
+        1455
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 97,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1558,
+      "new_scope": [
+        154,
+        582
+      ],
+      "parent_ids": [
+        424,
+        425,
+        427,
+        1557
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 154,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "new_relation_id": 1559,
+      "new_scope": [
+        231,
+        538,
+        582
+      ],
+      "parent_ids": [
+        636,
+        1503,
+        1558
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 89,
+      "new_allowed": [
+        0,
+        4,
+        5
+      ],
+      "new_relation_id": 1560,
+      "new_scope": [
+        76,
+        230,
+        275
+      ],
+      "parent_ids": [
+        336,
+        337,
+        399,
+        1361
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 230,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1561,
+      "new_scope": [
+        76,
+        275
+      ],
+      "parent_ids": [
+        340,
+        341,
+        872,
+        1560
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 275,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1562,
+      "new_scope": [
+        76,
+        101,
+        295
+      ],
+      "parent_ids": [
+        990,
+        1513,
+        1561
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 93,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1563,
+      "new_scope": [
+        96,
+        180,
+        337
+      ],
+      "parent_ids": [
+        411,
+        412,
+        413,
+        1423
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 337,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1564,
+      "new_scope": [
+        96,
+        180
+      ],
+      "parent_ids": [
+        421,
+        422,
+        729,
+        1563
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 96,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1565,
+      "new_scope": [
+        180,
+        303,
+        515
+      ],
+      "parent_ids": [
+        423,
+        1477,
+        1564
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 102,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_relation_id": 1566,
+      "new_scope": [
+        176,
+        372,
+        458
+      ],
+      "parent_ids": [
+        443,
+        444,
+        445,
+        1459
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 458,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1567,
+      "new_scope": [
+        176,
+        372
+      ],
+      "parent_ids": [
+        714,
+        716,
+        1173,
+        1566
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 372,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1568,
+      "new_scope": [
+        176,
+        205,
+        210
+      ],
+      "parent_ids": [
+        823,
+        1531,
+        1567
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 103,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1569,
+      "new_scope": [
+        7,
+        119,
+        229
+      ],
+      "parent_ids": [
+        28,
+        29,
+        447,
+        1435
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 119,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1570,
+      "new_scope": [
+        7,
+        229
+      ],
+      "parent_ids": [
+        30,
+        31,
+        514,
+        1569
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 7,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "new_relation_id": 1571,
+      "new_scope": [
+        229,
+        283,
+        360
+      ],
+      "parent_ids": [
+        32,
+        1512,
+        1570
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 117,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "new_relation_id": 1572,
+      "new_scope": [
+        108,
+        300,
+        308
+      ],
+      "parent_ids": [
+        471,
+        472,
+        511,
+        1395
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 300,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1573,
+      "new_scope": [
+        108,
+        308
+      ],
+      "parent_ids": [
+        476,
+        477,
+        1043,
+        1572
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 108,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "new_relation_id": 1574,
+      "new_scope": [
+        158,
+        213,
+        308
+      ],
+      "parent_ids": [
+        473,
+        1500,
+        1573
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 121,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1575,
+      "new_scope": [
+        201,
+        486,
+        526
+      ],
+      "parent_ids": [
+        519,
+        520,
+        523,
+        1431
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 526,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1576,
+      "new_scope": [
+        201,
+        486
+      ],
+      "parent_ids": [
+        794,
+        795,
+        1294,
+        1575
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 486,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1577,
+      "new_scope": [
+        201,
+        353,
+        436
+      ],
+      "parent_ids": [
+        1148,
+        1530,
+        1576
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 122,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "new_relation_id": 1578,
+      "new_scope": [
+        50,
+        365,
+        463
+      ],
+      "parent_ids": [
+        224,
+        225,
+        525,
+        1471
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 365,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1579,
+      "new_scope": [
+        50,
+        463
+      ],
+      "parent_ids": [
+        228,
+        229,
+        1165,
+        1578
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 463,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1580,
+      "new_scope": [
+        50,
+        296,
+        324
+      ],
+      "parent_ids": [
+        1088,
+        1478,
+        1579
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 124,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "new_relation_id": 1581,
+      "new_scope": [
+        171,
+        338,
+        495
+      ],
+      "parent_ids": [
+        529,
+        530,
+        531,
+        1359
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 171,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1582,
+      "new_scope": [
+        338,
+        495
+      ],
+      "parent_ids": [
+        703,
+        704,
+        705,
+        1581
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 338,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1583,
+      "new_scope": [
+        42,
+        263,
+        495
+      ],
+      "parent_ids": [
+        962,
+        1499,
+        1582
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 125,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1584,
+      "new_scope": [
+        326,
+        422,
+        447
+      ],
+      "parent_ids": [
+        532,
+        533,
+        535,
+        1433
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 422,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1585,
+      "new_scope": [
+        326,
+        447
+      ],
+      "parent_ids": [
+        1092,
+        1093,
+        1233,
+        1584
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 447,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "new_relation_id": 1586,
+      "new_scope": [
+        26,
+        36,
+        326
+      ],
+      "parent_ids": [
+        119,
+        1472,
+        1585
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 128,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1587,
+      "new_scope": [
+        397,
+        534,
+        571
+      ],
+      "parent_ids": [
+        543,
+        544,
+        545,
+        1461
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 534,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1588,
+      "new_scope": [
+        397,
+        571
+      ],
+      "parent_ids": [
+        1205,
+        1206,
+        1327,
+        1587
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 571,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1589,
+      "new_scope": [
+        32,
+        212,
+        397
+      ],
+      "parent_ids": [
+        835,
+        1497,
+        1588
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 130,
+      "new_allowed": [
+        0,
+        1,
+        4
+      ],
+      "new_relation_id": 1590,
+      "new_scope": [
+        14,
+        494,
+        591
+      ],
+      "parent_ids": [
+        69,
+        70,
+        551,
+        1463
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 494,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1591,
+      "new_scope": [
+        14,
+        591
+      ],
+      "parent_ids": [
+        72,
+        73,
+        1302,
+        1590
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 591,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "new_relation_id": 1592,
+      "new_scope": [
+        14,
+        52,
+        532
+      ],
+      "parent_ids": [
+        243,
+        1524,
+        1591
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 131,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1593,
+      "new_scope": [
+        241,
+        329,
+        369
+      ],
+      "parent_ids": [
+        552,
+        553,
+        555,
+        1425
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 329,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1594,
+      "new_scope": [
+        241,
+        369
+      ],
+      "parent_ids": [
+        902,
+        903,
+        1101,
+        1593
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 241,
+      "new_allowed": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1595,
+      "new_scope": [
+        71,
+        147,
+        369
+      ],
+      "parent_ids": [
+        610,
+        1483,
+        1594
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 139,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "new_relation_id": 1596,
+      "new_scope": [
+        12,
+        476,
+        599
+      ],
+      "parent_ids": [
+        54,
+        55,
+        580,
+        1443
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 599,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1597,
+      "new_scope": [
+        12,
+        476
+      ],
+      "parent_ids": [
+        59,
+        61,
+        1284,
+        1596
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 476,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1598,
+      "new_scope": [
+        12,
+        244,
+        406
+      ],
+      "parent_ids": [
+        912,
+        1506,
+        1597
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 142,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1599,
+      "new_scope": [
+        276,
+        306,
+        603
+      ],
+      "parent_ids": [
+        594,
+        595,
+        596,
+        1387
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 276,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1600,
+      "new_scope": [
+        306,
+        603
+      ],
+      "parent_ids": [
+        993,
+        994,
+        995,
+        1599
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 306,
+      "new_allowed": [
+        0,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1601,
+      "new_scope": [
+        169,
+        385,
+        603
+      ],
+      "parent_ids": [
+        1055,
+        1517,
+        1600
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 143,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1602,
+      "new_scope": [
+        419,
+        506,
+        567
+      ],
+      "parent_ids": [
+        597,
+        598,
+        599,
+        1469
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 506,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1603,
+      "new_scope": [
+        419,
+        567
+      ],
+      "parent_ids": [
+        1227,
+        1228,
+        1310,
+        1602
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 419,
+      "new_allowed": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1604,
+      "new_scope": [
+        110,
+        421,
+        567
+      ],
+      "parent_ids": [
+        479,
+        1529,
+        1603
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 144,
+      "new_allowed": [
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1605,
+      "new_scope": [
+        151,
+        237,
+        455
+      ],
+      "parent_ids": [
+        601,
+        602,
+        603,
+        1419
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 455,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1606,
+      "new_scope": [
+        151,
+        237
+      ],
+      "parent_ids": [
+        622,
+        626,
+        886,
+        1605
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 237,
+      "new_allowed": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "new_relation_id": 1607,
+      "new_scope": [
+        57,
+        151,
+        273
+      ],
+      "parent_ids": [
+        260,
+        1535,
+        1606
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 146,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1608,
+      "new_scope": [
+        155,
+        249,
+        405
+      ],
+      "parent_ids": [
+        606,
+        607,
+        609,
+        1449
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 155,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1609,
+      "new_scope": [
+        249,
+        405
+      ],
+      "parent_ids": [
+        637,
+        638,
+        640,
+        1608
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 405,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "new_relation_id": 1610,
+      "new_scope": [
+        120,
+        249,
+        316
+      ],
+      "parent_ids": [
+        517,
+        1493,
+        1609
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 152,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1611,
+      "new_scope": [
+        456,
+        475,
+        561
+      ],
+      "parent_ids": [
+        628,
+        629,
+        630,
+        1365
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 475,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1612,
+      "new_scope": [
+        456,
+        561
+      ],
+      "parent_ids": [
+        1265,
+        1266,
+        1283,
+        1611
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 456,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_relation_id": 1613,
+      "new_scope": [
+        133,
+        358,
+        561
+      ],
+      "parent_ids": [
+        563,
+        1510,
+        1612
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 159,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1614,
+      "new_scope": [
+        413,
+        480,
+        539
+      ],
+      "parent_ids": [
+        656,
+        657,
+        659,
+        1411
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 480,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1615,
+      "new_scope": [
+        413,
+        539
+      ],
+      "parent_ids": [
+        1221,
+        1222,
+        1289,
+        1614
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 413,
+      "new_allowed": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1616,
+      "new_scope": [
+        386,
+        516,
+        539
+      ],
+      "parent_ids": [
+        1223,
+        1486,
+        1615
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 162,
+      "new_allowed": [
+        0,
+        1,
+        5
+      ],
+      "new_relation_id": 1617,
+      "new_scope": [
+        111,
+        354,
+        513
+      ],
+      "parent_ids": [
+        483,
+        484,
+        668,
+        1363
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 354,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1618,
+      "new_scope": [
+        111,
+        513
+      ],
+      "parent_ids": [
+        485,
+        486,
+        1151,
+        1617
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 513,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "new_relation_id": 1619,
+      "new_scope": [
+        1,
+        111,
+        123
+      ],
+      "parent_ids": [
+        527,
+        1515,
+        1618
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 172,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1620,
+      "new_scope": [
+        39,
+        66,
+        481
+      ],
+      "parent_ids": [
+        179,
+        182,
+        296,
+        1357
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 481,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1621,
+      "new_scope": [
+        39,
+        66
+      ],
+      "parent_ids": [
+        180,
+        183,
+        298,
+        1620
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 66,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "new_relation_id": 1622,
+      "new_scope": [
+        39,
+        168,
+        553
+      ],
+      "parent_ids": [
+        294,
+        1520,
+        1621
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 174,
+      "new_allowed": [
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1623,
+      "new_scope": [
+        3,
+        148,
+        555
+      ],
+      "parent_ids": [
+        11,
+        13,
+        614,
+        1465
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 555,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1624,
+      "new_scope": [
+        3,
+        148
+      ],
+      "parent_ids": [
+        12,
+        17,
+        615,
+        1623
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 148,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1625,
+      "new_scope": [
+        3,
+        291,
+        535
+      ],
+      "parent_ids": [
+        1547,
+        1624
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 178,
+      "new_allowed": [
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1626,
+      "new_scope": [
+        323,
+        470,
+        500
+      ],
+      "parent_ids": [
+        720,
+        721,
+        722,
+        1381
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 500,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1627,
+      "new_scope": [
+        323,
+        470
+      ],
+      "parent_ids": [
+        1084,
+        1086,
+        1276,
+        1626
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 470,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1628,
+      "new_scope": [
+        293,
+        299,
+        323
+      ],
+      "parent_ids": [
+        1041,
+        1475,
+        1627
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 186,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1629,
+      "new_scope": [
+        383,
+        445,
+        505
+      ],
+      "parent_ids": [
+        747,
+        748,
+        749,
+        1437
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 383,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1630,
+      "new_scope": [
+        445,
+        505
+      ],
+      "parent_ids": [
+        1183,
+        1184,
+        1185,
+        1629
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 445,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "new_relation_id": 1631,
+      "new_scope": [
+        454,
+        505,
+        604
+      ],
+      "parent_ids": [
+        1259,
+        1516,
+        1630
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 189,
+      "new_allowed": [
+        3,
+        5,
+        7
+      ],
+      "new_relation_id": 1632,
+      "new_scope": [
+        325,
+        333,
+        537
+      ],
+      "parent_ids": [
+        756,
+        757,
+        758,
+        1401
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 325,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1633,
+      "new_scope": [
+        333,
+        537
+      ],
+      "parent_ids": [
+        1089,
+        1090,
+        1091,
+        1632
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 537,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_relation_id": 1634,
+      "new_scope": [
+        13,
+        20,
+        333
+      ],
+      "parent_ids": [
+        65,
+        1502,
+        1633
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 197,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1635,
+      "new_scope": [
+        185,
+        309,
+        543
+      ],
+      "parent_ids": [
+        740,
+        741,
+        779,
+        1389
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 309,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1636,
+      "new_scope": [
+        185,
+        543
+      ],
+      "parent_ids": [
+        742,
+        743,
+        1062,
+        1635
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 185,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "new_relation_id": 1637,
+      "new_scope": [
+        208,
+        543,
+        565
+      ],
+      "parent_ids": [
+        744,
+        1485,
+        1636
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 207,
+      "new_allowed": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1638,
+      "new_scope": [
+        330,
+        452,
+        559
+      ],
+      "parent_ids": [
+        812,
+        813,
+        814,
+        1451
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 559,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1639,
+      "new_scope": [
+        330,
+        452
+      ],
+      "parent_ids": [
+        1102,
+        1104,
+        1263,
+        1638
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 452,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "new_relation_id": 1640,
+      "new_scope": [
+        55,
+        330,
+        601
+      ],
+      "parent_ids": [
+        1538,
+        1639
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 220,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_relation_id": 1641,
+      "new_scope": [
+        166,
+        394,
+        597
+      ],
+      "parent_ids": [
+        679,
+        680,
+        850,
+        1399
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 597,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1642,
+      "new_scope": [
+        166,
+        394
+      ],
+      "parent_ids": [
+        681,
+        686,
+        1202,
+        1641
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 394,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1643,
+      "new_scope": [
+        164,
+        166,
+        478
+      ],
+      "parent_ids": [
+        673,
+        1509,
+        1642
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 222,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1644,
+      "new_scope": [
+        280,
+        558,
+        606
+      ],
+      "parent_ids": [
+        855,
+        856,
+        857,
+        1353
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 606,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1645,
+      "new_scope": [
+        280,
+        558
+      ],
+      "parent_ids": [
+        1004,
+        1005,
+        1337,
+        1644
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 558,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "new_relation_id": 1646,
+      "new_scope": [
+        157,
+        280,
+        449
+      ],
+      "parent_ids": [
+        650,
+        1522,
+        1645
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 227,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1647,
+      "new_scope": [
+        141,
+        284,
+        417
+      ],
+      "parent_ids": [
+        586,
+        587,
+        869,
+        1457
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 284,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1648,
+      "new_scope": [
+        141,
+        417
+      ],
+      "parent_ids": [
+        588,
+        589,
+        1014,
+        1647
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 417,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1649,
+      "new_scope": [
+        141,
+        246,
+        443
+      ],
+      "parent_ids": [
+        1226,
+        1474,
+        1648
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 232,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1650,
+      "new_scope": [
+        187,
+        496,
+        563
+      ],
+      "parent_ids": [
+        750,
+        751,
+        877,
+        1367
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 496,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1651,
+      "new_scope": [
+        187,
+        563
+      ],
+      "parent_ids": [
+        752,
+        753,
+        1304,
+        1650
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 187,
+      "new_allowed": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1652,
+      "new_scope": [
+        49,
+        404,
+        563
+      ],
+      "parent_ids": [
+        220,
+        1487,
+        1651
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 233,
+      "new_allowed": [
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1653,
+      "new_scope": [
+        170,
+        200,
+        435
+      ],
+      "parent_ids": [
+        695,
+        697,
+        790,
+        1349
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 435,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1654,
+      "new_scope": [
+        170,
+        200
+      ],
+      "parent_ids": [
+        696,
+        701,
+        792,
+        1653
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 200,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "new_relation_id": 1655,
+      "new_scope": [
+        88,
+        170,
+        438
+      ],
+      "parent_ids": [
+        396,
+        1507,
+        1654
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 234,
+      "new_allowed": [
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1656,
+      "new_scope": [
+        31,
+        106,
+        374
+      ],
+      "parent_ids": [
+        143,
+        145,
+        460,
+        1369
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 374,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1657,
+      "new_scope": [
+        31,
+        106
+      ],
+      "parent_ids": [
+        144,
+        148,
+        462,
+        1656
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 106,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "new_relation_id": 1658,
+      "new_scope": [
+        31,
+        224,
+        373
+      ],
+      "parent_ids": [
+        461,
+        1494,
+        1657
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 238,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "new_relation_id": 1659,
+      "new_scope": [
+        479,
+        536,
+        581
+      ],
+      "parent_ids": [
+        889,
+        890,
+        891,
+        1403
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 536,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1660,
+      "new_scope": [
+        479,
+        581
+      ],
+      "parent_ids": [
+        1287,
+        1288,
+        1329,
+        1659
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 479,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "new_relation_id": 1661,
+      "new_scope": [
+        343,
+        462,
+        581
+      ],
+      "parent_ids": [
+        1127,
+        1480,
+        1660
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 240,
+      "new_allowed": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1662,
+      "new_scope": [
+        254,
+        370,
+        459
+      ],
+      "parent_ids": [
+        898,
+        899,
+        900,
+        1379
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 459,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1663,
+      "new_scope": [
+        254,
+        370
+      ],
+      "parent_ids": [
+        944,
+        945,
+        1169,
+        1662
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 370,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "new_relation_id": 1664,
+      "new_scope": [
+        137,
+        254,
+        579
+      ],
+      "parent_ids": [
+        1170,
+        1473,
+        1663
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 243,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "new_relation_id": 1665,
+      "new_scope": [
+        31,
+        485,
+        518
+      ],
+      "parent_ids": [
+        146,
+        147,
+        907,
+        1405
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 485,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1666,
+      "new_scope": [
+        31,
+        518
+      ],
+      "parent_ids": [
+        149,
+        150,
+        1293,
+        1665
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 31,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "new_relation_id": 1667,
+      "new_scope": [
+        224,
+        373,
+        518
+      ],
+      "parent_ids": [
+        1658,
+        1666
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 252,
+      "new_allowed": [
+        2,
+        6,
+        7
+      ],
+      "new_relation_id": 1668,
+      "new_scope": [
+        68,
+        392,
+        584
+      ],
+      "parent_ids": [
+        304,
+        305,
+        940,
+        1371
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 392,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1669,
+      "new_scope": [
+        68,
+        584
+      ],
+      "parent_ids": [
+        308,
+        309,
+        1201,
+        1668
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 584,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1670,
+      "new_scope": [
+        68,
+        318,
+        498
+      ],
+      "parent_ids": [
+        1305,
+        1491,
+        1669
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 253,
+      "new_allowed": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1671,
+      "new_scope": [
+        29,
+        304,
+        575
+      ],
+      "parent_ids": [
+        132,
+        133,
+        942,
+        1439
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 304,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1672,
+      "new_scope": [
+        29,
+        575
+      ],
+      "parent_ids": [
+        134,
+        135,
+        1053,
+        1671
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 29,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "new_relation_id": 1673,
+      "new_scope": [
+        313,
+        469,
+        575
+      ],
+      "parent_ids": [
+        136,
+        1525,
+        1672
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 256,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1674,
+      "new_scope": [
+        271,
+        326,
+        416
+      ],
+      "parent_ids": [
+        949,
+        950,
+        951,
+        1345
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 271,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1675,
+      "new_scope": [
+        326,
+        416
+      ],
+      "parent_ids": [
+        983,
+        984,
+        985,
+        1674
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 326,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1676,
+      "new_scope": [
+        26,
+        36,
+        416
+      ],
+      "parent_ids": [
+        1586,
+        1675
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 277,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1677,
+      "new_scope": [
+        288,
+        339,
+        424
+      ],
+      "parent_ids": [
+        996,
+        997,
+        998,
+        1393
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 339,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1678,
+      "new_scope": [
+        288,
+        424
+      ],
+      "parent_ids": [
+        1021,
+        1022,
+        1117,
+        1677
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 288,
+      "new_allowed": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1679,
+      "new_scope": [
+        160,
+        399,
+        424
+      ],
+      "parent_ids": [
+        662,
+        1504,
+        1678
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 278,
+      "new_allowed": [
+        0,
+        4,
+        5
+      ],
+      "new_relation_id": 1680,
+      "new_scope": [
+        349,
+        396,
+        575
+      ],
+      "parent_ids": [
+        999,
+        1000,
+        1002,
+        1453
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 396,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1681,
+      "new_scope": [
+        349,
+        575
+      ],
+      "parent_ids": [
+        1138,
+        1139,
+        1203,
+        1680
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 575,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "new_relation_id": 1682,
+      "new_scope": [
+        313,
+        349,
+        469
+      ],
+      "parent_ids": [
+        1673,
+        1681
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 302,
+      "new_allowed": [
+        0,
+        2,
+        3
+      ],
+      "new_relation_id": 1683,
+      "new_scope": [
+        170,
+        336,
+        501
+      ],
+      "parent_ids": [
+        698,
+        699,
+        1045,
+        1447
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 501,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1684,
+      "new_scope": [
+        170,
+        336
+      ],
+      "parent_ids": [
+        700,
+        702,
+        1114,
+        1683
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 170,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "new_relation_id": 1685,
+      "new_scope": [
+        88,
+        336,
+        438
+      ],
+      "parent_ids": [
+        1655,
+        1684
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 328,
+      "new_allowed": [
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1686,
+      "new_scope": [
+        138,
+        491,
+        528
+      ],
+      "parent_ids": [
+        575,
+        576,
+        1099,
+        1347
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 528,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1687,
+      "new_scope": [
+        138,
+        491
+      ],
+      "parent_ids": [
+        577,
+        578,
+        1299,
+        1686
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 138,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "new_relation_id": 1688,
+      "new_scope": [
+        428,
+        491,
+        595
+      ],
+      "parent_ids": [
+        1541,
+        1687
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 331,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_relation_id": 1689,
+      "new_scope": [
+        8,
+        19,
+        490
+      ],
+      "parent_ids": [
+        35,
+        39,
+        90,
+        1407
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 490,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1690,
+      "new_scope": [
+        8,
+        19
+      ],
+      "parent_ids": [
+        36,
+        42,
+        92,
+        1689
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 19,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "new_relation_id": 1691,
+      "new_scope": [
+        8,
+        228,
+        502
+      ],
+      "parent_ids": [
+        88,
+        1514,
+        1690
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 342,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1692,
+      "new_scope": [
+        390,
+        539,
+        592
+      ],
+      "parent_ids": [
+        1123,
+        1124,
+        1126,
+        1441
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 592,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1693,
+      "new_scope": [
+        390,
+        539
+      ],
+      "parent_ids": [
+        1196,
+        1198,
+        1330,
+        1692
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 539,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "new_relation_id": 1694,
+      "new_scope": [
+        386,
+        390,
+        516
+      ],
+      "parent_ids": [
+        1616,
+        1693
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 347,
+      "new_allowed": [
+        0,
+        1,
+        3
+      ],
+      "new_relation_id": 1695,
+      "new_scope": [
+        37,
+        198,
+        533
+      ],
+      "parent_ids": [
+        170,
+        172,
+        780,
+        1467
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 533,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1696,
+      "new_scope": [
+        37,
+        198
+      ],
+      "parent_ids": [
+        171,
+        173,
+        783,
+        1695
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 198,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "new_relation_id": 1697,
+      "new_scope": [
+        37,
+        115,
+        570
+      ],
+      "parent_ids": [
+        784,
+        1519,
+        1696
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 350,
+      "new_allowed": [
+        0,
+        4,
+        6
+      ],
+      "new_relation_id": 1698,
+      "new_scope": [
+        351,
+        522,
+        557
+      ],
+      "parent_ids": [
+        1141,
+        1142,
+        1143,
+        1385
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 351,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1699,
+      "new_scope": [
+        522,
+        557
+      ],
+      "parent_ids": [
+        1144,
+        1145,
+        1146,
+        1698
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 522,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1700,
+      "new_scope": [
+        209,
+        305,
+        557
+      ],
+      "parent_ids": [
+        1054,
+        1495,
+        1699
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 388,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1701,
+      "new_scope": [
+        25,
+        177,
+        569
+      ],
+      "parent_ids": [
+        113,
+        116,
+        717,
+        1429
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 569,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1702,
+      "new_scope": [
+        25,
+        177
+      ],
+      "parent_ids": [
+        114,
+        118,
+        718,
+        1701
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 177,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1703,
+      "new_scope": [
+        25,
+        46,
+        527
+      ],
+      "parent_ids": [
+        209,
+        1482,
+        1702
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 395,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "new_relation_id": 1704,
+      "new_scope": [
+        58,
+        195,
+        588
+      ],
+      "parent_ids": [
+        263,
+        268,
+        774,
+        1377
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 588,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1705,
+      "new_scope": [
+        58,
+        195
+      ],
+      "parent_ids": [
+        264,
+        269,
+        775,
+        1704
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 58,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1706,
+      "new_scope": [
+        195,
+        377,
+        380
+      ],
+      "parent_ids": [
+        267,
+        1498,
+        1705
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 407,
+      "new_allowed": [
+        2,
+        3,
+        6
+      ],
+      "new_relation_id": 1707,
+      "new_scope": [
+        51,
+        433,
+        451
+      ],
+      "parent_ids": [
+        234,
+        235,
+        1214,
+        1417
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 433,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1708,
+      "new_scope": [
+        51,
+        451
+      ],
+      "parent_ids": [
+        236,
+        237,
+        1244,
+        1707
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 51,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "new_relation_id": 1709,
+      "new_scope": [
+        191,
+        258,
+        451
+      ],
+      "parent_ids": [
+        232,
+        1533,
+        1708
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 418,
+      "new_allowed": [
+        4,
+        5,
+        7
+      ],
+      "new_relation_id": 1710,
+      "new_scope": [
+        70,
+        193,
+        521
+      ],
+      "parent_ids": [
+        312,
+        316,
+        767,
+        1373
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 521,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1711,
+      "new_scope": [
+        70,
+        193
+      ],
+      "parent_ids": [
+        313,
+        318,
+        768,
+        1710
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 70,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "new_relation_id": 1712,
+      "new_scope": [
+        62,
+        193,
+        431
+      ],
+      "parent_ids": [
+        317,
+        1496,
+        1711
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 426,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_relation_id": 1713,
+      "new_scope": [
+        111,
+        135,
+        497
+      ],
+      "parent_ids": [
+        481,
+        487,
+        568,
+        1383
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 497,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1714,
+      "new_scope": [
+        111,
+        135
+      ],
+      "parent_ids": [
+        482,
+        488,
+        569,
+        1713
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 111,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "new_relation_id": 1715,
+      "new_scope": [
+        1,
+        123,
+        135
+      ],
+      "parent_ids": [
+        1619,
+        1714
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 432,
+      "new_allowed": [
+        0,
+        1,
+        2
+      ],
+      "new_relation_id": 1716,
+      "new_scope": [
+        64,
+        371,
+        529
+      ],
+      "parent_ids": [
+        287,
+        291,
+        1171,
+        1375
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 529,
+      "new_allowed": [
+        1,
+        2
+      ],
+      "new_relation_id": 1717,
+      "new_scope": [
+        64,
+        371
+      ],
+      "parent_ids": [
+        288,
+        292,
+        1172,
+        1716
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 371,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1718,
+      "new_scope": [
+        64,
+        348,
+        586
+      ],
+      "parent_ids": [
+        1134,
+        1505,
+        1717
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 440,
+      "new_allowed": [
+        0,
+        4,
+        5
+      ],
+      "new_relation_id": 1719,
+      "new_scope": [
+        226,
+        448,
+        594
+      ],
+      "parent_ids": [
+        864,
+        865,
+        1252,
+        1421
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 448,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1720,
+      "new_scope": [
+        226,
+        594
+      ],
+      "parent_ids": [
+        866,
+        867,
+        1260,
+        1719
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 226,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "new_relation_id": 1721,
+      "new_scope": [
+        364,
+        403,
+        594
+      ],
+      "parent_ids": [
+        863,
+        1501,
+        1720
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 471,
+      "new_allowed": [
+        4,
+        6,
+        7
+      ],
+      "new_relation_id": 1722,
+      "new_scope": [
+        50,
+        266,
+        574
+      ],
+      "parent_ids": [
+        226,
+        230,
+        968,
+        1409
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 574,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1723,
+      "new_scope": [
+        50,
+        266
+      ],
+      "parent_ids": [
+        227,
+        231,
+        969,
+        1722
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 50,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1724,
+      "new_scope": [
+        266,
+        296,
+        324
+      ],
+      "parent_ids": [
+        1580,
+        1723
+      ]
+    },
+    {
+      "depth": 3,
+      "eliminated_variable": 488,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "new_relation_id": 1725,
+      "new_scope": [
+        474,
+        554,
+        572
+      ],
+      "parent_ids": [
+        1279,
+        1280,
+        1297,
+        1413
+      ]
+    },
+    {
+      "depth": 4,
+      "eliminated_variable": 572,
+      "new_allowed": [
+        0,
+        3
+      ],
+      "new_relation_id": 1726,
+      "new_scope": [
+        474,
+        554
+      ],
+      "parent_ids": [
+        1281,
+        1282,
+        1334,
+        1725
+      ]
+    },
+    {
+      "depth": 5,
+      "eliminated_variable": 554,
+      "new_allowed": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "new_relation_id": 1727,
+      "new_scope": [
+        196,
+        387,
+        474
+      ],
+      "parent_ids": [
+        1189,
+        1476,
+        1726
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 3,
+      "new_allowed": [
+        5,
+        7,
+        10,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1728,
+      "new_scope": [
+        30,
+        291,
+        393,
+        535
+      ],
+      "parent_ids": [
+        14,
+        1526,
+        1625
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 135,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        7,
+        12,
+        14
+      ],
+      "new_relation_id": 1729,
+      "new_scope": [
+        1,
+        99,
+        123,
+        202
+      ],
+      "parent_ids": [
+        566,
+        1523,
+        1715
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 266,
+      "new_allowed": [
+        6,
+        7,
+        8,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1730,
+      "new_scope": [
+        24,
+        296,
+        324,
+        363
+      ],
+      "parent_ids": [
+        107,
+        1488,
+        1724
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 330,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "new_relation_id": 1731,
+      "new_scope": [
+        55,
+        411,
+        546,
+        601
+      ],
+      "parent_ids": [
+        1103,
+        1489,
+        1640
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 336,
+      "new_allowed": [
+        0,
+        1,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15
+      ],
+      "new_relation_id": 1732,
+      "new_scope": [
+        88,
+        376,
+        438,
+        472
+      ],
+      "parent_ids": [
+        1112,
+        1528,
+        1685
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 349,
+      "new_allowed": [
+        6,
+        7,
+        9,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1733,
+      "new_scope": [
+        313,
+        366,
+        400,
+        469
+      ],
+      "parent_ids": [
+        1136,
+        1532,
+        1682
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 390,
+      "new_allowed": [
+        6,
+        7,
+        8,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1734,
+      "new_scope": [
+        47,
+        386,
+        516,
+        580
+      ],
+      "parent_ids": [
+        1197,
+        1484,
+        1694
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 416,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15
+      ],
+      "new_relation_id": 1735,
+      "new_scope": [
+        26,
+        36,
+        156,
+        457
+      ],
+      "parent_ids": [
+        643,
+        1492,
+        1676
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 491,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        7,
+        11,
+        15
+      ],
+      "new_relation_id": 1736,
+      "new_scope": [
+        9,
+        359,
+        428,
+        595
+      ],
+      "parent_ids": [
+        1156,
+        1481,
+        1688
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 518,
+      "new_allowed": [
+        1,
+        2,
+        6,
+        7,
+        9,
+        11
+      ],
+      "new_relation_id": 1737,
+      "new_scope": [
+        114,
+        224,
+        341,
+        373
+      ],
+      "parent_ids": [
+        500,
+        1511,
+        1667
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 13,
+      "new_allowed": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        12,
+        14
+      ],
+      "new_relation_id": 1738,
+      "new_scope": [
+        20,
+        219,
+        333,
+        607
+      ],
+      "parent_ids": [
+        62,
+        63,
+        66,
+        1634
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 20,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1739,
+      "new_scope": [
+        219,
+        333,
+        607
+      ],
+      "parent_ids": [
+        93,
+        94,
+        96,
+        1738
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 32,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        6,
+        10,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1740,
+      "new_scope": [
+        212,
+        397,
+        429,
+        587
+      ],
+      "parent_ids": [
+        152,
+        153,
+        154,
+        1589
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 212,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1741,
+      "new_scope": [
+        397,
+        429,
+        587
+      ],
+      "parent_ids": [
+        833,
+        834,
+        836,
+        1740
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 42,
+      "new_allowed": [
+        1,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14
+      ],
+      "new_relation_id": 1742,
+      "new_scope": [
+        263,
+        297,
+        334,
+        495
+      ],
+      "parent_ids": [
+        191,
+        192,
+        193,
+        1583
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 263,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1743,
+      "new_scope": [
+        297,
+        334,
+        495
+      ],
+      "parent_ids": [
+        959,
+        960,
+        961,
+        1742
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 46,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        11,
+        13,
+        15
+      ],
+      "new_relation_id": 1744,
+      "new_scope": [
+        25,
+        249,
+        282,
+        527
+      ],
+      "parent_ids": [
+        210,
+        211,
+        212,
+        1703
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 527,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1745,
+      "new_scope": [
+        25,
+        249,
+        282
+      ],
+      "parent_ids": [
+        926,
+        927,
+        1012,
+        1744
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 249,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1746,
+      "new_scope": [
+        25,
+        120,
+        282,
+        316
+      ],
+      "parent_ids": [
+        1610,
+        1745
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 49,
+      "new_allowed": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        10,
+        13,
+        15
+      ],
+      "new_relation_id": 1747,
+      "new_scope": [
+        404,
+        504,
+        563,
+        577
+      ],
+      "parent_ids": [
+        221,
+        222,
+        223,
+        1652
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 404,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1748,
+      "new_scope": [
+        504,
+        563,
+        577
+      ],
+      "parent_ids": [
+        1210,
+        1211,
+        1212,
+        1747
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 52,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6,
+        9,
+        11,
+        12,
+        14
+      ],
+      "new_relation_id": 1749,
+      "new_scope": [
+        14,
+        229,
+        532,
+        562
+      ],
+      "parent_ids": [
+        239,
+        240,
+        242,
+        1592
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 532,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1750,
+      "new_scope": [
+        14,
+        229,
+        562
+      ],
+      "parent_ids": [
+        870,
+        871,
+        1324,
+        1749
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 229,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        6,
+        9,
+        11,
+        12,
+        15
+      ],
+      "new_relation_id": 1751,
+      "new_scope": [
+        14,
+        283,
+        360,
+        562
+      ],
+      "parent_ids": [
+        1571,
+        1750
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 57,
+      "new_allowed": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        11,
+        14,
+        15
+      ],
+      "new_relation_id": 1752,
+      "new_scope": [
+        87,
+        151,
+        273,
+        322
+      ],
+      "parent_ids": [
+        258,
+        259,
+        262,
+        1607
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 273,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1753,
+      "new_scope": [
+        87,
+        151,
+        322
+      ],
+      "parent_ids": [
+        391,
+        392,
+        988,
+        1752
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 62,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        10,
+        13,
+        14
+      ],
+      "new_relation_id": 1754,
+      "new_scope": [
+        193,
+        250,
+        431,
+        492
+      ],
+      "parent_ids": [
+        280,
+        281,
+        282,
+        1712
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 431,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1755,
+      "new_scope": [
+        193,
+        250,
+        492
+      ],
+      "parent_ids": [
+        928,
+        929,
+        1243,
+        1754
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 71,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        13,
+        15
+      ],
+      "new_relation_id": 1756,
+      "new_scope": [
+        147,
+        332,
+        369,
+        524
+      ],
+      "parent_ids": [
+        319,
+        320,
+        321,
+        1595
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 147,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1757,
+      "new_scope": [
+        332,
+        369,
+        524
+      ],
+      "parent_ids": [
+        611,
+        612,
+        613,
+        1756
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 101,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6,
+        9,
+        10,
+        13,
+        14
+      ],
+      "new_relation_id": 1758,
+      "new_scope": [
+        76,
+        295,
+        567,
+        594
+      ],
+      "parent_ids": [
+        440,
+        441,
+        442,
+        1562
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 295,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1759,
+      "new_scope": [
+        76,
+        567,
+        594
+      ],
+      "parent_ids": [
+        1034,
+        1035,
+        1036,
+        1758
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 567,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6,
+        9,
+        10,
+        13,
+        15
+      ],
+      "new_relation_id": 1760,
+      "new_scope": [
+        76,
+        110,
+        421,
+        594
+      ],
+      "parent_ids": [
+        1604,
+        1759
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 115,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        10,
+        12,
+        14
+      ],
+      "new_relation_id": 1761,
+      "new_scope": [
+        37,
+        193,
+        311,
+        570
+      ],
+      "parent_ids": [
+        501,
+        502,
+        503,
+        1697
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 570,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1762,
+      "new_scope": [
+        37,
+        193,
+        311
+      ],
+      "parent_ids": [
+        766,
+        769,
+        1067,
+        1761
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 193,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1763,
+      "new_scope": [
+        37,
+        250,
+        311,
+        492
+      ],
+      "parent_ids": [
+        1755,
+        1762
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 133,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        9,
+        12,
+        13
+      ],
+      "new_relation_id": 1764,
+      "new_scope": [
+        311,
+        358,
+        408,
+        561
+      ],
+      "parent_ids": [
+        559,
+        560,
+        562,
+        1613
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 358,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1765,
+      "new_scope": [
+        311,
+        408,
+        561
+      ],
+      "parent_ids": [
+        1065,
+        1066,
+        1155,
+        1764
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 137,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        13,
+        14,
+        15
+      ],
+      "new_relation_id": 1766,
+      "new_scope": [
+        14,
+        37,
+        254,
+        579
+      ],
+      "parent_ids": [
+        67,
+        71,
+        169,
+        1664
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 579,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1767,
+      "new_scope": [
+        14,
+        37,
+        254
+      ],
+      "parent_ids": [
+        68,
+        74,
+        174,
+        1766
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 150,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        12,
+        13,
+        14
+      ],
+      "new_relation_id": 1768,
+      "new_scope": [
+        334,
+        504,
+        568,
+        608
+      ],
+      "parent_ids": [
+        619,
+        620,
+        621,
+        1544
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 568,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1769,
+      "new_scope": [
+        334,
+        504,
+        608
+      ],
+      "parent_ids": [
+        1108,
+        1109,
+        1309,
+        1768
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 334,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1770,
+      "new_scope": [
+        297,
+        495,
+        504,
+        608
+      ],
+      "parent_ids": [
+        1743,
+        1769
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 157,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6,
+        9,
+        11,
+        12,
+        14
+      ],
+      "new_relation_id": 1771,
+      "new_scope": [
+        280,
+        294,
+        449,
+        581
+      ],
+      "parent_ids": [
+        647,
+        648,
+        651,
+        1646
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 449,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1772,
+      "new_scope": [
+        280,
+        294,
+        581
+      ],
+      "parent_ids": [
+        1032,
+        1033,
+        1262,
+        1771
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 581,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1773,
+      "new_scope": [
+        280,
+        294,
+        343,
+        462
+      ],
+      "parent_ids": [
+        1661,
+        1772
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 158,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        12,
+        13
+      ],
+      "new_relation_id": 1774,
+      "new_scope": [
+        213,
+        308,
+        361,
+        545
+      ],
+      "parent_ids": [
+        653,
+        654,
+        655,
+        1574
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 213,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1775,
+      "new_scope": [
+        308,
+        361,
+        545
+      ],
+      "parent_ids": [
+        837,
+        838,
+        839,
+        1774
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 160,
+      "new_allowed": [
+        0,
+        1,
+        6,
+        7,
+        9,
+        12,
+        14,
+        15
+      ],
+      "new_relation_id": 1776,
+      "new_scope": [
+        282,
+        399,
+        424,
+        466
+      ],
+      "parent_ids": [
+        660,
+        661,
+        664,
+        1679
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 399,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1777,
+      "new_scope": [
+        282,
+        424,
+        466
+      ],
+      "parent_ids": [
+        1010,
+        1011,
+        1207,
+        1776
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 164,
+      "new_allowed": [
+        2,
+        3,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "new_relation_id": 1778,
+      "new_scope": [
+        85,
+        166,
+        478,
+        608
+      ],
+      "parent_ids": [
+        381,
+        382,
+        674,
+        1643
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 478,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1779,
+      "new_scope": [
+        85,
+        166,
+        608
+      ],
+      "parent_ids": [
+        383,
+        384,
+        1286,
+        1778
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 168,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        6,
+        9,
+        10,
+        13,
+        15
+      ],
+      "new_relation_id": 1780,
+      "new_scope": [
+        39,
+        245,
+        250,
+        553
+      ],
+      "parent_ids": [
+        690,
+        691,
+        692,
+        1622
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 553,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1781,
+      "new_scope": [
+        39,
+        245,
+        250
+      ],
+      "parent_ids": [
+        913,
+        918,
+        930,
+        1780
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 169,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "new_relation_id": 1782,
+      "new_scope": [
+        112,
+        206,
+        385,
+        603
+      ],
+      "parent_ids": [
+        489,
+        490,
+        693,
+        1601
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 385,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1783,
+      "new_scope": [
+        112,
+        206,
+        603
+      ],
+      "parent_ids": [
+        491,
+        493,
+        811,
+        1782
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 191,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        10,
+        11,
+        14
+      ],
+      "new_relation_id": 1784,
+      "new_scope": [
+        76,
+        258,
+        437,
+        451
+      ],
+      "parent_ids": [
+        338,
+        339,
+        763,
+        1709
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 258,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1785,
+      "new_scope": [
+        76,
+        437,
+        451
+      ],
+      "parent_ids": [
+        342,
+        343,
+        954,
+        1784
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 196,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        10,
+        12,
+        13,
+        15
+      ],
+      "new_relation_id": 1786,
+      "new_scope": [
+        239,
+        387,
+        474,
+        562
+      ],
+      "parent_ids": [
+        776,
+        777,
+        778,
+        1727
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 387,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1787,
+      "new_scope": [
+        239,
+        474,
+        562
+      ],
+      "parent_ids": [
+        894,
+        895,
+        1190,
+        1786
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 199,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        9,
+        11,
+        15
+      ],
+      "new_relation_id": 1788,
+      "new_scope": [
+        270,
+        327,
+        512,
+        590
+      ],
+      "parent_ids": [
+        785,
+        786,
+        789,
+        1556
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 270,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1789,
+      "new_scope": [
+        327,
+        512,
+        590
+      ],
+      "parent_ids": [
+        979,
+        980,
+        981,
+        1788
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 205,
+      "new_allowed": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1790,
+      "new_scope": [
+        176,
+        210,
+        259,
+        499
+      ],
+      "parent_ids": [
+        803,
+        804,
+        805,
+        1568
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 210,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1791,
+      "new_scope": [
+        176,
+        259,
+        499
+      ],
+      "parent_ids": [
+        821,
+        822,
+        825,
+        1790
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 208,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        12,
+        13,
+        14
+      ],
+      "new_relation_id": 1792,
+      "new_scope": [
+        297,
+        492,
+        543,
+        565
+      ],
+      "parent_ids": [
+        817,
+        818,
+        819,
+        1637
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 565,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1793,
+      "new_scope": [
+        297,
+        492,
+        543
+      ],
+      "parent_ids": [
+        1038,
+        1039,
+        1300,
+        1792
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 209,
+      "new_allowed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "new_relation_id": 1794,
+      "new_scope": [
+        180,
+        195,
+        305,
+        557
+      ],
+      "parent_ids": [
+        725,
+        727,
+        772,
+        1700
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 305,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1795,
+      "new_scope": [
+        180,
+        195,
+        557
+      ],
+      "parent_ids": [
+        726,
+        728,
+        773,
+        1794
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 180,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        7,
+        9,
+        10,
+        12,
+        14
+      ],
+      "new_relation_id": 1796,
+      "new_scope": [
+        195,
+        303,
+        515,
+        557
+      ],
+      "parent_ids": [
+        1565,
+        1795
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 228,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        15
+      ],
+      "new_relation_id": 1797,
+      "new_scope": [
+        8,
+        107,
+        219,
+        502
+      ],
+      "parent_ids": [
+        463,
+        465,
+        848,
+        1691
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 502,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1798,
+      "new_scope": [
+        8,
+        107,
+        219
+      ],
+      "parent_ids": [
+        464,
+        470,
+        849,
+        1797
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 219,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1799,
+      "new_scope": [
+        8,
+        107,
+        333,
+        607
+      ],
+      "parent_ids": [
+        1739,
+        1798
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 231,
+      "new_allowed": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "new_relation_id": 1800,
+      "new_scope": [
+        236,
+        312,
+        538,
+        582
+      ],
+      "parent_ids": [
+        873,
+        874,
+        876,
+        1559
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 538,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1801,
+      "new_scope": [
+        236,
+        312,
+        582
+      ],
+      "parent_ids": [
+        882,
+        885,
+        1070,
+        1800
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 244,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        10,
+        13,
+        14
+      ],
+      "new_relation_id": 1802,
+      "new_scope": [
+        12,
+        333,
+        406,
+        466
+      ],
+      "parent_ids": [
+        908,
+        909,
+        911,
+        1598
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 406,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1803,
+      "new_scope": [
+        12,
+        333,
+        466
+      ],
+      "parent_ids": [
+        1106,
+        1107,
+        1213,
+        1802
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 466,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1804,
+      "new_scope": [
+        12,
+        282,
+        333,
+        424
+      ],
+      "parent_ids": [
+        1777,
+        1803
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 246,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        14
+      ],
+      "new_relation_id": 1805,
+      "new_scope": [
+        141,
+        391,
+        443,
+        524
+      ],
+      "parent_ids": [
+        919,
+        920,
+        921,
+        1649
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 443,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1806,
+      "new_scope": [
+        141,
+        391,
+        524
+      ],
+      "parent_ids": [
+        1199,
+        1200,
+        1256,
+        1805
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 524,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1807,
+      "new_scope": [
+        141,
+        332,
+        369,
+        391
+      ],
+      "parent_ids": [
+        1757,
+        1806
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 247,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "new_relation_id": 1808,
+      "new_scope": [
+        33,
+        206,
+        211,
+        298
+      ],
+      "parent_ids": [
+        807,
+        809,
+        826,
+        1550
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 298,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1809,
+      "new_scope": [
+        33,
+        206,
+        211
+      ],
+      "parent_ids": [
+        808,
+        810,
+        827,
+        1808
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 206,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1810,
+      "new_scope": [
+        33,
+        112,
+        211,
+        603
+      ],
+      "parent_ids": [
+        1783,
+        1809
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 293,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        11,
+        12,
+        13,
+        14
+      ],
+      "new_relation_id": 1811,
+      "new_scope": [
+        83,
+        299,
+        323,
+        545
+      ],
+      "parent_ids": [
+        365,
+        366,
+        1030,
+        1628
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 299,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1812,
+      "new_scope": [
+        83,
+        323,
+        545
+      ],
+      "parent_ids": [
+        367,
+        368,
+        1042,
+        1811
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 545,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1813,
+      "new_scope": [
+        83,
+        308,
+        323,
+        361
+      ],
+      "parent_ids": [
+        1775,
+        1812
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 318,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        11,
+        12,
+        15
+      ],
+      "new_relation_id": 1814,
+      "new_scope": [
+        68,
+        239,
+        498,
+        607
+      ],
+      "parent_ids": [
+        892,
+        893,
+        1078,
+        1670
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 498,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1815,
+      "new_scope": [
+        68,
+        239,
+        607
+      ],
+      "parent_ids": [
+        896,
+        897,
+        1306,
+        1814
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 239,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1816,
+      "new_scope": [
+        68,
+        474,
+        562,
+        607
+      ],
+      "parent_ids": [
+        1787,
+        1815
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 348,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        11,
+        13,
+        15
+      ],
+      "new_relation_id": 1817,
+      "new_scope": [
+        64,
+        327,
+        499,
+        586
+      ],
+      "parent_ids": [
+        1094,
+        1095,
+        1135,
+        1718
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 586,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1818,
+      "new_scope": [
+        64,
+        327,
+        499
+      ],
+      "parent_ids": [
+        1096,
+        1097,
+        1307,
+        1817
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 327,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1819,
+      "new_scope": [
+        64,
+        499,
+        512,
+        590
+      ],
+      "parent_ids": [
+        1789,
+        1818
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 353,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        12,
+        13
+      ],
+      "new_relation_id": 1820,
+      "new_scope": [
+        83,
+        201,
+        436,
+        512
+      ],
+      "parent_ids": [
+        369,
+        370,
+        1150,
+        1577
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 436,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1821,
+      "new_scope": [
+        83,
+        201,
+        512
+      ],
+      "parent_ids": [
+        371,
+        372,
+        1246,
+        1820
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 364,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        12,
+        13,
+        15
+      ],
+      "new_relation_id": 1822,
+      "new_scope": [
+        107,
+        322,
+        403,
+        594
+      ],
+      "parent_ids": [
+        466,
+        468,
+        1081,
+        1721
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 403,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "new_relation_id": 1823,
+      "new_scope": [
+        107,
+        322,
+        594
+      ],
+      "parent_ids": [
+        467,
+        469,
+        1082,
+        1822
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 322,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1824,
+      "new_scope": [
+        87,
+        107,
+        151,
+        594
+      ],
+      "parent_ids": [
+        1753,
+        1823
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 377,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1825,
+      "new_scope": [
+        195,
+        245,
+        380,
+        543
+      ],
+      "parent_ids": [
+        914,
+        915,
+        1178,
+        1706
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 380,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1826,
+      "new_scope": [
+        195,
+        245,
+        543
+      ],
+      "parent_ids": [
+        916,
+        917,
+        1180,
+        1825
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 245,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1827,
+      "new_scope": [
+        39,
+        195,
+        250,
+        543
+      ],
+      "parent_ids": [
+        1781,
+        1826
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 389,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        7,
+        8,
+        10,
+        13,
+        15
+      ],
+      "new_relation_id": 1828,
+      "new_scope": [
+        75,
+        408,
+        423,
+        505
+      ],
+      "parent_ids": [
+        1193,
+        1194,
+        1195,
+        1553
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 423,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1829,
+      "new_scope": [
+        75,
+        408,
+        505
+      ],
+      "parent_ids": [
+        1215,
+        1216,
+        1234,
+        1828
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 408,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1830,
+      "new_scope": [
+        75,
+        311,
+        505,
+        561
+      ],
+      "parent_ids": [
+        1765,
+        1829
+      ]
+    },
+    {
+      "depth": 6,
+      "eliminated_variable": 454,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1831,
+      "new_scope": [
+        211,
+        505,
+        590,
+        604
+      ],
+      "parent_ids": [
+        828,
+        829,
+        1264,
+        1631
+      ]
+    },
+    {
+      "depth": 7,
+      "eliminated_variable": 604,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "new_relation_id": 1832,
+      "new_scope": [
+        211,
+        505,
+        590
+      ],
+      "parent_ids": [
+        830,
+        831,
+        1340,
+        1831
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 14,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        7,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        21,
+        22,
+        24,
+        27,
+        29,
+        30
+      ],
+      "new_relation_id": 1833,
+      "new_scope": [
+        37,
+        254,
+        283,
+        360,
+        562
+      ],
+      "parent_ids": [
+        1751,
+        1767
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 76,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        5,
+        9,
+        12,
+        14,
+        15,
+        17,
+        20,
+        22,
+        23,
+        24,
+        26,
+        27,
+        29
+      ],
+      "new_relation_id": 1834,
+      "new_scope": [
+        110,
+        421,
+        437,
+        451,
+        594
+      ],
+      "parent_ids": [
+        1760,
+        1785
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 83,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30
+      ],
+      "new_relation_id": 1835,
+      "new_scope": [
+        201,
+        308,
+        323,
+        361,
+        512
+      ],
+      "parent_ids": [
+        1813,
+        1821
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 211,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1836,
+      "new_scope": [
+        33,
+        112,
+        505,
+        590,
+        603
+      ],
+      "parent_ids": [
+        1810,
+        1832
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 297,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30
+      ],
+      "new_relation_id": 1837,
+      "new_scope": [
+        492,
+        495,
+        504,
+        543,
+        608
+      ],
+      "parent_ids": [
+        1770,
+        1793
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 499,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1838,
+      "new_scope": [
+        64,
+        176,
+        259,
+        512,
+        590
+      ],
+      "parent_ids": [
+        1791,
+        1819
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 1,
+      "new_allowed": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        24,
+        25,
+        27,
+        28,
+        29,
+        31
+      ],
+      "new_relation_id": 1839,
+      "new_scope": [
+        33,
+        39,
+        99,
+        123,
+        202
+      ],
+      "parent_ids": [
+        0,
+        1,
+        2,
+        1729
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 123,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        11,
+        12,
+        15
+      ],
+      "new_relation_id": 1840,
+      "new_scope": [
+        33,
+        39,
+        99,
+        202
+      ],
+      "parent_ids": [
+        155,
+        158,
+        181,
+        1839
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 9,
+      "new_allowed": [
+        0,
+        1,
+        3,
+        6,
+        8,
+        9,
+        14,
+        15,
+        18,
+        22,
+        26,
+        27,
+        30,
+        31
+      ],
+      "new_relation_id": 1841,
+      "new_scope": [
+        75,
+        359,
+        428,
+        563,
+        595
+      ],
+      "parent_ids": [
+        44,
+        45,
+        46,
+        1736
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 359,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        10,
+        13,
+        15
+      ],
+      "new_relation_id": 1842,
+      "new_scope": [
+        75,
+        428,
+        563,
+        595
+      ],
+      "parent_ids": [
+        334,
+        335,
+        1157,
+        1841
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 563,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        18,
+        21,
+        23,
+        25,
+        27,
+        28,
+        30
+      ],
+      "new_relation_id": 1843,
+      "new_scope": [
+        75,
+        428,
+        504,
+        577,
+        595
+      ],
+      "parent_ids": [
+        1748,
+        1842
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 24,
+      "new_allowed": [
+        3,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        19,
+        20,
+        21,
+        22,
+        27,
+        31
+      ],
+      "new_relation_id": 1844,
+      "new_scope": [
+        296,
+        324,
+        363,
+        369,
+        474
+      ],
+      "parent_ids": [
+        108,
+        109,
+        110,
+        1730
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 363,
+      "new_allowed": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        15
+      ],
+      "new_relation_id": 1845,
+      "new_scope": [
+        296,
+        324,
+        369,
+        474
+      ],
+      "parent_ids": [
+        1162,
+        1163,
+        1164,
+        1844
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 26,
+      "new_allowed": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        14,
+        16,
+        19,
+        20,
+        22,
+        24,
+        27,
+        28,
+        30
+      ],
+      "new_relation_id": 1846,
+      "new_scope": [
+        36,
+        156,
+        457,
+        557,
+        561
+      ],
+      "parent_ids": [
+        120,
+        121,
+        122,
+        1735
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 36,
+      "new_allowed": [
+        0,
+        2,
+        3,
+        5,
+        9,
+        12,
+        14,
+        15
+      ],
+      "new_relation_id": 1847,
+      "new_scope": [
+        156,
+        457,
+        557,
+        561
+      ],
+      "parent_ids": [
+        166,
+        167,
+        168,
+        1846
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 30,
+      "new_allowed": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        22,
+        23,
+        25,
+        26,
+        28,
+        29
+      ],
+      "new_relation_id": 1848,
+      "new_scope": [
+        236,
+        291,
+        332,
+        393,
+        535
+      ],
+      "parent_ids": [
+        139,
+        140,
+        141,
+        1728
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 393,
+      "new_allowed": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1849,
+      "new_scope": [
+        236,
+        291,
+        332,
+        535
+      ],
+      "parent_ids": [
+        883,
+        884,
+        1105,
+        1848
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 236,
+      "new_allowed": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        11,
+        13,
+        14,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1850,
+      "new_scope": [
+        291,
+        312,
+        332,
+        535,
+        582
+      ],
+      "parent_ids": [
+        1801,
+        1849
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 47,
+      "new_allowed": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        26,
+        27,
+        29
+      ],
+      "new_relation_id": 1851,
+      "new_scope": [
+        254,
+        259,
+        386,
+        516,
+        580
+      ],
+      "parent_ids": [
+        214,
+        215,
+        216,
+        1734
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 580,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1852,
+      "new_scope": [
+        254,
+        259,
+        386,
+        516
+      ],
+      "parent_ids": [
+        943,
+        946,
+        955,
+        1851
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 55,
+      "new_allowed": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "new_relation_id": 1853,
+      "new_scope": [
+        43,
+        85,
+        411,
+        546,
+        601
+      ],
+      "parent_ids": [
+        194,
+        195,
+        254,
+        1731
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 601,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        12,
+        15
+      ],
+      "new_relation_id": 1854,
+      "new_scope": [
+        43,
+        85,
+        411,
+        546
+      ],
+      "parent_ids": [
+        196,
+        201,
+        385,
+        1853
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 85,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        13,
+        14,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        28,
+        31
+      ],
+      "new_relation_id": 1855,
+      "new_scope": [
+        43,
+        166,
+        411,
+        546,
+        608
+      ],
+      "parent_ids": [
+        1779,
+        1854
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 88,
+      "new_allowed": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        29
+      ],
+      "new_relation_id": 1856,
+      "new_scope": [
+        176,
+        201,
+        376,
+        438,
+        472
+      ],
+      "parent_ids": [
+        394,
+        395,
+        398,
+        1732
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 438,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        13,
+        14
+      ],
+      "new_relation_id": 1857,
+      "new_scope": [
+        176,
+        201,
+        376,
+        472
+      ],
+      "parent_ids": [
+        713,
+        715,
+        793,
+        1856
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 99,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        15,
+        16,
+        19,
+        20,
+        23,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1858,
+      "new_scope": [
+        33,
+        39,
+        202,
+        280,
+        308
+      ],
+      "parent_ids": [
+        432,
+        433,
+        434,
+        1840
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 202,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1859,
+      "new_scope": [
+        33,
+        39,
+        280,
+        308
+      ],
+      "parent_ids": [
+        796,
+        797,
+        798,
+        1858
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 114,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        14,
+        15,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "new_relation_id": 1860,
+      "new_scope": [
+        84,
+        224,
+        294,
+        341,
+        373
+      ],
+      "parent_ids": [
+        373,
+        374,
+        498,
+        1737
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 341,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        11,
+        12,
+        14
+      ],
+      "new_relation_id": 1861,
+      "new_scope": [
+        84,
+        224,
+        294,
+        373
+      ],
+      "parent_ids": [
+        377,
+        378,
+        1031,
+        1860
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 120,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        12,
+        15,
+        16,
+        18,
+        21,
+        23,
+        25,
+        27,
+        28,
+        30
+      ],
+      "new_relation_id": 1862,
+      "new_scope": [
+        25,
+        43,
+        282,
+        316,
+        587
+      ],
+      "parent_ids": [
+        197,
+        198,
+        518,
+        1746
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 316,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1863,
+      "new_scope": [
+        25,
+        43,
+        282,
+        587
+      ],
+      "parent_ids": [
+        199,
+        200,
+        1074,
+        1862
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 587,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1864,
+      "new_scope": [
+        25,
+        43,
+        282,
+        397,
+        429
+      ],
+      "parent_ids": [
+        1741,
+        1863
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 156,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        15,
+        16,
+        17,
+        22,
+        23,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1865,
+      "new_scope": [
+        457,
+        557,
+        561,
+        582,
+        603
+      ],
+      "parent_ids": [
+        644,
+        645,
+        646,
+        1847
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 457,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1866,
+      "new_scope": [
+        557,
+        561,
+        582,
+        603
+      ],
+      "parent_ids": [
+        1267,
+        1268,
+        1269,
+        1865
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 224,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        22,
+        23,
+        26,
+        27,
+        28,
+        29
+      ],
+      "new_relation_id": 1867,
+      "new_scope": [
+        64,
+        84,
+        294,
+        373,
+        451
+      ],
+      "parent_ids": [
+        285,
+        286,
+        859,
+        1861
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 373,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1868,
+      "new_scope": [
+        64,
+        84,
+        294,
+        451
+      ],
+      "parent_ids": [
+        289,
+        290,
+        1175,
+        1867
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 296,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        22,
+        23,
+        24,
+        25,
+        26,
+        31
+      ],
+      "new_relation_id": 1869,
+      "new_scope": [
+        251,
+        324,
+        369,
+        391,
+        474
+      ],
+      "parent_ids": [
+        931,
+        932,
+        1037,
+        1845
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 324,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1870,
+      "new_scope": [
+        251,
+        369,
+        391,
+        474
+      ],
+      "parent_ids": [
+        935,
+        936,
+        1087,
+        1869
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 369,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        11,
+        13,
+        14,
+        17,
+        18,
+        20,
+        23,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1871,
+      "new_scope": [
+        141,
+        251,
+        332,
+        391,
+        474
+      ],
+      "parent_ids": [
+        1807,
+        1870
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 303,
+      "new_allowed": [
+        0,
+        3,
+        4,
+        6,
+        9,
+        11,
+        13,
+        15,
+        17,
+        18,
+        21,
+        23,
+        24,
+        26,
+        28,
+        30
+      ],
+      "new_relation_id": 1872,
+      "new_scope": [
+        195,
+        361,
+        429,
+        515,
+        557
+      ],
+      "parent_ids": [
+        1048,
+        1049,
+        1050,
+        1796
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 515,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1873,
+      "new_scope": [
+        195,
+        361,
+        429,
+        557
+      ],
+      "parent_ids": [
+        1159,
+        1160,
+        1241,
+        1872
+      ]
+    },
+    {
+      "depth": 8,
+      "eliminated_variable": 313,
+      "new_allowed": [
+        6,
+        7,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        24,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1874,
+      "new_scope": [
+        251,
+        366,
+        400,
+        424,
+        469
+      ],
+      "parent_ids": [
+        933,
+        934,
+        1071,
+        1733
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 469,
+      "new_allowed": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1875,
+      "new_scope": [
+        251,
+        366,
+        400,
+        424
+      ],
+      "parent_ids": [
+        937,
+        938,
+        1235,
+        1874
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 343,
+      "new_allowed": [
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12,
+        13,
+        17,
+        18,
+        20,
+        23,
+        24,
+        25,
+        30,
+        31
+      ],
+      "new_relation_id": 1876,
+      "new_scope": [
+        8,
+        280,
+        294,
+        312,
+        462
+      ],
+      "parent_ids": [
+        37,
+        40,
+        1068,
+        1773
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 462,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1877,
+      "new_scope": [
+        8,
+        280,
+        294,
+        312
+      ],
+      "parent_ids": [
+        38,
+        41,
+        1069,
+        1876
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 366,
+      "new_allowed": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        16,
+        17,
+        18,
+        19,
+        25,
+        28,
+        30,
+        31
+      ],
+      "new_relation_id": 1878,
+      "new_scope": [
+        25,
+        112,
+        251,
+        400,
+        424
+      ],
+      "parent_ids": [
+        111,
+        115,
+        492,
+        1875
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 400,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "new_relation_id": 1879,
+      "new_scope": [
+        25,
+        112,
+        251,
+        424
+      ],
+      "parent_ids": [
+        112,
+        117,
+        494,
+        1878
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 376,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        26,
+        27,
+        28,
+        29
+      ],
+      "new_relation_id": 1880,
+      "new_scope": [
+        141,
+        176,
+        201,
+        323,
+        472
+      ],
+      "parent_ids": [
+        590,
+        592,
+        1083,
+        1857
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 472,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1881,
+      "new_scope": [
+        141,
+        176,
+        201,
+        323
+      ],
+      "parent_ids": [
+        591,
+        593,
+        1085,
+        1880
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 386,
+      "new_allowed": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9,
+        14,
+        15,
+        17,
+        18,
+        20,
+        23,
+        26,
+        27,
+        28,
+        29
+      ],
+      "new_relation_id": 1882,
+      "new_scope": [
+        12,
+        254,
+        259,
+        397,
+        516
+      ],
+      "parent_ids": [
+        56,
+        57,
+        1188,
+        1852
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 516,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14
+      ],
+      "new_relation_id": 1883,
+      "new_scope": [
+        12,
+        254,
+        259,
+        397
+      ],
+      "parent_ids": [
+        58,
+        60,
+        1204,
+        1882
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 8,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31,
+        32,
+        35,
+        37,
+        38,
+        41,
+        42,
+        44,
+        47,
+        49,
+        50,
+        52,
+        55,
+        56,
+        59,
+        61,
+        62
+      ],
+      "new_relation_id": 1884,
+      "new_scope": [
+        107,
+        280,
+        294,
+        312,
+        333,
+        607
+      ],
+      "parent_ids": [
+        1799,
+        1877
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 12,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31,
+        32,
+        35,
+        37,
+        38,
+        41,
+        42,
+        44,
+        47,
+        49,
+        50,
+        52,
+        55,
+        56,
+        59,
+        61,
+        62
+      ],
+      "new_relation_id": 1885,
+      "new_scope": [
+        254,
+        259,
+        282,
+        333,
+        397,
+        424
+      ],
+      "parent_ids": [
+        1804,
+        1883
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 39,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30,
+        33,
+        34,
+        36,
+        39,
+        40,
+        43,
+        45,
+        46,
+        48,
+        51,
+        53,
+        54,
+        57,
+        58,
+        60,
+        63
+      ],
+      "new_relation_id": 1886,
+      "new_scope": [
+        33,
+        195,
+        250,
+        280,
+        308,
+        543
+      ],
+      "parent_ids": [
+        1827,
+        1859
+      ]
+    },
+    {
+      "depth": 9,
+      "eliminated_variable": 311,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31,
+        32,
+        35,
+        37,
+        38,
+        41,
+        42,
+        44,
+        47,
+        49,
+        50,
+        52,
+        55,
+        56,
+        59,
+        61,
+        62
+      ],
+      "new_relation_id": 1887,
+      "new_scope": [
+        37,
+        75,
+        250,
+        492,
+        505,
+        561
+      ],
+      "parent_ids": [
+        1763,
+        1830
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 557,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31,
+        32,
+        35,
+        37,
+        38,
+        41,
+        42,
+        44,
+        47,
+        49,
+        50,
+        52,
+        55,
+        56,
+        59,
+        61,
+        62
+      ],
+      "new_relation_id": 1888,
+      "new_scope": [
+        195,
+        361,
+        429,
+        561,
+        582,
+        603
+      ],
+      "parent_ids": [
+        1866,
+        1873
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 201,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        15,
+        16,
+        19,
+        21,
+        22,
+        24,
+        27,
+        29,
+        30,
+        32,
+        35,
+        37,
+        38,
+        40,
+        43,
+        45,
+        46,
+        49,
+        50,
+        52,
+        55,
+        57,
+        58,
+        60,
+        63
+      ],
+      "new_relation_id": 1889,
+      "new_scope": [
+        141,
+        176,
+        308,
+        323,
+        361,
+        512
+      ],
+      "parent_ids": [
+        1835,
+        1881
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 110,
+      "new_allowed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16,
+        17,
+        18,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        43,
+        44,
+        45,
+        46,
+        47,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "new_relation_id": 1890,
+      "new_scope": [
+        87,
+        92,
+        421,
+        437,
+        451,
+        594
+      ],
+      "parent_ids": [
+        388,
+        390,
+        407,
+        1834
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 421,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30
+      ],
+      "new_relation_id": 1891,
+      "new_scope": [
+        87,
+        92,
+        437,
+        451,
+        594
+      ],
+      "parent_ids": [
+        389,
+        393,
+        410,
+        1890
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 87,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30,
+        32,
+        35,
+        37,
+        38,
+        41,
+        42,
+        44,
+        47,
+        49,
+        50,
+        52,
+        55,
+        56,
+        59,
+        61,
+        62
+      ],
+      "new_relation_id": 1892,
+      "new_scope": [
+        92,
+        107,
+        151,
+        437,
+        451,
+        594
+      ],
+      "parent_ids": [
+        1824,
+        1891
+      ]
+    },
+    {
+      "depth": 10,
+      "eliminated_variable": 283,
+      "new_allowed": [
+        0,
+        2,
+        4,
+        6,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        20,
+        23,
+        24,
+        26,
+        29,
+        30,
+        33,
+        35,
+        37,
+        39,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        53,
+        54,
+        57,
+        59,
+        60,
+        63
+      ],
+      "new_relation_id": 1893,
+      "new_scope": [
+        37,
+        68,
+        92,
+        254,
+        360,
+        562
+      ],
+      "parent_ids": [
+        302,
+        306,
+        408,
+        1833
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 360,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1894,
+      "new_scope": [
+        37,
+        68,
+        92,
+        254,
+        562
+      ],
+      "parent_ids": [
+        303,
+        307,
+        409,
+        1893
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 68,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30,
+        32,
+        35,
+        37,
+        38,
+        41,
+        42,
+        44,
+        47,
+        48,
+        51,
+        53,
+        54,
+        57,
+        58,
+        60,
+        63
+      ],
+      "new_relation_id": 1895,
+      "new_scope": [
+        37,
+        92,
+        254,
+        474,
+        562,
+        607
+      ],
+      "parent_ids": [
+        1816,
+        1894
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 291,
+      "new_allowed": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        17,
+        22,
+        23,
+        26,
+        27,
+        28,
+        29,
+        34,
+        35,
+        36,
+        37,
+        41,
+        42,
+        44,
+        47,
+        50,
+        51,
+        52,
+        53,
+        56,
+        57,
+        62,
+        63
+      ],
+      "new_relation_id": 1896,
+      "new_scope": [
+        84,
+        312,
+        332,
+        535,
+        577,
+        582
+      ],
+      "parent_ids": [
+        375,
+        376,
+        1025,
+        1850
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 535,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30
+      ],
+      "new_relation_id": 1897,
+      "new_scope": [
+        84,
+        312,
+        332,
+        577,
+        582
+      ],
+      "parent_ids": [
+        379,
+        380,
+        1328,
+        1896
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 411,
+      "new_allowed": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        11,
+        13,
+        14,
+        17,
+        19,
+        20,
+        22,
+        25,
+        27,
+        28,
+        30,
+        33,
+        35,
+        36,
+        38,
+        41,
+        42,
+        44,
+        47,
+        48,
+        50,
+        53,
+        55,
+        56,
+        58,
+        61,
+        63
+      ],
+      "new_relation_id": 1898,
+      "new_scope": [
+        43,
+        151,
+        166,
+        437,
+        546,
+        608
+      ],
+      "parent_ids": [
+        623,
+        624,
+        1218,
+        1855
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 546,
+      "new_allowed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        31
+      ],
+      "new_relation_id": 1899,
+      "new_scope": [
+        43,
+        151,
+        166,
+        437,
+        608
+      ],
+      "parent_ids": [
+        625,
+        627,
+        1248,
+        1898
+      ]
+    },
+    {
+      "depth": 11,
+      "eliminated_variable": 428,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        18,
+        20,
+        22,
+        24,
+        27,
+        29,
+        31,
+        32,
+        34,
+        36,
+        38,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        56,
+        58,
+        60,
+        62
+      ],
+      "new_relation_id": 1900,
+      "new_scope": [
+        75,
+        166,
+        495,
+        504,
+        577,
+        595
+      ],
+      "parent_ids": [
+        682,
+        683,
+        1240,
+        1843
+      ]
+    },
+    {
+      "depth": 12,
+      "eliminated_variable": 595,
+      "new_allowed": [
+        0,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        27,
+        29,
+        30
+      ],
+      "new_relation_id": 1901,
+      "new_scope": [
+        75,
+        166,
+        495,
+        504,
+        577
+      ],
+      "parent_ids": [
+        684,
+        685,
+        1303,
+        1900
+      ]
+    }
+  ],
+  "initial_max_arity": 8,
+  "initial_relation_count": 1344,
+  "max_macro_arity": 8,
+  "metadata": {
+    "exact_steps_verified_during_generation": true,
+    "fusion_depth": 12,
+    "selected_equation_count": 18
+  },
+  "nclauses": 1472,
+  "nvars": 608,
+  "selected_equations": [
+    {
+      "local_coeff": 31,
+      "relation_id": 1836,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1837,
+      "rhs": 0
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1838,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1864,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 15,
+      "relation_id": 1868,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 23,
+      "relation_id": 1871,
+      "rhs": 0
+    },
+    {
+      "local_coeff": 15,
+      "relation_id": 1879,
+      "rhs": 0
+    },
+    {
+      "local_coeff": 63,
+      "relation_id": 1884,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 63,
+      "relation_id": 1885,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 63,
+      "relation_id": 1886,
+      "rhs": 0
+    },
+    {
+      "local_coeff": 63,
+      "relation_id": 1887,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 63,
+      "relation_id": 1888,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 55,
+      "relation_id": 1889,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1892,
+      "rhs": 0
+    },
+    {
+      "local_coeff": 47,
+      "relation_id": 1895,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1897,
+      "rhs": 0
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1899,
+      "rhs": 1
+    },
+    {
+      "local_coeff": 31,
+      "relation_id": 1901,
+      "rhs": 0
+    }
+  ]
+}

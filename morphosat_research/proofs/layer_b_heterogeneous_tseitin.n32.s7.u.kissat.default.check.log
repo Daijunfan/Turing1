@@ -1,0 +1,144 @@
+
+c parsing input formula with 352 variables and 1278 clauses
+
+c WARNING: detected and deleted duplicate literal -267 at position 1 of proof line 108
+
+c WARNING: detected and deleted duplicate literal 149 at position 1 of proof line 139
+
+c WARNING: detected and deleted duplicate literal 189 at position 2 of proof line 142
+
+c WARNING: detected and deleted duplicate literal 272 at position 2 of proof line 161
+
+c WARNING: detected and deleted duplicate literal -272 at position 1 of proof line 162
+
+c WARNING: detected and deleted duplicate literal 288 at position 2 of proof line 205
+
+c WARNING: detected and deleted duplicate literal -149 at position 2 of proof line 276
+
+c WARNING: detected and deleted duplicate literal -322 at position 1 of proof line 277
+
+c WARNING: detected and deleted duplicate literal -7 at position 1 of proof line 288
+
+c WARNING: detected and deleted duplicate literal -275 at position 2 of proof line 372
+
+c WARNING: detected and deleted duplicate literal 332 at position 2 of proof line 455
+
+c WARNING: detected and deleted duplicate literal 7 at position 2 of proof line 473
+
+c WARNING: detected and deleted duplicate literal -288 at position 1 of proof line 515
+
+c WARNING: detected and deleted duplicate literal -345 at position 1 of proof line 635
+
+c WARNING: detected and deleted duplicate literal -327 at position 1 of proof line 645
+
+c WARNING: detected and deleted duplicate literal -122 at position 1 of proof line 656
+
+c WARNING: detected and deleted duplicate literal 122 at position 2 of proof line 689
+
+c WARNING: detected and deleted duplicate literal -188 at position 1 of proof line 760
+
+c WARNING: detected and deleted duplicate literal 275 at position 1 of proof line 787
+
+c WARNING: detected and deleted duplicate literal 267 at position 2 of proof line 791
+
+c WARNING: detected and deleted duplicate literal 323 at position 2 of proof line 889
+
+c WARNING: detected and deleted duplicate literal 300 at position 1 of proof line 899
+
+c WARNING: detected and deleted duplicate literal 345 at position 2 of proof line 913
+
+c WARNING: detected and deleted duplicate literal -323 at position 1 of proof line 925
+
+c WARNING: detected and deleted duplicate literal -228 at position 1 of proof line 975
+
+c WARNING: detected and deleted duplicate literal -189 at position 1 of proof line 985
+
+c WARNING: detected and deleted duplicate literal 327 at position 2 of proof line 1012
+
+c WARNING: detected and deleted duplicate literal 228 at position 2 of proof line 1110
+
+c WARNING: detected and deleted duplicate literal -332 at position 1 of proof line 1147
+
+c WARNING: detected and deleted duplicate literal 322 at position 2 of proof line 1214
+
+c WARNING: detected and deleted duplicate literal 188 at position 2 of proof line 1229
+
+c WARNING: detected and deleted duplicate literal -300 at position 2 of proof line 1263
+
+c WARNING: detected and deleted duplicate literal -267 at position 1 of proof line 1284
+
+c WARNING: detected and deleted duplicate literal 149 at position 1 of proof line 1289
+
+c WARNING: detected and deleted duplicate literal 189 at position 2 of proof line 1291
+
+c WARNING: detected and deleted duplicate literal 272 at position 2 of proof line 1293
+
+c WARNING: detected and deleted duplicate literal -272 at position 1 of proof line 1295
+
+c WARNING: detected and deleted duplicate literal 288 at position 2 of proof line 1305
+
+c WARNING: detected and deleted duplicate literal -149 at position 2 of proof line 1317
+
+c WARNING: detected and deleted duplicate literal -322 at position 1 of proof line 1319
+
+c WARNING: detected and deleted duplicate literal -7 at position 1 of proof line 1323
+
+c WARNING: detected and deleted duplicate literal -275 at position 2 of proof line 1346
+
+c WARNING: detected and deleted duplicate literal 332 at position 2 of proof line 1366
+
+c WARNING: detected and deleted duplicate literal 7 at position 2 of proof line 1372
+
+c WARNING: detected and deleted duplicate literal -288 at position 1 of proof line 1388
+
+c WARNING: detected and deleted duplicate literal -345 at position 1 of proof line 1435
+
+c WARNING: detected and deleted duplicate literal -327 at position 1 of proof line 1440
+
+c WARNING: detected and deleted duplicate literal -122 at position 1 of proof line 1450
+
+c WARNING: detected and deleted duplicate literal 122 at position 2 of proof line 1470
+
+c WARNING: detected and deleted duplicate literal -188 at position 1 of proof line 1514
+
+c WARNING: detected and deleted duplicate literal 275 at position 1 of proof line 1534
+
+c WARNING: detected and deleted duplicate literal 267 at position 2 of proof line 1535
+
+c WARNING: detected and deleted duplicate literal 323 at position 2 of proof line 1580
+
+c WARNING: detected and deleted duplicate literal 300 at position 1 of proof line 1585
+
+c WARNING: detected and deleted duplicate literal 345 at position 2 of proof line 1591
+
+c WARNING: detected and deleted duplicate literal -323 at position 1 of proof line 1596
+
+c WARNING: detected and deleted duplicate literal -228 at position 1 of proof line 1622
+
+c WARNING: detected and deleted duplicate literal -189 at position 1 of proof line 1626
+
+c WARNING: detected and deleted duplicate literal 327 at position 2 of proof line 1638
+
+c WARNING: detected and deleted duplicate literal 228 at position 2 of proof line 1683
+
+c WARNING: detected and deleted duplicate literal -332 at position 1 of proof line 1705
+
+c WARNING: detected and deleted duplicate literal 322 at position 2 of proof line 1747
+
+c WARNING: detected and deleted duplicate literal 188 at position 2 of proof line 1759
+
+c WARNING: detected and deleted duplicate literal -300 at position 2 of proof line 1785
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 750 of 1278 clauses in core                            
+
+c 2136 of 2828 lemmas in core using 14802 resolution steps
+
+c 16 RAT lemmas in core; 87 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.024 seconds

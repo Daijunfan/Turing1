@@ -1,0 +1,5 @@
+family,instances,answered,unknown,correct,verified,wrong,z3_decisive_crosschecks,z3_agreements
+direct_hidden_affine,40,40,0,40,40,0,40,40
+gate_fused_affine,42,42,0,42,42,0,42,42
+gate_fused_2sat,30,30,0,30,30,0,30,30
+gate_fused_horn,30,30,0,30,30,0,30,30

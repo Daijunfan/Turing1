@@ -1,0 +1,56 @@
+
+c parsing input formula with 813 variables and 1074 clauses
+
+c WARNING: detected and deleted duplicate literal 672 at position 3 of proof line 70
+
+c WARNING: detected and deleted duplicate literal 288 at position 3 of proof line 106
+
+c WARNING: detected and deleted duplicate literal -672 at position 1 of proof line 107
+
+c WARNING: detected and deleted duplicate literal -288 at position 2 of proof line 158
+
+c WARNING: detected and deleted duplicate literal -314 at position 2 of proof line 159
+
+c WARNING: detected and deleted duplicate literal 47 at position 2 of proof line 294
+
+c WARNING: detected and deleted duplicate literal 314 at position 2 of proof line 432
+
+c WARNING: detected and deleted duplicate literal -497 at position 1 of proof line 522
+
+c WARNING: detected and deleted duplicate literal -47 at position 1 of proof line 537
+
+c WARNING: detected and deleted duplicate literal 497 at position 3 of proof line 780
+
+c WARNING: detected and deleted duplicate literal 672 at position 3 of proof line 1081
+
+c WARNING: detected and deleted duplicate literal 288 at position 3 of proof line 1086
+
+c WARNING: detected and deleted duplicate literal -672 at position 1 of proof line 1088
+
+c WARNING: detected and deleted duplicate literal -288 at position 2 of proof line 1092
+
+c WARNING: detected and deleted duplicate literal -314 at position 2 of proof line 1094
+
+c WARNING: detected and deleted duplicate literal 47 at position 2 of proof line 1124
+
+c WARNING: detected and deleted duplicate literal 314 at position 2 of proof line 1184
+
+c WARNING: detected and deleted duplicate literal -497 at position 1 of proof line 1245
+
+c WARNING: detected and deleted duplicate literal -47 at position 1 of proof line 1257
+
+c WARNING: detected and deleted duplicate literal 497 at position 3 of proof line 1477
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 600 of 1074 clauses in core                            
+
+c 136 of 630 lemmas in core using 2348 resolution steps
+
+c 0 RAT lemmas in core; 27 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.033 seconds

@@ -1,0 +1,135 @@
+{
+  "decision": "PIVOT_PARAMETER",
+  "pass_conditions": {
+    "heterogeneous_scalable_formation": false,
+    "modern_solvers_not_equivalent": false,
+    "morphwidth_not_induced_width": true,
+    "explicit_parameter_order_reversal": true,
+    "recursive_birth_causal_gain": true,
+    "early_stop_causal_gain": true,
+    "independent_reproducibility": true
+  },
+  "mandatory_negative_criteria": {
+    "1_modern_gate_xor_explanation": {
+      "triggered": true,
+      "evidence": [
+        {
+          "family": "layer_a_v01_regression",
+          "solver": "cadical",
+          "baseline_median_seconds": 0.006862853973871097,
+          "morph_median_seconds": 0.07372308350750245,
+          "baseline_over_morph": 0.09308962196586225
+        },
+        {
+          "family": "layer_a_v01_regression",
+          "solver": "cryptominisat5",
+          "baseline_median_seconds": 0.0066651249944698066,
+          "morph_median_seconds": 0.07372308350750245,
+          "baseline_over_morph": 0.09040757219265698
+        },
+        {
+          "family": "layer_b_heterogeneous_tseitin",
+          "solver": "cadical",
+          "baseline_median_seconds": 0.008791792031843215,
+          "morph_median_seconds": 0.08567937498446554,
+          "baseline_over_morph": 0.10261270035451646
+        },
+        {
+          "family": "layer_b_heterogeneous_tseitin",
+          "solver": "cryptominisat5",
+          "baseline_median_seconds": 0.00838241699966602,
+          "morph_median_seconds": 0.08567937498446554,
+          "baseline_over_morph": 0.09783471227685578
+        },
+        {
+          "family": "layer_c_heterogeneous_tseitin",
+          "solver": "cadical",
+          "baseline_median_seconds": 0.007288437511306256,
+          "morph_median_seconds": 0.32672987499972805,
+          "baseline_over_morph": 0.02230722706735135
+        },
+        {
+          "family": "layer_c_heterogeneous_tseitin",
+          "solver": "cryptominisat5",
+          "baseline_median_seconds": 0.0071761249855626374,
+          "morph_median_seconds": 0.32672987499972805,
+          "baseline_over_morph": 0.021963479726390525
+        },
+        {
+          "family": "layer_d_random_reordered_parity",
+          "solver": "cadical",
+          "baseline_median_seconds": 0.00764054199680686,
+          "morph_median_seconds": 0.047059395466931164,
+          "baseline_over_morph": 0.16235954416745327
+        },
+        {
+          "family": "layer_d_random_reordered_parity",
+          "solver": "cryptominisat5",
+          "baseline_median_seconds": 0.007776562531944364,
+          "morph_median_seconds": 0.047059395466931164,
+          "baseline_over_morph": 0.16524994541013574
+        },
+        {
+          "family": "layer_d_resolution_tseitin_reference",
+          "solver": "cadical",
+          "baseline_median_seconds": 0.008283250004751608,
+          "morph_median_seconds": 0.046153958479408175,
+          "baseline_over_morph": 0.17946997998984685
+        },
+        {
+          "family": "layer_d_resolution_tseitin_reference",
+          "solver": "cryptominisat5",
+          "baseline_median_seconds": 0.007436000014422461,
+          "morph_median_seconds": 0.046153958479408175,
+          "baseline_over_morph": 0.16111294154194966
+        }
+      ]
+    },
+    "2_scope_recovery_dependency": {
+      "triggered": true,
+      "evidence": {
+        "kind": "scope_recovery_failure",
+        "source_run_id": "layer_b_heterogeneous_tseitin.n4.s1.s",
+        "width": 4,
+        "original_clauses": 130,
+        "minimized_clauses": 5,
+        "one_clause_minimal": true,
+        "recovery_on": {
+          "success": true,
+          "births": 1
+        },
+        "recovery_off": {
+          "success": false,
+          "births": 1
+        }
+      }
+    },
+    "3_existing_parameter_equivalence_or_simple_bound": {
+      "triggered": true,
+      "all_equal_to_induced_width": false,
+      "observed_simple_upper_bound": "MorphWidth <= induced_width",
+      "pearson_correlation": 0.2809757434745082,
+      "order_reversal": {
+        "kind": "parameter_order_reversal",
+        "parameter": "induced_width",
+        "left": "random_exact.n4.s0",
+        "right": "random_exact.n5.s6",
+        "left_morph_width": 3,
+        "right_morph_width": 0,
+        "left_parameter": 3,
+        "right_parameter": 4
+      },
+      "backdoor_order_reversal_found": true,
+      "interpretation": "upper dominance is observed, while strict reversals refute equality/monotone equivalence"
+    },
+    "4_trajectory_dependent_threshold": {
+      "triggered": true
+    },
+    "5_only_hardcoded_affine": {
+      "triggered": false,
+      "evidence": "v0.1 implements six Schaefer classes"
+    },
+    "recursive_birth_gain": 0.725,
+    "early_stop_birth_reduction": 5.262499999999989
+  }
+}

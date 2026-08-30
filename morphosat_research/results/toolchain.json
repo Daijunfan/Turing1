@@ -1,0 +1,60 @@
+{
+  "machine": {
+    "platform": "macOS-26.3.2-arm64-arm-64bit",
+    "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "processor": "Apple M5 Pro",
+    "memory_bytes": "51539607552",
+    "cpu_count": 18,
+    "time_limit_seconds": 10.0,
+    "memory_limit_mb": 4096,
+    "memory_limit_enforcement": "RLIMIT_AS requested; Darwin may decline it before dyld mapping; RSS always recorded"
+  },
+  "solvers": {
+    "cadical": {
+      "version": "3.0.1",
+      "tag": "rel-3.0.1",
+      "commit": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+      "build": "./configure && make -j8 (-O3 -DNDEBUG, statistics enabled)",
+      "url": "https://github.com/arminbiere/cadical/releases/tag/rel-3.0.1",
+      "binary": "/Users/djf/develop/CS/Turing/Turing1/morphosat_research/.audit_tools/bin/cadical",
+      "reported_version": "3.0.1",
+      "note": "built from pinned codeload archive; recorded source commit is authoritative"
+    },
+    "kissat": {
+      "version": "4.0.4",
+      "tag": "rel-4.0.4",
+      "commit": "8af8e56f174b778aef3aa45af9f739b2a5f492c2",
+      "build": "./configure && make -j8 (-O3 -DNDEBUG, statistics enabled)",
+      "url": "https://github.com/arminbiere/kissat/releases/tag/rel-4.0.4",
+      "binary": "/Users/djf/develop/CS/Turing/Turing1/morphosat_research/.audit_tools/bin/kissat",
+      "reported_version": "4.0.4",
+      "note": "built from pinned codeload archive; recorded source commit is authoritative"
+    },
+    "cryptominisat5": {
+      "version": "5.14.7",
+      "tag": "release/v5.14.7",
+      "commit": "3c8e228e8a48e41276e8ab039f763daa08d61161",
+      "build": "cmake Release, BUILD_SHARED_LIBS=OFF, ENABLE_TESTING=OFF",
+      "url": "https://github.com/msoos/cryptominisat/releases/tag/release/v5.14.7",
+      "note": "archive build's embedded git hash sees the outer repository; pinned source commit is authoritative",
+      "binary": "/Users/djf/develop/CS/Turing/Turing1/morphosat_research/.audit_tools/bin/cryptominisat5",
+      "reported_version": "c CMS SHA1: 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb\nc CryptoMiniSat version 5.14.7\nc CMS compilation env CMAKE_CXX_COMPILER = /usr/bin/c++ | CMAKE_CXX_FLAGS =  -fno-stack-protector -msse4.2 -Wno-bitfield-constant-conversion -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic | COMPILE_DEFINES =  -DNDEBUG -D_FORTIFY_SOURCE=0 | BUILD_SHARED_LIBS = OFF | ONLY_SIMPLE =  | STATS = OFF | SQLITE3_FOUND =  | ZLIB_FOUND = FALSE | VALGRIND_FOUND =  | ENABLE_TESTING = OFF | SLOW_DEBUG = OFF | ENABLE_ASSERTIONS = OFF | PYTHON_EXECUTABLE =  | PYTHON_LIBRARY =  | PYTHON_INCLUDE_DIRS =  | MY_TARGETS =  | LARGEMEM = OFF | LIMITMEM = OFF | BREAKID_LIBRARIES =  | BREAKID-VER = . | c c Using VMTF, picosat, CaDiCaL, and CadiBack code by Armin Biere\nc CMS is MIT licensed\nc Using code from 'When Boolean Satisfiability Meets Gauss-E. in a Simplex Way'\nc       by C.-S. Han and J.-H. Roland Jiang in CAV 2012. Fixes by M. Soos\nc Using CCAnr from 'CCAnr: A Conf. Checking Based Local Search Solver [...]'\nc       by Shaowei Cai, Chuan Luo, and Kaile Su, SAT 2015\nc Using Oracle code from 'Integrating Tree Decompositions [...]'\nc       by Tuukka Korhonen and Matti Jarvisalo, CP 2021"
+    },
+    "z3": {
+      "version": "5.1.0",
+      "tag": "z3-5.1.0",
+      "commit": "0b6cdcdbc65da25ef0f73ac9da210574d0f66cf8",
+      "build": "cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DZ3_BUILD_LIBZ3_SHARED=ON",
+      "url": "https://github.com/Z3Prover/z3/releases/tag/z3-5.1.0",
+      "binary": "/Users/djf/develop/CS/Turing/Turing1/morphosat_research/.audit_tools/bin/z3",
+      "reported_version": "Z3 version 5.1.0 - 64 bit"
+    },
+    "drat-trim": {
+      "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+      "build": "make -j8",
+      "url": "https://github.com/marijnheule/drat-trim",
+      "binary": "/Users/djf/develop/CS/Turing/Turing1/morphosat_research/.audit_tools/bin/drat-trim",
+      "reported_version": "usage: drat-trim [INPUT] [<PROOF>] [<option> ...]\n\nwhere <option> is one of the following\n\n  -h          print this command line option summary\n  -c CORE     prints the unsatisfiable core to the file CORE (DIMACS format)\n  -a ACTIVE   prints the active clauses to the file ACTIVE (DIMACS format)\n  -l LEMMAS   prints the core lemmas to the file LEMMAS (DRAT format)\n  -L LEMMAS   prints the core lemmas to the file LEMMAS (LRAT format)\n  -r TRACE    resolution graph in the TRACE file (TRACECHECK format)\n\n  -t <lim>    time limit in seconds (default 40000)\n  -u          default unit propatation (i.e., no core-first)\n  -f          forward mode for UNSAT\n  -v          more verbose output\n  -b          show progress bar\n  -O          optimize proof till fixpoint by repeating verification\n  -C          compress core lemmas (emit binary proof)\n  -D          delete proof file after parsing\n  -I          force ASCII proof parse mode\n  -i          force binary proof parse mode\n  -w          suppress warning messages\n  -W          exit after first warning\n  -p          run in plain mode (i.e., ignore deletion information)\n\n  -R          turn off reduce mode\n\n  -S          run in SAT check mode (forward checking)\n\n  -U          only allow RUP additions\nand input and proof are specified as follows\n\n  INPUT       input file in DIMACS format\n  PROOF       proof file in DRAT format (stdin if no argument)"
+    }
+  }
+}

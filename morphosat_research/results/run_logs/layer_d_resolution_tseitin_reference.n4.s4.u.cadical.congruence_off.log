@@ -1,0 +1,128 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_resolution_tseitin_reference.n4.s4.u.cadical.congruence_off.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_resolution_tseitin_reference.n4.s4.u.cadical.congruence_off.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_resolution_tseitin_reference.n4.s4.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_resolution_tseitin_reference.n4.s4.u.cnf'
+c found 'p cnf 6 16' header
+c parsed 16 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --congruence=false             (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   16   6 100%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   16   6 100%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   16   6 100%
+c i  0.00  0  1 0   0  1    5    2 2.0 2 1 2 6 100%   16   5 83%
+c i  0.00  0  1 0   0  1    7    3 2.3 2 1 2 6 100%   16   3 50%
+c }  0.00  0  1 0   0  1    9    3 2.5 2 1 2 6 100%   16   0  0%
+c 0  0.00  0  1 0   0  1    9    3 2.5 2 1 2 6 100%   16   0  0%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_resolution_tseitin_reference.n4.s4.u.cadical.congruence_off.drat' closed
+c DRAT 12 added clauses 85.71%
+c DRAT 2 deleted clauses 14.29%
+c DRAT 92 bytes (0.00 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   65.29% search
+c         0.00   46.28% unstable
+c         0.00   39.67% parse
+c         0.00    9.92% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   21.08% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c conflicts:                     9     74380.17    per second
+c decisions:                     7     57851.24    per second
+c fixed:                         6       100.00 %  of all variables
+c learned:                       6        66.67 %  per conflict
+c learned_lits:                 14       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                      4        28.57 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c otfs:                          2        22.22 %  of conflict
+c propagations:                 26         0.21 M  per second
+c strengthened:                  2        10.53 %  of all clauses
+c ticks:                       135         5.19    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 1 used 2 clauses 66.66% accumulated 66.66% tier1
+c focused glue 2 used 1 clauses 33.33% accumulated 100.0% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.25    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2359296  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 308  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  13  involuntary context switches
+            18601922  instructions retired
+             9553854  cycles elapsed
+             1098016  peak memory footprint

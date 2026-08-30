@@ -1,0 +1,56 @@
+
+c parsing input formula with 178 variables and 642 clauses
+
+c WARNING: detected and deleted duplicate literal -79 at position 2 of proof line 25
+
+c WARNING: detected and deleted duplicate literal -72 at position 1 of proof line 38
+
+c WARNING: detected and deleted duplicate literal 72 at position 2 of proof line 65
+
+c WARNING: detected and deleted duplicate literal -157 at position 1 of proof line 70
+
+c WARNING: detected and deleted duplicate literal 157 at position 2 of proof line 117
+
+c WARNING: detected and deleted duplicate literal 79 at position 1 of proof line 215
+
+c WARNING: detected and deleted duplicate literal -10 at position 2 of proof line 274
+
+c WARNING: detected and deleted duplicate literal 10 at position 1 of proof line 457
+
+c WARNING: detected and deleted duplicate literal -6 at position 1 of proof line 541
+
+c WARNING: detected and deleted duplicate literal 6 at position 2 of proof line 572
+
+c WARNING: detected and deleted duplicate literal -79 at position 2 of proof line 645
+
+c WARNING: detected and deleted duplicate literal -72 at position 1 of proof line 647
+
+c WARNING: detected and deleted duplicate literal 72 at position 2 of proof line 650
+
+c WARNING: detected and deleted duplicate literal -157 at position 1 of proof line 652
+
+c WARNING: detected and deleted duplicate literal 157 at position 2 of proof line 656
+
+c WARNING: detected and deleted duplicate literal 79 at position 1 of proof line 678
+
+c WARNING: detected and deleted duplicate literal -10 at position 2 of proof line 693
+
+c WARNING: detected and deleted duplicate literal 10 at position 1 of proof line 756
+
+c WARNING: detected and deleted duplicate literal -6 at position 1 of proof line 789
+
+c WARNING: detected and deleted duplicate literal 6 at position 2 of proof line 808
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 373 of 642 clauses in core                            
+
+c 200 of 298 lemmas in core using 1694 resolution steps
+
+c 0 RAT lemmas in core; 12 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.021 seconds

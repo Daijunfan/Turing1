@@ -1,0 +1,175 @@
+c CMS SHA1: 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c CryptoMiniSat version 5.14.7
+c CMS compilation env CMAKE_CXX_COMPILER = /usr/bin/c++ | CMAKE_CXX_FLAGS =  -fno-stack-protector -msse4.2 -Wno-bitfield-constant-conversion -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic | COMPILE_DEFINES =  -DNDEBUG -D_FORTIFY_SOURCE=0 | BUILD_SHARED_LIBS = OFF | ONLY_SIMPLE =  | STATS = OFF | SQLITE3_FOUND =  | ZLIB_FOUND = FALSE | VALGRIND_FOUND =  | ENABLE_TESTING = OFF | SLOW_DEBUG = OFF | ENABLE_ASSERTIONS = OFF | PYTHON_EXECUTABLE =  | PYTHON_LIBRARY =  | PYTHON_INCLUDE_DIRS =  | MY_TARGETS =  | LARGEMEM = OFF | LIMITMEM = OFF | BREAKID_LIBRARIES =  | BREAKID-VER = . | c c Using VMTF, picosat, CaDiCaL, and CadiBack code by Armin Biere
+c CMS is MIT licensed
+c Using code from 'When Boolean Satisfiability Meets Gauss-E. in a Simplex Way'
+c       by C.-S. Han and J.-H. Roland Jiang in CAV 2012. Fixes by M. Soos
+c Using CCAnr from 'CCAnr: A Conf. Checking Based Local Search Solver [...]'
+c       by Shaowei Cai, Chuan Luo, and Kaile Su, SAT 2015
+c Using Oracle code from 'Integrating Tree Decompositions [...]'
+c       by Tuukka Korhonen and Matti Jarvisalo, CP 2021
+c Executed with command line: /Users/djf/develop/CS/Turing/Turing1/morphosat_research/.audit_tools/bin/cryptominisat5 --maxnummatrices=5 --verb=1 --printsol=0 /Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_a_v01_regression.n4.s3.s.cnf
+c Reading file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_a_v01_regression.n4.s3.s.cnf'
+c o -- header says num vars:             38
+c o -- header says num clauses:          92
+c -- clauses added: 92
+c -- xor clauses added: 0
+c -- vars added 38
+c Parsing time: 0.00 s
+c [branch] adjusting to: vsids (from: vsids) var_decay:0.95 descr: VSIDS
+c rst  geom  stb   vs     1     0      28    20    58    3.00    2.26     0     0     0     0    0.00    0.00
+c ------- FINAL TOTAL SEARCH STATS ---------
+c UIP search time          : 0.00        (0.63      % time)
+c All times are for this thread only except if explicitly specified
+c restarts                 : 1           (0.00      confls per restart)
+c blocked restarts         : 0           (0.00      per normal restart)
+c time                     : 0.00        
+c decisions                : 3           (0.00      % random)
+c propagations             : 28          (2153K     props/s)
+c decisions/conflicts      : 0.00        
+c conflicts                : 0           
+c LEARNT stats
+c units learnt             : 0           (0.00      % of conflicts)
+c bins learnt              : 0           (0.00      % of conflicts)
+c long learnt              : 0           (0.00      % of conflicts)
+c red which0               : 0           (0.00      % of confl)
+c SEAMLESS HYPERBIN&TRANS-RED stats
+c advProp called           : 0           
+c hyper-bin add bin        : 0           (0.00      bin/call)
+c trans-red rem irred bin  : 0           (0.00      bin/call)
+c trans-red rem red bin    : 0           (0.00      bin/call)
+c CONFL LITS stats
+c orig                     : 0           (0.00      lit/confl)
+c recurs-min effective     : 0           (0.00      % attempt successful)
+c recurs-min lits          : 0           (0.00      % less overall)
+c permDiff call%           : 0.00        (0.00      % attempt successful)
+c permDiff lits-rem        : 0           (0.00      less lits/cl on attempts)
+c further-min call%        : 0.00        (0.00      % attempt successful)
+c bintri-min lits          : 0           (0.00      % less overall)
+c final avg                : 0.00        
+c all-threads sum CPU time : 0.00         s
+c PROP stats
+c Mbogo-props              : 0.00        (0.00      / sec)
+c MHyper-props             : 0.00        (0.00      / sec)
+c Mprops                   : 0.00        (2.15      / sec)
+c -------- OccSimplifier STATS ----------
+c time                     : 0.00        (0.00      % var-elim)
+c called                   : 0           (0.00      s per call)
+c 0-depth assigns          : 0           (0.00      % vars)
+c -------- OccSimplifier STATS END ----------
+c -------- SubsumeStrengthen STATS ----------
+c cl-subs                  : 0            Clauses
+c cl-str rem lit           : 0            Lits
+c cl-sub T                 : 0.00         s
+c cl-str T                 : 0.00         s
+c -------- SubsumeStrengthen STATS END ----------
+c ----- SCC STATS --------
+c time                     : 0.00        (0.00      per call)
+c called                   : 0           (0.00      new found per call)
+c found                    : 0           (0.00      % of all found)
+c bogoprops                : 0           % of all found
+c ----- SCC STATS END --------
+c --------- VAR REPLACE STATS ----------
+c time                     : 0.00        (0.00      per call)
+c trees' crown             : 0           (0.00      % of vars)
+c 0-depth assigns          : 0           (0.00      % vars)
+c lits replaced            : 0           
+c bin cls removed          : 0           
+c long cls removed         : 0           
+c long lits removed        : 0           
+c bogoprops                : 0           
+c --------- VAR REPLACE STATS END ----------
+c vrep replace time        : 0.00        (0.00      % time)
+c vrep tree roots          : 0           
+c vrep trees' crown        : 0           (0.00      leafs/tree)
+c -------- DISTILL-BIN STATS --------
+c time                     : 0.00        (0.00      per call)
+c timed out                : 0           (0.00      % of calls)
+c distill/checked/potential: 0          /0/0
+c lits-rem                 : 0           
+c 0-depth-assigns          : 0           (0.00      % of vars)
+c -------- DISTILL STATS END --------
+c -------- STRENGTHEN STATS --------
+c --> watch-based on irred cls
+c time                     : 0.00        (0.00      s/call)
+c shrinked/tried/total     : 0          /0/0
+c subsumed/tried/total     : 0          /0/0
+c lits-rem                 : 0           (0.00      % of lits tried)
+c called                   : 0           (0.00      % ran out of time)
+c --> watch-based on red cls
+c time                     : 0.00        (0.00      s/call)
+c shrinked/tried/total     : 0          /0/0
+c subsumed/tried/total     : 0          /0/0
+c lits-rem                 : 0           (0.00      % of lits tried)
+c called                   : 0           (0.00      % ran out of time)
+c -------- STRENGTHEN STATS END --------
+c -------- IMPLICIT SUB  STATS --------
+c time                     : 0.00        (0.00      per call)
+c timed out                : 0           (0.00      % of calls)
+c rem bins                 : 0           
+c -------- IMPLICIT SUB STATS END --------
+c Mem used                 : 0           MB
+c Mem for longclauses      : 2           MB (0.00      %)
+c Mem for watch alloc      : 0           MB (0.00      %)
+c Mem for watch array      : 0           MB (0.00      %)
+c Mem for assings&vardata  : 0           MB (0.00      %)
+c Mem for search&solve     : 0           MB (0.00      %)
+c Mem for renumberer       : 0           MB (0.00      %)
+c Mem for occsimplifier    : 0           MB (0.00      %)
+c Mem for varReplacer&SCC  : 0           MB (0.00      %)
+c Mem for impl subsume     : 0           MB (0.00      %)
+c Mem for 3 distills       : 0           MB (0.00      %)
+c Accounted for mem (rss)  : 0.00        %
+c Accounted for mem (vm)   : 0.00        %
+c restarts                 : 1           (0.00      confls per restart)
+c blocked restarts         : 0           (0.00      per normal restart)
+c time                     : 0.00        
+c decisions                : 3           (0.00      % random)
+c propagations             : 28          (2153K     props/s)
+c decisions/conflicts      : 0.00        
+c conflicts                : 0           
+c conf lits non-minim      : 0           (0.00      lit/confl)
+c conf lits final          : 0.00        
+c red which0               : 0           (0.00      % of confl)
+c props/decision           : 0.00        
+c props/conflict           : 0.00        
+c 0-depth assigns          : 10          (26.32     % vars)
+c 0-depth assigns by CNF   : 10          (26.32     % vars)
+c reduceDB time            : 0.00        (0.00      % time)
+c OccSimplifier time       : 0.00        (0.00      % time)
+c [occur] 0.00 is overhead
+c [occur] link-in T: 0.00 cleanup T: 0.00
+c [occ-substr] long subBySub: 0 subByStr: 0 lits-rem-str: 0 T: 0.00
+c SCC time                 : 0.00        (0.00      % time)
+c [scc] new: 0 BP 0M T: 0.00
+c vrep replace time        : 0.00        (0.00      % time)
+c vrep tree roots          : 0           
+c vrep trees' crown        : 0           (0.00      leafs/tree)
+c distill long time        : 0.00        (0.00      % time)
+c distill bin time         : 0.00        (0.00      % time)
+c strength cache-irred time: 0.00        (0.00      % time)
+c strength cache-red time  : 0.00        (0.00      % time)
+c Conflicts in UIP         : 0           (0.00      confl/time_this_thread)
+c Mem used                 : 0.00        MB
+c Total time (this thread) : 0.00        
+s SATISFIABLE
+c Not printing satisfying assignment. Use the '--printsol 1' option for that
+
+        0.00 real         0.00 user         0.00 sys
+             2752512  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 346  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                   6  involuntary context switches
+            22679229  instructions retired
+             8069755  cycles elapsed
+             1474872  peak memory footprint

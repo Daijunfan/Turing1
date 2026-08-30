@@ -1,0 +1,133 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_c_heterogeneous_tseitin.n8.s3.u.cadical.bve_off.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_c_heterogeneous_tseitin.n8.s3.u.cadical.bve_off.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_c_heterogeneous_tseitin.n8.s3.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_c_heterogeneous_tseitin.n8.s3.u.cnf'
+c found 'p cnf 813 1074' header
+c parsed 1074 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --elim=false                   (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  521  74  9%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  521  74  9%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  521  74  9%
+c i  0.00  0  1 0   0  4    1    0 0.0 1 0 2 6 92%  521  72  9%
+c i  0.00  0  9 0   0  2   33   18 1.5 4 2 2 6 99%  516  69  8%
+c i  0.00  0  6 0   0  1   74   39 1.7 4 2 2 6 99%  513  68  8%
+c i  0.00  0  6 0   0  1   77   40 1.7 4 2 2 6 99%  513  56  7%
+c i  0.00  0  6 0   0  1   80   41 1.7 4 2 2 6 99%  513  46  6%
+c }  0.00  0  6 0   0  1   83   41 1.7 4 2 2 6 99%  513   3  0%
+c 0  0.00  0  6 0   0  1   83   41 1.7 4 2 2 6 99%  513   3  0%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_c_heterogeneous_tseitin.n8.s3.u.cadical.bve_off.drat' closed
+c DRAT 629 added clauses 65.05%
+c DRAT 338 deleted clauses 34.95%
+c DRAT 12065 bytes (0.01 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   89.51% search
+c         0.00   87.41% parse
+c         0.00   74.36% unstable
+c         0.00   12.59% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   36.33% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                21        25.30 %  of conflicts
+c conflicts:                    83    193473.19    per second
+c decisions:                    95    221445.22    per second
+c fixed:                       810        99.63 %  of all variables
+c learned:                      55        66.27 %  per conflict
+c learned_lits:                243       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                     43        17.70 %  learned literals
+c minishrunken:                  6         2.47 %  learned literals
+c otfs:                         30        36.14 %  of conflict
+c propagations:               2845         6.63 M  per second
+c subsumed:                     24         4.21 %  of all clauses
+c strengthened:                 22         3.86 %  of all clauses
+c ticks:                     10900         3.83    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 1 used 94 clauses 65.73% accumulated 65.73% tier1
+c focused glue 2 used 24 clauses 16.78% accumulated 82.51% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.61    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2736128  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 331  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   6  involuntary context switches
+            24886504  instructions retired
+            10860020  cycles elapsed
+             1474848  peak memory footprint

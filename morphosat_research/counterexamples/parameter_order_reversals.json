@@ -1,0 +1,132 @@
+[
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "induced_width",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n5.s6",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 3,
+    "right_parameter": 4
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "affine_strong_backdoor_size",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n5.s6",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 3,
+    "right_parameter": 4
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "horn_strong_backdoor_size",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 1,
+    "right_parameter": 2
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "2cnf_strong_backdoor_size",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 1,
+    "right_parameter": 2
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "scattered_strong_backdoor_size",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 1,
+    "right_parameter": 2
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "affine_backdoor_depth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 2,
+    "right_parameter": 3
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "horn_backdoor_depth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 1,
+    "right_parameter": 2
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "2cnf_backdoor_depth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 1,
+    "right_parameter": 2
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "scattered_backdoor_depth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 1,
+    "right_parameter": 2
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "affine_backdoor_treewidth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n5.s6",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 2,
+    "right_parameter": 3
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "horn_backdoor_treewidth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 0,
+    "right_parameter": 1
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "2cnf_backdoor_treewidth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 0,
+    "right_parameter": 1
+  },
+  {
+    "kind": "parameter_order_reversal",
+    "parameter": "scattered_backdoor_treewidth",
+    "left": "random_exact.n4.s0",
+    "right": "random_exact.n4.s2",
+    "left_morph_width": 3,
+    "right_morph_width": 0,
+    "left_parameter": 0,
+    "right_parameter": 1
+  }
+]

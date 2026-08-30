@@ -1,0 +1,92 @@
+{
+  "kind": "heuristic_nonoptimal",
+  "instance_id": "random_exact.n4.s8",
+  "family": "random_exact",
+  "nvars": 4,
+  "nclauses": 8,
+  "seed": 8,
+  "generator_seed": 10408,
+  "morph_width": 0,
+  "morph_width_kind": "exact",
+  "min_births": 0,
+  "min_max_depth": 0,
+  "target_class": "zero_valid",
+  "states_explored": 1,
+  "infeasible_widths": "[]",
+  "witness": "[]",
+  "initial_state_sha256": "2e84ec22181e3be3a08636d4d3e105f6e3d7bd733830f467fb0ad584a6c92922",
+  "bruteforce_crosscheck": 0,
+  "heuristic_width": 3,
+  "heuristic_births": 1,
+  "heuristic_max_depth": 1,
+  "primal_treewidth": 3,
+  "primal_treewidth_kind": "exact",
+  "primal_treewidth_lower": 3,
+  "primal_treewidth_upper": 3,
+  "induced_width": 3,
+  "induced_width_kind": "exact",
+  "induced_width_lower": 3,
+  "induced_width_upper": 3,
+  "incidence_treewidth": 4,
+  "incidence_treewidth_kind": "exact",
+  "incidence_treewidth_lower": 4,
+  "incidence_treewidth_upper": 4,
+  "affine_strong_backdoor_size": 3,
+  "affine_strong_backdoor_kind": "exact",
+  "affine_strong_backdoor_witness": [
+    1,
+    2,
+    3
+  ],
+  "affine_backdoor_depth": 3,
+  "affine_backdoor_depth_kind": "exact",
+  "affine_backdoor_treewidth": 2,
+  "affine_backdoor_treewidth_kind": "exact",
+  "affine_backdoor_treewidth_witness": [
+    1,
+    2,
+    3
+  ],
+  "horn_strong_backdoor_size": 2,
+  "horn_strong_backdoor_kind": "exact",
+  "horn_strong_backdoor_witness": [
+    3,
+    4
+  ],
+  "horn_backdoor_depth": 2,
+  "horn_backdoor_depth_kind": "exact",
+  "horn_backdoor_treewidth": 1,
+  "horn_backdoor_treewidth_kind": "exact",
+  "horn_backdoor_treewidth_witness": [
+    3,
+    4
+  ],
+  "2cnf_strong_backdoor_size": 2,
+  "2cnf_strong_backdoor_kind": "exact",
+  "2cnf_strong_backdoor_witness": [
+    1,
+    2
+  ],
+  "2cnf_backdoor_depth": 2,
+  "2cnf_backdoor_depth_kind": "exact",
+  "2cnf_backdoor_treewidth": 1,
+  "2cnf_backdoor_treewidth_kind": "exact",
+  "2cnf_backdoor_treewidth_witness": [
+    1,
+    2
+  ],
+  "scattered_strong_backdoor_size": 2,
+  "scattered_strong_backdoor_kind": "exact",
+  "scattered_strong_backdoor_witness": [
+    1,
+    2
+  ],
+  "scattered_backdoor_depth": 2,
+  "scattered_backdoor_depth_kind": "exact",
+  "scattered_backdoor_treewidth": 1,
+  "scattered_backdoor_treewidth_kind": "exact",
+  "scattered_backdoor_treewidth_witness": [
+    1,
+    2
+  ]
+}

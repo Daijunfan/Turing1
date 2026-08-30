@@ -1,0 +1,130 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n16.s1.u.cadical.default.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n16.s1.u.cadical.default.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n16.s1.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n16.s1.u.cnf'
+c found 'p cnf 24 64' header
+c parsed 64 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   64  24 100%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   64  24 100%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%   64  24 100%
+c i  0.00  0  4 0   0  1  111   53 1.8 5 3 2 6 86%   64  23 96%
+c i  0.00  0  4 0   0  1  140   64 1.7 5 3 2 6 84%   64  22 92%
+c i  0.00  0  4 0   0  1  153   70 1.7 5 3 2 6 84%   64  21 88%
+c }  0.00  0  4 0   0  1  157   71 1.7 5 3 2 6 82%   64  18 75%
+c 0  0.00  0  4 0   0  1  157   71 1.7 5 3 2 6 82%   64  18 75%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n16.s1.u.cadical.default.drat' closed
+c DRAT 159 added clauses 66.25%
+c DRAT 81 deleted clauses 33.75%
+c DRAT 4444 bytes (0.00 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   86.96% search
+c         0.00   74.46% unstable
+c         0.00   11.68% parse
+c         0.00    8.15% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   55.59% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                29        18.47 %  of conflicts
+c conflicts:                   157    426630.43    per second
+c decisions:                   146    396739.13    per second
+c fixed:                         6        25.00 %  of all variables
+c learned:                     103        65.61 %  per conflict
+c learned_lits:                588       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                    106        18.03 %  learned literals
+c minishrunken:                  6         1.02 %  learned literals
+c otfs:                         53        33.76 %  of conflict
+c propagations:                920         2.50 M  per second
+c subsumed:                     28        17.18 %  of all clauses
+c strengthened:                 53        32.52 %  of all clauses
+c ticks:                      5092         5.53    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 3 used 55 clauses 33.95% accumulated 79.01% tier1
+c focused glue 4 used 26 clauses 16.04% accumulated 95.06% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.34    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2457600  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 314  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  13  involuntary context switches
+            20861009  instructions retired
+            10168587  cycles elapsed
+             1196320  peak memory footprint

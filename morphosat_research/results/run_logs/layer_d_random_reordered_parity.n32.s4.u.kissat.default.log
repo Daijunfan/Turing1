@@ -1,0 +1,108 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2024 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 4.0.4 unknown
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -W -Wall -O3 -DNDEBUG
+c Sun Aug 30 17:38:25 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c
+c ---- [ proving ] -----------------------------------------------------------
+c
+c opened and writing proof to DRAT file:
+c
+c   /Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_d_random_reordered_parity.n32.s4.u.kissat.default.drat
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   /Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_d_random_reordered_parity.n32.s4.u.cnf
+c
+c parsed 'p cnf 48 128' header
+c closing input after reading 1618 bytes (2 KB)
+c finished parsing after 0.00 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c seconds switched rate     size/glue tier1 binary    remaining
+c        MB reductions conflicts size  tier2  irredundant
+c         level restarts redundant glue  trail    variables
+c
+c *  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 128 48 100%
+c (  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 128 48 100%
+c .  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 128 48 100%
+c =  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   2 128 47 98%
+c d  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 128 47 98%
+c )  0.00  2 0 0 0  0 0   0   0 0.0 0 0 0 0 0%   0 128 47 98%
+c {  0.00  2 0 0 0  0 0   0   0 0.0 0 0 2 6 0%   0 128 47 98%
+c i  0.00  2 7 0 0  0 1 572 281 2.2 7 3 3 5 55%   2 127 46 96%
+c i  0.00  2 7 0 0  0 1 698 347 2.1 7 3 3 5 58%   7 127 44 92%
+c }  0.00  2 7 0 0  0 1 710 347 2.1 7 3 3 5 58%   9 127 40 83%
+c 0  0.00  2 7 0 0  0 1 710 347 2.1 7 3 3 5 58%   9 127 40 83%
+c
+c ---- [ result ] ------------------------------------------------------------
+c
+s UNSATISFIABLE
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c           0.00   49.81 %  search
+c           0.00   49.62 %  focused
+c           0.00   26.86 %  preprocess
+c           0.00   25.91 %  probe
+c           0.00   18.68 %  sweep
+c           0.00    3.52 %  congruence
+c           0.00    2.33 %  factor
+c           0.00    2.33 %  parse
+c           0.00    1.76 %  lucky
+c           0.00    0.88 %  substitute
+c           0.00    0.31 %  backbone
+c           0.00    0.00 %  simplify
+c =============================================
+c           0.00  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c conflicts:                              710           221046.08 per second
+c decisions:                              451                0.64 per conflict
+c iterations:                               3                6 %  variables
+c propagations:                          3426          1066625    per second
+c substituted:                              1                2 %  variables
+c switched:                                 0                0    interval
+c
+c ---- [ glue usage ] --------------------------------------------------------
+c
+c focused glue 3 used 274 clauses 24.89% accumulated 66.30% tier1
+c focused glue 4 used 234 clauses 21.25% accumulated 87.56%
+c focused glue 5 used 109 clauses  9.90% accumulated 97.46% tier2
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:       2264924160 bytes       2160 MB
+c process-time:                                              0.00 seconds
+c
+c ---- [ shutting down ] -----------------------------------------------------
+c
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             2211840  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 298  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   8  involuntary context switches
+            26066977  instructions retired
+            11873134  cycles elapsed
+             1491232  peak memory footprint

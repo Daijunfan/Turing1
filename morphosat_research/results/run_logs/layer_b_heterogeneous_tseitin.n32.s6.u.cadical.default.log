@@ -1,0 +1,144 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1 6f2b1a38e26bb3cddb49c89c64d419c1d6a16ecb
+c Apple clang version 21.0.0 (clang-2100.1.1.101) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Aug 30 17:38:15 CST 2026 Darwin djftekiMacBook-Pro.local 25.3.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_b_heterogeneous_tseitin.n32.s6.u.cadical.default.drat'
+c writing non-binary proof trace to '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_b_heterogeneous_tseitin.n32.s6.u.cadical.default.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_b_heterogeneous_tseitin.n32.s6.u.cnf'
+c opening file to read '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/instances/separation_v0.2/layer_b_heterogeneous_tseitin.n32.s6.u.cnf'
+c found 'p cnf 348 1266' header
+c parsed 1266 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 1054 274 79%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 1054 274 79%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 1054 274 79%
+c i  0.00  0  1 0   0  8    1    0 0.0 1 0 2 6 25% 1054 272 78%
+c i  0.00  0 15 0   1  6    7    1 2.5 2 1 2 6 38% 1051 270 78%
+c i  0.00  0 15 0   1  6    8    1 3.0 1 0 2 6 41% 1051 267 77%
+c i  0.00  0 25 0   1  4   27   10 1.9 2 1 2 6 62% 1045 265 76%
+c i  0.00  0 32 0   1  5   45   18 1.7 3 2 2 6 74% 1042 262 75%
+c i  0.00  0 32 0   1  4   61   27 1.7 3 1 2 6 77% 1040 259 74%
+c i  0.00  0 32 0   4  4   88   44 1.6 3 2 2 6 82% 1036 257 74%
+c -  0.00  0 22 1  47  4  300  191 1.4 4 3 2 6 83%  778 257 74%
+c i  0.00  0 15 1 108  4  577  351 1.4 5 4 2 6 72%  778 256 74%
+c i  0.00  0 14 1 108  3  733  433 1.5 5 4 2 6 70%  778 250 72%
+c -  0.00  0 14 2 108  3  733  267 1.5 5 4 2 6 70%  743 250 72%
+c i  0.00  0 13 2 108  3  775  289 1.5 5 3 2 6 69%  743 248 71%
+c i  0.00  0 13 2 108  3  784  293 1.5 5 3 2 6 69%  743 241 69%
+c i  0.00  0 13 2 108  3  789  296 1.5 5 3 2 6 69%  743 227 65%
+c i  0.00  0 13 2 108  3  792  297 1.5 5 3 2 6 69%  743 216 62%
+c }  0.00  0 13 2 108  3  794  297 1.5 5 3 2 6 69%  743 200 57%
+c 0  0.00  0 13 2 108  3  794  297 1.5 5 3 2 6 69%  743 200 57%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/Users/djf/develop/CS/Turing/Turing1/morphosat_research/proofs/layer_b_heterogeneous_tseitin.n32.s6.u.cadical.default.drat' closed
+c DRAT 1163 added clauses 48.40%
+c DRAT 1240 deleted clauses 51.60%
+c DRAT 50912 bytes (0.05 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   98.86% search
+c         0.00   96.24% unstable
+c         0.00   11.54% parse
+c         0.00    2.34% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.00   81.63% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:               292        36.78 %  of conflicts
+c conflicts:                   794    273604.41    per second
+c decisions:                  2180    751206.06    per second
+c fixed:                       148        42.53 %  of all variables
+c learned:                     625        78.72 %  per conflict
+c learned_lits:               3833       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                    614        16.02 %  learned literals
+c minishrunken:                 66         1.72 %  learned literals
+c otfs:                        183        23.05 %  of conflict
+c propagations:              34325        11.83 M  per second
+c reduced:                       3         0.38 %  per conflict
+c restarts:                    108         7.35    interval
+c subsumed:                    200        12.01 %  of all clauses
+c strengthened:                155         9.31 %  of all clauses
+c ticks:                    151398         4.41    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 1 used 1937 clauses 55.32% accumulated 55.32% tier1
+c focused glue 2 used 775 clauses 22.13% accumulated 77.46% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:            2.91    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+
+        0.00 real         0.00 user         0.00 sys
+             3047424  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 350  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   4  involuntary context switches
+            49577529  instructions retired
+            23511025  cycles elapsed
+             1786144  peak memory footprint
