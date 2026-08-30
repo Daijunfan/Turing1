@@ -49,4 +49,9 @@
 
 ## 当前 commit SHA
 
-`b51ada837d0a9fbef6ddcbd40bf3d2218b69dbcd`
+`a740f15acbe3827f3946a7c3168cff08bf62b6b0`
+
+## Repository publication status
+
+`PUSHED_BUT_NOT_PUBLIC`。若不是 `PUSHED_AND_ANONYMOUSLY_VERIFIED`，详见
+`PUSH_FAILED.md`；研究 decision 与发布状态相互独立。

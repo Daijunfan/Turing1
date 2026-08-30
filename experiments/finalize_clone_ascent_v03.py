@@ -25,7 +25,7 @@ def write_manifest() -> None:
     paths = []
     for name in (
         "CLONE_ASCENT_REPORT_CN.md", "LATEST_STAGE.md", "decision_v0.3.json",
-        "RELATED_WORK_MATRIX.md", "run_clone_ascent_v03.sh",
+        "RELATED_WORK_MATRIX.md", "run_clone_ascent_v03.sh", "PUSH_FAILED.md",
     ):
         path = ROOT / name
         if path.exists():
@@ -206,6 +206,11 @@ def main() -> None:
 ## 当前 commit SHA
 
 `{commit}`
+
+## Repository publication status
+
+`{publish_status}`。若不是 `PUSHED_AND_ANONYMOUSLY_VERIFIED`，详见
+`PUSH_FAILED.md`；研究 decision 与发布状态相互独立。
 """
     (ROOT / "LATEST_STAGE.md").write_text(latest, encoding="utf-8")
     write_manifest()
