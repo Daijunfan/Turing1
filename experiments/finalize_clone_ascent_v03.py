@@ -81,6 +81,8 @@ def main() -> None:
         "commit": commit,
         "latest_stage_path": "LATEST_STAGE.md",
         "reproduction_command": "./run_clone_ascent_v03.sh",
+        "pull_request_url": "https://github.com/Daijunfan/Turing1/pull/1",
+        "pull_request_status": "CREATED_TITLE_UPDATE_PENDING",
         "basis": {
             "clone_ascent_definitions_complete": True,
             "monotonicity_law": "PROVED (standard pp-definability consequence)",

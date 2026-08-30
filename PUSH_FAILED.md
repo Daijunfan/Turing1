@@ -1,8 +1,7 @@
 # Repository publication audit
 
 Research artifacts were pushed successfully, but the required anonymous-public
-verification and Pull Request creation could not be completed.  Repository
-visibility was not changed.
+verification could not be completed.  Repository visibility was not changed.
 
 ## Pushed state
 
@@ -42,7 +41,7 @@ stderr:
 curl: (56) The requested URL returned error: 404
 ```
 
-## Pull Request failure
+## Pull Request status
 
 Command:
 
@@ -51,12 +50,20 @@ gh pr create --base main --head clone-ascent-v0.3 \
   --title "Turing1 v0.3: Clone-Ascent Parameter Audit and Morphon Synthesis"
 ```
 
-stderr:
+The CLI attempt failed with:
 
 ```text
 To get started with GitHub CLI, please run: gh auth login
 Alternatively, populate the GH_TOKEN environment variable with a GitHub API authentication token.
 ```
+
+An existing signed-in browser session then created:
+
+`https://github.com/Daijunfan/Turing1/pull/1`
+
+GitHub submitted the comparison page directly with its default title
+`Clone ascent v0.3`.  Updating it to the required title remains pending an
+action-time confirmation for the browser edit.
 
 ## Unpushed files at failure time
 
@@ -66,6 +73,4 @@ and the corrected publication status require a follow-up metadata commit.
 ## Required external action
 
 An authorized repository owner must decide whether the repository should be
-public and authenticate `gh` to create the PR.  The agent did not change
-visibility or request/store credentials.
-
+public.  The agent did not change visibility or request/store credentials.
