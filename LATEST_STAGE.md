@@ -49,7 +49,7 @@
 
 ## 当前 commit SHA
 
-`23bd6fc0`
+`23bd6fc589ba90d65b390f1a47ad4d057ea97d95`
 
 ## Repository publication status
 
