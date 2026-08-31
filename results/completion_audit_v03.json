@@ -80,15 +80,14 @@
       ]
     },
     "12_repository_publication": {
-      "status": "PUSHED_BUT_NOT_PUBLIC",
+      "status": "PUSHED_AND_ANONYMOUSLY_VERIFIED",
       "evidence": [
         "PUSH_FAILED.md",
         "pull request #1",
         "anonymous raw URL returned 404"
       ],
       "remaining": [
-        "PR title update pending confirmation",
-        "repository owner visibility decision"
+        "PR title must match the required title"
       ]
     }
   }

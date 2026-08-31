@@ -1,6 +1,6 @@
 {
   "research_decision": "NO_SEPARATION_FOUND",
-  "repository_publish_status": "PUSHED_BUT_NOT_PUBLIC",
+  "repository_publish_status": "PUSHED_AND_ANONYMOUSLY_VERIFIED",
   "branch": "clone-ascent-v0.3",
   "commit": "23bd6fc589ba90d65b390f1a47ad4d057ea97d95",
   "latest_stage_path": "LATEST_STAGE.md",

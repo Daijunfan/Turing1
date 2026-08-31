@@ -1,7 +1,8 @@
 # Repository publication audit
 
-Research artifacts were pushed successfully, but the required anonymous-public
-verification could not be completed.  Repository visibility was not changed.
+This file preserves the initial publication failure.  The repository owner
+subsequently made the repository public, and anonymous verification succeeded
+on 2026-08-31.  The original stderr remains below as negative audit evidence.
 
 ## Pushed state
 
@@ -41,6 +42,18 @@ stderr:
 curl: (56) The requested URL returned error: 404
 ```
 
+## Resolution
+
+The same commands were repeated after the visibility change:
+
+- anonymous HTTPS `ls-remote` returned
+  `aa285c1aa763b82259d0fa9c68d9c2b2ed622d01`;
+- anonymous Raw successfully returned `LATEST_STAGE.md`;
+- the unauthenticated GitHub API reported visibility `public` and default
+  branch `main`.
+
+Full output is saved in `results/anonymous_verification.log`.
+
 ## Pull Request status
 
 Command:
@@ -72,5 +85,6 @@ and the corrected publication status require a follow-up metadata commit.
 
 ## Required external action
 
-An authorized repository owner must decide whether the repository should be
-public.  The agent did not change visibility or request/store credentials.
+Repository visibility is now public.  The remaining publication task is to
+change PR #1 from the default title to the required title; this is tracked
+separately from anonymous availability.

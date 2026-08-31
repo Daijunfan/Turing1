@@ -74,6 +74,7 @@ def main() -> None:
     same_graph = (ROOT / "counterexamples/parameter_relations/same-graph-different-semantics/parameters.json").exists()
     commit = os.environ.get("V03_RECORDED_COMMIT", git_commit())
     publish_status = os.environ.get("V03_PUBLISH_STATUS", "PUSH_FAILED")
+    pull_request_status = os.environ.get("V03_PR_STATUS", "CREATED_TITLE_UPDATE_PENDING")
     decision = {
         "research_decision": "NO_SEPARATION_FOUND",
         "repository_publish_status": publish_status,
@@ -82,7 +83,7 @@ def main() -> None:
         "latest_stage_path": "LATEST_STAGE.md",
         "reproduction_command": "./run_clone_ascent_v03.sh",
         "pull_request_url": "https://github.com/Daijunfan/Turing1/pull/1",
-        "pull_request_status": "CREATED_TITLE_UPDATE_PENDING",
+        "pull_request_status": pull_request_status,
         "basis": {
             "clone_ascent_definitions_complete": True,
             "monotonicity_law": "PROVED (standard pp-definability consequence)",
@@ -216,7 +217,12 @@ def main() -> None:
 """
     (ROOT / "LATEST_STAGE.md").write_text(latest, encoding="utf-8")
     completion_audit = {
-        "overall": "INCOMPLETE_EXTERNAL_PUBLICATION" if publish_status != "PUSHED_AND_ANONYMOUSLY_VERIFIED" else "COMPLETE",
+        "overall": (
+            "COMPLETE"
+            if publish_status == "PUSHED_AND_ANONYMOUSLY_VERIFIED"
+            and pull_request_status == "CREATED_WITH_REQUIRED_TITLE"
+            else "INCOMPLETE_EXTERNAL_PUBLICATION"
+        ),
         "research_decision": "NO_SEPARATION_FOUND",
         "requirements": {
             "01_repository_and_branches": {
@@ -266,7 +272,12 @@ def main() -> None:
             "12_repository_publication": {
                 "status": publish_status,
                 "evidence": ["PUSH_FAILED.md", "pull request #1", "anonymous raw URL returned 404"],
-                "remaining": ["PR title update pending confirmation", "repository owner visibility decision"],
+                "remaining": (
+                    []
+                    if publish_status == "PUSHED_AND_ANONYMOUSLY_VERIFIED"
+                    and pull_request_status == "CREATED_WITH_REQUIRED_TITLE"
+                    else ["PR title must match the required title"]
+                ),
             },
         },
     }

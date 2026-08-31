@@ -53,5 +53,5 @@
 
 ## Repository publication status
 
-`PUSHED_BUT_NOT_PUBLIC`。若不是 `PUSHED_AND_ANONYMOUSLY_VERIFIED`，详见
+`PUSHED_AND_ANONYMOUSLY_VERIFIED`。若不是 `PUSHED_AND_ANONYMOUSLY_VERIFIED`，详见
 `PUSH_FAILED.md`；研究 decision 与发布状态相互独立。
