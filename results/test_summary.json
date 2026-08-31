@@ -1,0 +1,18 @@
+{
+  "tests_pending": false,
+  "legacy_width_agreements": 20,
+  "optimized_naive_agreements": 20,
+  "morphons": [
+    "morphon-affine-4v-6c",
+    "morphon-bijunctive-4v-6c",
+    "morphon-horn-4v-7c"
+  ],
+  "morphons_all_unsat": true,
+  "finite_parameter_reversals": 12,
+  "family_rejected": true,
+  "research_decision_evidence": "Morphons exist only as local contradictions; no scalable separation or lower bound",
+  "v03_tests_passed": true,
+  "v03_test_count": 8,
+  "v01_v02_regression_log": "results/v01_v02_regression.log",
+  "manifest_verification": "PASSED by run_clone_ascent_v03.sh after finalization"
+}

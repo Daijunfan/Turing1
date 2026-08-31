@@ -1,0 +1,54 @@
+{
+  "research_decision": "NO_SEPARATION_FOUND",
+  "repository_publish_status": "PUSHED_AND_ANONYMOUSLY_VERIFIED",
+  "branch": "clone-ascent-v0.3",
+  "commit": "23bd6fc589ba90d65b390f1a47ad4d057ea97d95",
+  "latest_stage_path": "LATEST_STAGE.md",
+  "reproduction_command": "./run_clone_ascent_v03.sh",
+  "pull_request_url": "https://github.com/Daijunfan/Turing1/pull/1",
+  "pull_request_status": "CREATED_WITH_REQUIRED_TITLE",
+  "basis": {
+    "clone_ascent_definitions_complete": true,
+    "monotonicity_law": "PROVED (standard pp-definability consequence)",
+    "v02_exact_replay": "20/20",
+    "optimized_naive_crosscheck": "20/20 legacy plus all additional bounded cases",
+    "morphons_found": [
+      "morphon-affine-4v-6c",
+      "morphon-bijunctive-4v-6c",
+      "morphon-horn-4v-7c"
+    ],
+    "all_morphons_locally_unsat": true,
+    "causal_conditions": {
+      "affine": {
+        "recursive_birth": true,
+        "no_recursive_birth": false,
+        "early_stop": true,
+        "full_elimination": true
+      },
+      "bijunctive": {
+        "recursive_birth": true,
+        "no_recursive_birth": true,
+        "early_stop": true,
+        "full_elimination": true
+      },
+      "horn": {
+        "recursive_birth": true,
+        "no_recursive_birth": false,
+        "early_stop": true,
+        "full_elimination": true
+      }
+    },
+    "finite_parameter_reversals": 12,
+    "same_graph_semantics_pair": true,
+    "explicit_scalable_family": false,
+    "unbounded_language_aware_lower_bound": false,
+    "lifting_route": "DISPROVED for current catalog"
+  },
+  "why_not_pass": [
+    "All catalogued Morphons are constant-size contradictions.",
+    "The bijunctive Morphon does not require recursive birth.",
+    "Random trajectories often match the optimum on all catalog items.",
+    "No infinite family with an unbounded joinwidth/backdoor lower bound exists.",
+    "The current gadgets admit short independently checked DRAT refutations."
+  ]
+}

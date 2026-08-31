@@ -1,0 +1,9 @@
+{
+  "one_clause_minimal": true,
+  "clause_checks": 20,
+  "literal_checks": 45,
+  "variables": 4,
+  "clauses": 6,
+  "total_literals": 12,
+  "max_clause_width": 3
+}

@@ -1,0 +1,21 @@
+Turing1 v0.3 anonymous publication verification
+Date: 2026-08-31 Asia/Shanghai
+
+$ env -u GH_TOKEN -u GITHUB_TOKEN GIT_TERMINAL_PROMPT=0 \
+    git ls-remote https://github.com/Daijunfan/Turing1.git \
+    refs/heads/clone-ascent-v0.3
+aa285c1aa763b82259d0fa9c68d9c2b2ed622d01 refs/heads/clone-ascent-v0.3
+
+$ env -u GH_TOKEN -u GITHUB_TOKEN curl -fsSL \
+    https://raw.githubusercontent.com/Daijunfan/Turing1/clone-ascent-v0.3/LATEST_STAGE.md
+SUCCESS: LATEST_STAGE.md returned and contained decision NO_SEPARATION_FOUND.
+
+$ env -u GH_TOKEN -u GITHUB_TOKEN curl -fsSL \
+    https://api.github.com/repos/Daijunfan/Turing1
+html_url=https://github.com/Daijunfan/Turing1
+visibility=public
+default_branch=main
+
+$ curl -fsSL https://github.com/Daijunfan/Turing1/pull/1
+PR title=Turing1 v0.3: Clone-Ascent Parameter Audit and Morphon Synthesis
+PR title status=VERIFIED

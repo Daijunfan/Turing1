@@ -1,0 +1,101 @@
+{
+  "synthesis": {
+    "random_cegis": {
+      "affine": {
+        "method": "seeded_random_CEGIS",
+        "trial": 1,
+        "seed": 3008,
+        "rejected_initial": 1,
+        "rejected_trajectory": 0
+      },
+      "bijunctive": {
+        "method": "seeded_random_CEGIS",
+        "trial": 35,
+        "seed": 3008,
+        "rejected_initial": 27,
+        "rejected_trajectory": 8
+      },
+      "horn": {
+        "method": "seeded_random_CEGIS",
+        "trial": 3667,
+        "seed": 3008,
+        "rejected_initial": 2513,
+        "rejected_trajectory": 1154
+      }
+    },
+    "complete_enumeration": {
+      "affine": {
+        "method": "complete_enumeration",
+        "checked": 255,
+        "nvars": 2,
+        "maximum_clauses": 8
+      },
+      "bijunctive": {
+        "method": "complete_enumeration",
+        "checked": 255,
+        "nvars": 2,
+        "maximum_clauses": 8
+      },
+      "horn": {
+        "method": "complete_enumeration",
+        "checked": 255,
+        "nvars": 2,
+        "maximum_clauses": 8
+      }
+    },
+    "smt_cegis": {
+      "affine": {
+        "method": "SMT_CEGIS",
+        "checked": 8,
+        "exhausted_limit": true
+      },
+      "bijunctive": {
+        "method": "SMT_CEGIS",
+        "checked": 8,
+        "exhausted_limit": true
+      },
+      "horn": {
+        "method": "SMT_CEGIS",
+        "checked": 8,
+        "exhausted_limit": true
+      }
+    },
+    "local_mutation": {
+      "affine": {
+        "method": "local_mutation",
+        "iteration": 6,
+        "seed": 3030
+      },
+      "bijunctive": {
+        "method": "local_mutation",
+        "iteration": 6,
+        "seed": 3030
+      },
+      "horn": {
+        "method": "local_mutation",
+        "mutations": 40,
+        "seed": 3030
+      }
+    }
+  },
+  "exact_search": {
+    "v02_instances": 20,
+    "optimized_naive_agreements": 20,
+    "legacy_width_agreements": 20
+  },
+  "morphons_found": 3,
+  "all_morphons_unsat": true,
+  "parameter_instances": 35,
+  "finite_reversals": 12,
+  "ablation_runs": 57,
+  "family_attempts": 15,
+  "satisfiable_robust_random_search": {
+    "method": "satisfiable_robust_random_search",
+    "trials": 300000,
+    "seed": 3009,
+    "satisfiable_candidates": 220348,
+    "robust_initial_candidates": 0,
+    "nvars": 4,
+    "result": "NONE"
+  }
+}
