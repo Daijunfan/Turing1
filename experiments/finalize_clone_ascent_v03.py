@@ -271,7 +271,11 @@ def main() -> None:
             },
             "12_repository_publication": {
                 "status": publish_status,
-                "evidence": ["PUSH_FAILED.md", "pull request #1", "anonymous raw URL returned 404"],
+                "evidence": (
+                    ["results/anonymous_verification.log", "pull request #1", "anonymous Raw and HTTPS verification passed"]
+                    if publish_status == "PUSHED_AND_ANONYMOUSLY_VERIFIED"
+                    else ["PUSH_FAILED.md", "pull request #1", "anonymous raw URL returned 404"]
+                ),
                 "remaining": (
                     []
                     if publish_status == "PUSHED_AND_ANONYMOUSLY_VERIFIED"

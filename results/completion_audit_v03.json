@@ -82,9 +82,9 @@
     "12_repository_publication": {
       "status": "PUSHED_AND_ANONYMOUSLY_VERIFIED",
       "evidence": [
-        "PUSH_FAILED.md",
+        "results/anonymous_verification.log",
         "pull request #1",
-        "anonymous raw URL returned 404"
+        "anonymous Raw and HTTPS verification passed"
       ],
       "remaining": [
         "PR title must match the required title"
