@@ -17,6 +17,5 @@ visibility=public
 default_branch=main
 
 $ curl -fsSL https://github.com/Daijunfan/Turing1/pull/1
-PR title=Clone ascent v0.3
-PR title status=REQUIRED_TITLE_UPDATE_PENDING
-
+PR title=Turing1 v0.3: Clone-Ascent Parameter Audit and Morphon Synthesis
+PR title status=VERIFIED

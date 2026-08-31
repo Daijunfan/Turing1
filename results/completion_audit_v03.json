@@ -1,5 +1,5 @@
 {
-  "overall": "INCOMPLETE_EXTERNAL_PUBLICATION",
+  "overall": "COMPLETE",
   "research_decision": "NO_SEPARATION_FOUND",
   "requirements": {
     "01_repository_and_branches": {
@@ -86,9 +86,7 @@
         "pull request #1",
         "anonymous Raw and HTTPS verification passed"
       ],
-      "remaining": [
-        "PR title must match the required title"
-      ]
+      "remaining": []
     }
   }
 }

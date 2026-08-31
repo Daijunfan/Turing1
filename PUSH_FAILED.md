@@ -74,9 +74,9 @@ An existing signed-in browser session then created:
 
 `https://github.com/Daijunfan/Turing1/pull/1`
 
-GitHub submitted the comparison page directly with its default title
-`Clone ascent v0.3`.  Updating it to the required title remains pending an
-action-time confirmation for the browser edit.
+GitHub initially submitted the comparison page with its default title
+`Clone ascent v0.3`.  On 2026-08-31 it was updated to the required title:
+`Turing1 v0.3: Clone-Ascent Parameter Audit and Morphon Synthesis`.
 
 ## Unpushed files at failure time
 
@@ -85,6 +85,5 @@ and the corrected publication status require a follow-up metadata commit.
 
 ## Required external action
 
-Repository visibility is now public.  The remaining publication task is to
-change PR #1 from the default title to the required title; this is tracked
-separately from anonymous availability.
+Repository visibility is public and PR #1 has the required title.  The initial
+failure is fully resolved; this file remains only as historical audit evidence.
